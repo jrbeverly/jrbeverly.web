@@ -18,8 +18,7 @@ jobs:
       - uses: actions/checkout@v1
       - uses: docker://cardboardci/hugo:latest
         with:
-          args: "hugo"
-          working-directory: /srv/jrbeverly.dev
+          args: "cd srv/jrbeverly.dev && hugo -d ${GITHUB_WORKSPACE}/artifacts/jrbeverly.dev"
       # - uses: docker://cardboardci/netlify:latest
       #   with:
       #     args: "netlify deploy --dir public --site ${{ secrets.NETLIFY_SITE_ID }} --auth ${{ secrets.NETLIFY_TOKEN }} --prod"
