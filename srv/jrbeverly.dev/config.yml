@@ -1,0 +1,130 @@
+baseURL: https://www.jrbeverly.dev
+theme: pure
+title: jrbeverly
+defaultContentLanguage: en 
+footnoteReturnLinkContents: ↩
+paginate: 7
+enableEmoji: true
+permalinks:
+  posts: /:year/:month/:filename/
+
+taxonomies:
+    category : categories
+    tag : tags
+    series : series
+outputFormats:
+  SearchIndex:
+    mediaType: "application/json"
+    baseName: "searchindex"
+    isPlainText: true
+    notAlternative: true
+    
+outputs:
+    home: ["HTML","RSS","SearchIndex"]  # recommend not to modify
+
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      title: Home 
+      url: /
+      weight: 1
+    - identifier: repositories
+      name: Repositories
+      title: Repositories 
+      url: /
+      weight: 1
+    - identifier: tags
+      name: Tags
+      title: Tags
+      url: /tags
+      weight: 2
+    - identifier: cardboardci
+      name: CardboardCI
+      title: CardboardCI
+      url: /cardboardci/readme
+      weight: 3
+    - identifier: infraprints
+      name: Infraprints
+      title: Infraprints
+      url: /infraprints/readme
+      weight: 4
+    - identifier: blockycraft
+      name: Blockycraft
+      title: Blockycraft
+      url: /blockycraft/readme
+      weight: 5
+    - identifier: friending
+      name: Friending
+      title: Friending
+      url: /friending/readme
+      weight: 6
+    - identifier: threethirtythree
+      name: ThreeThirtyThree
+      title: ThreeThirtyThree
+      url: /threethirtythree/readme
+      weight: 7
+    - identifier: wisevault
+      name: WiseVault
+      title: WiseVault
+      url: /wisevault/readme
+      weight: 8
+
+params:
+  since: 2017
+  dateFormatToUse: "2006-01-02"
+  enablePostCopyright: false
+  menuIcons:
+    enable: true 
+    home: icon-home-fill
+    tags: icon-tags
+    repositories: icon-archives-fill
+    threethirtythree: icon-folder
+    cardboardci: icon-project
+    infraprints: icon-book-fill
+    blockycraft: icon-cup-fill
+    wisevault: icon-project
+    friending: icon-friendship
+
+  profile:
+    enabled: true
+    avatar: avatar.png
+    gravatar: jonathan@jrbeverly.me
+    author: Jonathan Beverly
+    author_description: ":snowman:"
+    location: Ontario, Canada
+    follow: https://github.com/jrbeverly
+    social:
+      links:
+        github: https://github.com/jrbeverly
+        rss: /index.xml
+      link_tooltip: false
+  site:
+    logo:
+      enabled: true
+      width: 40
+      height: 40
+      url: favicon.ico
+    title: jrbeverly.dev
+    favicon: favicon.ico
+    board: Repository links
+
+  config:
+    skin: theme-white 
+    layout: main-center
+    excerpt_link: Read More
+    toc: true
+  sidebar: right
+  search:
+    enable: true
+  widgets:
+    - board
+    - category
+    - tag
+    - recent_posts
+
