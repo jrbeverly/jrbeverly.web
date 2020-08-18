@@ -19,7 +19,7 @@ jobs:
       - uses: docker://cardboardci/hugo:latest
         with:
           entrypoint: bash
-          args: cd srv/jrbeverly.dev && ls
+          args: ls srv/jrbeverly.dev 
           # args: "bash 'cd srv/jrbeverly.dev && hugo -d ${GITHUB_WORKSPACE}/artifacts/jrbeverly.dev'"
       # - uses: docker://cardboardci/netlify:latest
       #   with:
