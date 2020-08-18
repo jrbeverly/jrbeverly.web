@@ -20,5 +20,6 @@ jobs:
         with:
           args: hugo --verbose --minify -s srv/jrbeverly.me -d artifacts
       - uses: docker://cardboardci/netlify:latest
+        if: github.ref == 'refs/heads/master'
         with:
           args: "netlify deploy --dir srv/jrbeverly.me/artifacts --site ${{ secrets.NETLIFY_JRBEVERLY_ME }} --auth ${{ secrets.NETLIFY_TOKEN }} --prod"
