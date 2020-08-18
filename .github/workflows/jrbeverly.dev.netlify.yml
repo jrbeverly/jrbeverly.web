@@ -12,14 +12,13 @@ on:
 
 jobs:
   hugo:
-    name: Hugo
+    name: build-deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - uses: docker://cardboardci/hugo:latest
         with:
           args: hugo --minify -s srv/jrbeverly.dev -d artifacts/jrbeverly.dev
-      # - uses: docker://cardboardci/netlify:latest
-      #   with:
-      #     args: "netlify deploy --dir public --site ${{ secrets.NETLIFY_SITE_ID }} --auth ${{ secrets.NETLIFY_TOKEN }} --prod"
-      #     working-directory: /srv/jrbeverly.dev
+      - uses: docker://cardboardci/netlify:latest
+        with:
+          args: "netlify deploy --dir artifacts/jrbeverly.dev --site ${{ secrets.NETLIFY_JRBEVERLY_DEV }} --auth ${{ secrets.NETLIFY_TOKEN }} --prod"
