@@ -1,0 +1,24 @@
+name: "jrbeverly.dev"
+on:
+  push:
+    # branches:
+    # - master
+    paths:
+    - srv/jrbeverly.dev/*
+    - srv/jrbeverly.dev/*
+    - srv/jrbeverly.dev/*
+    - srv/jrbeverly.dev/*
+    - .github/workflows/jrbeverly.dev.netlify.yml
+
+jobs:
+  hugo:
+    name: build-deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: docker://cardboardci/hugo:latest
+        with:
+          args: hugo --verbose --minify -s srv/jrbeverly.dev -d artifacts
+      - uses: docker://cardboardci/netlify:latest
+        with:
+          args: "netlify deploy --dir srv/jrbeverly.dev/artifacts --site ${{ secrets.NETLIFY_JRBEVERLY_DEV }} --auth ${{ secrets.NETLIFY_TOKEN }} --prod"
