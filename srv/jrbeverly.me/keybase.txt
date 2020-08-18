@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/jrbeverly
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jrbeverly.github.io
+  * I am jrbeverly (https://keybase.io/jrbeverly) on keybase.
+  * I have a public key with fingerprint D664 9937 9E7A 8C04 17D2  BA7D 5066 09E6 7DA6 3167
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120db146d6ac2760ff8a3f345c998d793781b0d5b383db31b158544e072c1aced2e0a",
+      "fingerprint": "d66499379e7a8c0417d2ba7d506609e67da63167",
+      "host": "keybase.io",
+      "key_id": "506609e67da63167",
+      "kid": "0101354be39cd37788ece0af62d5531633f90fbcdc5c390e678701bd79ad44236fdc0a",
+      "uid": "3167108b6bd2adfb8f1a562150da8919",
+      "username": "jrbeverly"
+    },
+    "service": {
+      "hostname": "jrbeverly.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1538011176,
+  "expire_in": 157680000,
+  "prev": "eba63fc7faa13c39808e39f562aa054f7770dc96e7df248439f9ff7363824dce",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMNvAnicbZJ7UFRVHMd3ISlABDerGchgLsiQMnjPfd9tBmegmNUdyBJnosDl3nvO
+XdbFXdwHuO1QDgWmiYw49HB4pUww4hjEjLEyIpJJKAFWbkVGpLRZPiJFNHeIzlL+
+03T/OXPP+f4+5/v9zjkTE66J0m5UIwOVHwKz9vzpVrfmlaNkmpeQ7dBD6L2EFS0u
+qBQip8tktUBCT5CAIqEMGA5ykkLxHKmqgkSrNMMqoihAXqR5AcgkZGVaoKFMAxmw
+AsswiOQpBUgKghQiJSKdUC02M3KUOSw2F8ZCjmNEPCsiXhIUkgE8pGSJhyzJcaSI
+OB5KHA04Hg+W2J2hCWxOlpwow2LHe/jHtGjvf/QPfJOAZhkZ0aICaZ4XBKRgIypH
+QZbFSppWRVKVFaiwCi2SmCDwJJBxIAkyDEVzKlQWfbsXcSE2IAWZkyElQVUWVCCx
+HAVYEkqCCMSQ0IkcNmkbwuqtDhmVI0eph6hMJ/B2uUVBoWZDUf4ryTBbXCVu+Z9c
+ZQ67y67YS7GgxOUqc+pDAJenLDRRgWTTvyyTbLFB3CeewAynxW4j9AArFZclBAcs
+LZAAAJ5LJ9COMosDmSwhBctzAom/0D2oHCORjFtTFV6VJEDjGgRSwH2pOJgkkSyj
+8jxPQkXkEA9VihEYfCaqKk9ztEAxEGcKpdtus2M2hX1KZsx0Wsw2yeV2IKJy8HTh
+QxptlCZiSVjooWmiIuMePL/HMuM0/bTUBTpey/FfvR2cay66PNEUiNH1lu9OzT2a
+OPNrdWZcTUJt8H6VcRWsJbIu1aWfzX+H/7g5+8UVI7qVo33P7lhYt8wg5F3oaUke
++jPp1LqKrp9zbh48kulrKK0vWK2saI3LAd9fNDY8n5X0qRK9JHgvuuNA5i12Srle
+F9hwJXwXjG3UPbN2X32NrfNWyusvXd40kPH+rqerD6E0242F/l6/V9tS82b+QrX3
+RPtb87Mbs+tczXv8+3319GxH8+GBvOy2dluErc9/7Y3opdUtMxFPHvzF6qjNWa//
+PSc3UjsyaE1c2ew+uebmyaa2FN/4j4ZNt1Piwx5dbVhjvFdx54jOENW2/27iu7E3
+HiF/WmWf6Z2eI6Z6ps9vb3z4rFVM22vISzDXxFR2fls6ufXYFuNeX8fOO4fLP9s8
+v2zmQER/kftzrdY8erzpiq+wZTZt3+6LxsInRu3jlQNhcE+eO+m5U99lPH7uk/VT
+6cWdG1IjXrBP+F9eyF3rnSogwR/L0xJGeqeHGmODPfETQlZD67YfrLPHdMaGC/07
+PZ6qp95env/e9YCJ/W1p98QXZ6JYMN9eczU4n1pcIQWv3U2mlk0e6ky+/6qOG+7r
+7vaMwa8nvf5LRX9tHhtHXw3Sxz/y6IXhhS99Y74ArB6uNcz5uqjweuM3oH3s3NCJ
+qkBiwZa5Yt0H2oT4vwHcCchQ
+=IR6A
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jrbeverly
+
+==================================================================
