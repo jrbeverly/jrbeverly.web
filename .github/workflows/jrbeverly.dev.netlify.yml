@@ -21,4 +21,4 @@ jobs:
           args: hugo --verbose --minify -s srv/jrbeverly.dev -d artifacts
       - uses: docker://cardboardci/netlify:latest
         with:
-          args: "netlify deploy --dir -s srv/jrbeverly.dev/artifacts --site ${{ secrets.NETLIFY_JRBEVERLY_DEV }} --auth ${{ secrets.NETLIFY_TOKEN }} --prod"
+          args: "netlify deploy --dir srv/jrbeverly.dev/artifacts --site ${{ secrets.NETLIFY_JRBEVERLY_DEV }} --auth ${{ secrets.NETLIFY_TOKEN }} --prod"
