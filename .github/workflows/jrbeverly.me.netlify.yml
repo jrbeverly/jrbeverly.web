@@ -17,6 +17,6 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: docker://cardboardci/netlify:latest
-        if: github.ref == 'refs/heads/master'
+        # if: github.ref == 'refs/heads/master'
         with:
           args: "netlify deploy --dir srv/jrbeverly.me/ --site ${{ secrets.NETLIFY_JRBEVERLY_ME }} --auth ${{ secrets.NETLIFY_TOKEN }} --prod"
