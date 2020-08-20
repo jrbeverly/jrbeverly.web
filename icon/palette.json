@@ -1,0 +1,11 @@
+{
+  "background": "#f9f9f9ff",
+  "colors": ["#00abcdff", "#00b3a0ff", "#f6c574ff", "#e2e8e7ff", "#fc5652ff"],
+  "reference": {
+    "blue": "#00abcdff",
+    "red": "#fc5652ff",
+    "green": "#00b39fff",
+    "yellow": "#f6c574ff",
+    "grey": "#e2e8e7ff"
+  }
+}
