@@ -1,5 +1,25 @@
 [[redirects]]
-  from = "/go/github"
+  from = "/g/github"
   to = "https://github.com/jrbeverly"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/gitlab"
+  to = "https://gitlab.com/jrbeverly"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/g/stackoverflow"
+  to = "https://stackoverflow.com/users/2127492/jrbeverly"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/g/linkedin"
+  to = "https://ca.linkedin.com/in/jrbeverly"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/g/dev"
+  to = "https://jrbeverly.dev"
   status = 301
   force = true
