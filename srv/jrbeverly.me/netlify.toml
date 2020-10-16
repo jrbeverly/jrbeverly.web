@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/go/github"
+  to = "https://github.com/jrbeverly"
+  status = 301
+  force = true
