@@ -22,10 +22,10 @@ jobs:
         with:
           args: hugo --verbose --minify -s srv/jrbeverly.me/components/pluralsight
       - name: Copy component public sites
-        run: for x in components/* ; do mv $x/public public/${x#"components/"} ; done
+        run: for x in components/* ; do sudo mv $x/public public/${x#"components/"} ; done
         working-directory: srv/jrbeverly.me/
       - name: Describe the site to be deployed
-        run: ls public/
+        run: ls -la public/
         working-directory: srv/jrbeverly.me/
       - uses: docker://cardboardci/netlify:latest
         if: github.ref == 'refs/heads/master'
