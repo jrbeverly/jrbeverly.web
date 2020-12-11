@@ -202,14 +202,14 @@ theme = "hugo-devresume-theme"
         [[params.experience.list]]
         title = "C# Tips and Traps 2"
         url = "https://app.pluralsight.com/library/courses/csharp-tips-traps-part2/table-of-contents"
-        certificate = "csharp-tip-traps-part2.pdf"
+        certificate = "csharp-tips-traps-part2.pdf"
         dates = "Feb 13, 2018"
         details = "Short-circuit your learning of C# with more handy C# and .NET features."
 
         [[params.experience.list]]
         title = "C# Tips and Traps"
         url = "https://app.pluralsight.com/library/courses/csharp-tips-traps/table-of-contents"
-        certificate = "csharp-tip-traps.pdf"
+        certificate = "csharp-tips-traps.pdf"
         dates = "Feb 5, 2018"
         details = "Short-circuit your learning of C# with this smorgasbord of handy C# and .NET features."
 
