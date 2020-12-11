@@ -18,6 +18,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+      - uses: docker://cardboardci/hugo:latest
+        with:
+          args: hugo --verbose --minify -s srv/jrbeverly.me/components/pluralsight -d srv/jrbeverly.me/pluralsight
       - uses: docker://cardboardci/netlify:latest
         if: github.ref == 'refs/heads/master'
         with:
