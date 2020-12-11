@@ -20,7 +20,11 @@ jobs:
       - uses: actions/checkout@v1
       - uses: docker://cardboardci/hugo:latest
         with:
-          args: hugo --verbose --minify -s srv/jrbeverly.me/components/pluralsight -d srv/jrbeverly.me/pluralsight
+          args: hugo --verbose --minify -s srv/jrbeverly.me/components/pluralsight
+      - name: Copy component public sites
+        run: for x in components/* ; do (echo mv $x/public public/${x#"components/"}) ; done
+      - name: Describe the site to be deployed
+        run: ls public/
       - uses: docker://cardboardci/netlify:latest
         if: github.ref == 'refs/heads/master'
         with:
