@@ -1,13 +1,8 @@
 name: "jrbeverly.dev"
 on:
   push:
-    # branches:
-    # - master
     paths:
-    - srv/jrbeverly.dev/*
-    - srv/jrbeverly.dev/*
-    - srv/jrbeverly.dev/*
-    - srv/jrbeverly.dev/*
+    - srv/jrbeverly.dev/**
     - .github/workflows/jrbeverly.dev.netlify.yml
 
 jobs:

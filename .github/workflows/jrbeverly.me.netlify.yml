@@ -1,15 +1,8 @@
 name: "jrbeverly.me"
 on:
   push:
-    # branches:
-    # - master
     paths:
-    - srv/jrbeverly.me/*
-    - srv/jrbeverly.me/*/*
-    - srv/jrbeverly.me/*/*/*
-    - srv/jrbeverly.me/*/*/*/*
-    - srv/jrbeverly.me/*/*/*/*/*
-    - srv/jrbeverly.me/*/*/*/*/*/*
+    - srv/jrbeverly.me/**
     - .github/workflows/jrbeverly.me.netlify.yml
 
 jobs:
