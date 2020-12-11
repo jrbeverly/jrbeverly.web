@@ -18,6 +18,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+      - uses: docker://cardboardci/hugo:latest
+        with:
+          args: hugo --verbose --minify -s srv/jrbeverly.me/components/pluralsight
+      - name: Copy component public sites
+        run: for x in components/* ; do sudo mv $x/public public/${x#"components/"} ; done
+        working-directory: srv/jrbeverly.me/
+      - name: Describe the site to be deployed
+        run: ls -la public/
+        working-directory: srv/jrbeverly.me/
       - uses: docker://cardboardci/netlify:latest
         if: github.ref == 'refs/heads/master'
         with:

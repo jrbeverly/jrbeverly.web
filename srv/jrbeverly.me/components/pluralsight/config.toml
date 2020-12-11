@@ -1,0 +1,324 @@
+# Page settings
+
+baseURL = "https://vscode.lab.jrbeverly.me/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+
+[params]
+    author = "Jonathan Beverly (jrbeverly)"
+    description = "Pluralsight Certificates and Recognition"
+
+    primaryColor = "#F8611E"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Pluralsight"
+        tagline = "jrbeverly certificates"
+        avatar = "profile.png"
+
+    [params.contact]
+        enable = true
+        location = "Canada"
+
+        [[params.contact.list]]
+        icon = "fas fa-archive"
+        url = "https://archive.is/nHN0Z"
+        text = "Pluralsight - Archive"
+
+        [[params.contact.list]]
+        icon = "fas fa-graduation-cap"
+        url = "assets/transcript/"
+        text = "Pluralsight - Transcript"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.items]]
+        details = "Using the SCRUM Framework"
+        [[params.skills.items]]
+        details = "Security for Hackers and Developers"
+        [[params.skills.items]]
+        details = "JavaScript Core Language"
+        [[params.skills.items]]
+        details = "ASP.NET MVC5"
+        [[params.skills.items]]
+        details = "Building Web Applications with React"
+        [[params.skills.items]]
+        details = "CSS"
+        [[params.skills.items]]
+        details = "MySQL"
+        [[params.skills.items]]
+        details = "Windows PowerShell"
+        [[params.skills.items]]
+        details = "C#"
+        [[params.skills.items]]
+        details = "HTML5"
+        [[params.skills.items]]
+        details = "Angular"
+        [[params.skills.items]]
+        details = "Docker"
+        [[params.skills.items]]
+        details = "Android"
+        [[params.skills.items]]
+        details = "C++"
+        [[params.skills.items]]
+        details = "Java"
+
+    [params.summary]
+        enable = true
+        text = "This page acts as a statement of record for my Pluralsight Skill IQs and Certificate of Completions. I was given the opportunity to learn through Pluralsight, an enterprise training platform, through previous places of employ. As I have advanced in my career, I have found I prefer project-oriented learning styles, as opposed to the lecture style offered by Pluralsight. The profile for my user `jrbeverly` is no longer accessible at [app.pluralsight.com/profile/jrbeverly](https://archive.is/nHN0Z), as I have no longer make use of the platform. **The technologies and skills referenced here may be out of date.**"
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Making .NET Applications Even Faster"
+        url = "https://app.pluralsight.com/library/courses/making-dotnet-applications-even-faster/table-of-contents"
+        certificate = "making-dotnet-applications-even-faster.pdf"
+        dates = "Sep 17, 2018"
+        details = "Learn how to make .NET applications even faster by reducing GC pressure, using SIMD instructions, optimizing for CPU utilization, and using .NET optimization technologies."
+
+        [[params.experience.list]]
+        title = "Designing Immutable Infrastructure with Packer"
+        url = "https://app.pluralsight.com/library/courses/packer-designing-immutable-infrastructure/table-of-contents"
+        certificate = "packer-designing-immutable-infrastructure.pdf"
+        dates = "Aug 22, 2018"
+        details = "Create immutable infrastructure without the headaches! In this course, you'll learn to create images that are reusable, make scaling architecture easy, and run everywhere with Packer."
+
+        [[params.experience.list]]
+        title = "Advanced Git Tips and Tricks"
+        url = "https://app.pluralsight.com/library/courses/git-advanced-tips-tricks/table-of-contents"
+        certificate = "git-advanced-tips-tricks.pdf"
+        dates = "Jul 29, 2018"
+        details = "Get the most out of Git by exploring its lesser-known features to take your daily workflow to the next level. This course teaches you how to find a good workflow, track commits, and even debug."
+
+        [[params.experience.list]]
+        title = "Truth About Data: Getting Started with Lean Six Sigma Analytics"
+        url = "https://app.pluralsight.com/library/courses/lean-six-sigma-analytics-truth-about-data-getting-started/table-of-contents"
+        certificate = "lean-six-sigma-analytics-truth-about-data-getting-started.pdf"
+        dates = "Jul 16, 2018"
+        details = "If you're using data, you could be causing harm with the approach you've been taught for analyzing data. This course teaches you the truth about how to analyze data correctly so that you can gain valid insights and make powerful, accurate."
+
+        [[params.experience.list]]
+        title = "Understanding Metaprogramming"
+        url = "https://app.pluralsight.com/library/courses/understanding-metaprogramming/table-of-contents"
+        certificate = "understanding-metaprogramming.pdf"
+        dates = "Jul 16, 2018"
+        details = "Metaprogramming means a better application, faster. This course covers the fundamentals that you can use in any language and on any platform."
+
+        [[params.experience.list]]
+        title = "Building Applications with React and Flux"
+        url = "https://app.pluralsight.com/library/courses/react-flux-building-applications/table-of-contents"
+        certificate = "react-flux-building-applications.pdf"
+        dates = "Mar 15, 2018"
+        details = "Get started with React, React Router, and Flux by building a data-driven application that manages Pluralsight course data. This course uses a modern client-side development stack including create-react-app, Node, Webpack, Babel, and Bootstrap."
+
+        [[params.experience.list]]
+        title = "Rapid ES6 Training"
+        url = "https://app.pluralsight.com/library/courses/rapid-es6-training/table-of-contents"
+        certificate = "rapid-es6-training.pdf"
+        dates = "Mar 14, 2018"
+        details = "Stay up to date with the new syntax and features of the latest version of JavaScript, ES6. You'll learn about features like rest and spread operators, the new 'symbol' type, as well as Iterators, Generators, Promises, and more."
+
+        [[params.experience.list]]
+        title = "JavaScript Best Practices"
+        url = "https://app.pluralsight.com/library/courses/javascript-best-practices/table-of-contents"
+        certificate = "javascript-best-practices.pdf"
+        dates = "Mar 14, 2018"
+        details = "Identify and prevent common problems and headaches in JavaScript by learning best practices. From syntax oddities, to async patterns, to callbacks, this course will help you walk through how to deal with some of JavaScript's problem spots."
+
+        [[params.experience.list]]
+        title = "Advanced Techniques in JavaScript and jQuery"
+        url = "https://app.pluralsight.com/library/courses/javascript-jquery-advanced-techniques/table-of-contents"
+        certificate = "javascript-jquery-advanced-techniques.pdf"
+        dates = "Mar 13, 2018"
+        details = "Take your JavaScript functions to the next level. Explore events and learn about jQuery Deferred objects."
+
+        [[params.experience.list]]
+        title = "React: Getting Started"
+        url = "https://app.pluralsight.com/library/courses/react-big-picture/table-of-contents"
+        certificate = "react-js-getting-started.pdf"
+        dates = "Mar 10, 2018"
+        details = "Learn the React way to build rich interactive UIs using both class and function components with React Hooks, and build a game for kids with it."
+
+        [[params.experience.list]]
+        title = "React: The Big Picture"
+        url = "https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents"
+        certificate = "react-big-picture.pdf"
+        dates = "Feb 23, 2018"
+        details = "Interested in React? This course explores why React is worth considering, tradeoffs to consider, and reasons React may, or may not be the right fit for you."
+
+        [[params.experience.list]]
+        title = "React Fundamentals"
+        url = "https://app.pluralsight.com/library/courses/react-fundamentals/table-of-contents"
+        certificate = "react-fundamentals.pdf"
+        dates = "Feb 23, 2018"
+        details = "React is a high-performance, reactive UI library for client-side web applications."
+
+        [[params.experience.list]]
+        title = "Play by Play: HTML, CSS, and JavaScript"
+        url = "https://app.pluralsight.com/library/courses/play-by-play-lea-verou/table-of-contents"
+        certificate = "play-by-play-lea-verou.pdf"
+        dates = "Feb 22, 2018"
+        details = "In this live coding session, W3C member and front end development expert Lea Verou implements the classic Conway's Game of Life in the browser using HTML, CSS, and JavaScript."
+
+        [[params.experience.list]]
+        title = "CSS Positioning"
+        url = "https://app.pluralsight.com/library/courses/css-positioning-1834/table-of-contents"
+        certificate = "css-positioning-1834.pdf"
+        dates = "Feb 22, 2018"
+        details = "Understanding CSS positioning can be tricky, especially for beginners to CSS. Software required: Brackets, Google Chrome."
+
+        [[params.experience.list]]
+        title = "Introduction to CSS"
+        url = "https://app.pluralsight.com/library/courses/css-intro/table-of-contents"
+        certificate = "css-intro.pdf"
+        dates = "Feb 22, 2018"
+        details = "This course introduces you to Cascading Style Sheets (CSS)."
+
+        [[params.experience.list]]
+        title = "Defensive Coding in C#"
+        url = "https://app.pluralsight.com/library/courses/defensive-coding-csharp/table-of-contents"
+        certificate = "defensive-coding-csharp.pdf"
+        dates = "Feb 21, 2018"
+        details = "This course will show you how to write clean, maintainable, and testable code, and how to keep that code great using defensive coding techniques."
+
+        [[params.experience.list]]
+        title = "C# Language Internals - Part 2"
+        url = "https://app.pluralsight.com/library/courses/csharp-language-internals-part2/table-of-contents"
+        certificate = "csharp-language-internals-part2.pdf"
+        dates = "Feb 15, 2018"
+        details = "The second part of the C# Language Internals course continues our journey of the inner workings of the C# programming language and the CLR."
+
+        [[params.experience.list]]
+        title = "C# Language Internals - Part 1"
+        url = "https://app.pluralsight.com/library/courses/csharp-language-internals/table-of-contents"
+        certificate = "csharp-language-internals.pdf"
+        dates = "Feb 15, 2018"
+        details = "C# Language Internals is designed to give you a deeper understanding of the C# programming language and the CLR."
+
+        [[params.experience.list]]
+        title = "C# Tips and Traps 2"
+        url = "https://app.pluralsight.com/library/courses/csharp-tips-traps-part2/table-of-contents"
+        certificate = "csharp-tip-traps-part2.pdf"
+        dates = "Feb 13, 2018"
+        details = "Short-circuit your learning of C# with more handy C# and .NET features."
+
+        [[params.experience.list]]
+        title = "C# Tips and Traps"
+        url = "https://app.pluralsight.com/library/courses/csharp-tips-traps/table-of-contents"
+        certificate = "csharp-tip-traps.pdf"
+        dates = "Feb 5, 2018"
+        details = "Short-circuit your learning of C# with this smorgasbord of handy C# and .NET features."
+
+        [[params.experience.list]]
+        title = "Getting Started with Asynchronous Programming in .NET"
+        url = "https://app.pluralsight.com/library/courses/asynchronous-programming-dotnet-getting-started/table-of-contents"
+        certificate = "asynchronous-programming-dotnet-getting-started.pdf"
+        dates = "Feb 5, 2018"
+        details = "Learn how to get started with Asynchronous Programming in .NET."
+
+        [[params.experience.list]]
+        title = "C# Concurrent Collections"
+        url = "https://app.pluralsight.com/library/courses/csharp-concurrent-collections/table-of-contents"
+        certificate = "csharp-concurrent-collections.pdf"
+        dates = "Jan 29, 2018"
+        details = "Learn how to use concurrent collections in multithreaded code! This course will teach you the correct use of ConcurrentDictionary, as well as introducing you to producer-consumer scenarios and the blocking collection."
+
+        [[params.experience.list]]
+        title = "Docker Swarm: Native Docker Clustering"
+        url = "https://app.pluralsight.com/library/courses/docker-swarm-native-docker-clustering/table-of-contents"
+        certificate = "docker-swarm-native-docker-clustering.pdf"
+        dates = "Aug 1, 2017"
+        details = "Learn how to use Docker Swarm to manage Docker at scale, a new challenge for any IT professional. This course will teach you how to build and secure clusters, how to build an infrastructure for Swarm deployment, and how other technologies use Swarm."
+
+        [[params.experience.list]]
+        title = "Unit Testing T-SQL Code with tSQLt"
+        url = "https://app.pluralsight.com/library/courses/unit-testing-t-sql-tsqlt/table-of-contents"
+        certificate = "unit-testing-t-sql-tsqlt.pdf"
+        dates = "Jul 26, 2017"
+        details = "Covering how and why to unit test, examples and potential pitfalls, this course leads the SQL developer through using an open source framework to add unit tests to existing as well as new database developments."
+
+        [[params.experience.list]]
+        title = "Integrating Docker with DevOps Automated Workflows"
+        url = "https://app.pluralsight.com/library/courses/integrating-docker-with-devops-automated-workflows/table-of-contents"
+        certificate = "integrating-docker-with-devops-automated-workflows.pdf"
+        dates = "Jul 21, 2017"
+        details = "This hands-on course walks through the process of integrating a Dockerized app into a DevOps style automated workflow that includes Continuous Integration (CI) and Continuous Delivery (CD) elements. The course will include configuring Docker Hub."
+
+        [[params.experience.list]]
+        title = "AngularJS Fundamentals"
+        url = "https://app.pluralsight.com/library/courses/angularjs-fundamentals/table-of-contents"
+        certificate = "angularjs-fundamentals.pdf"
+        dates = "Jul 20, 2017"
+        details = "This course will teach you the Angular fundamentals required to create testable, MVC-style single page applications with AngularJS."
+
+        [[params.experience.list]]
+        title = "Managing Docker Images"
+        url = "https://app.pluralsight.com/library/courses/docker-images-managing/table-of-contents"
+        certificate = "docker-images-managing.pdf"
+        dates = "Jul 12, 2017"
+        details = "Looking to effectively and securely build and administrate Docker images? This course will introduce you to the tools, with a particular focus on learning to host your own private image repository using the open source Docker Registry."
+
+        [[params.experience.list]]
+        title = "Getting Started with Docker"
+        url = "https://app.pluralsight.com/library/courses/docker-getting-started/table-of-contents"
+        certificate = "docker-getting-started.pdf"
+        dates = "Jul 12, 2017"
+        details = "This course will get learners quickly up to speed with the fundamentals of Docker and containers. The course includes major new features introduced in Docker 1.12, including Swarm mode, services, and stacks."
+
+        [[params.experience.list]]
+        title = "Test First Development - Part 1"
+        url = "https://app.pluralsight.com/library/courses/test-first-development-1/table-of-contents"
+        certificate = "test-first-development-1.pdf"
+        dates = "Jun 29, 2017"
+        details = "Test first development techniques and practices with C#, Visual Studio, and NUnit"
+
+        [[params.experience.list]]
+        title = "TypeScript In-depth"
+        url = "https://app.pluralsight.com/library/courses/typescript-in-depth/table-of-contents"
+        certificate = "typescript-in-depth.pdf"
+        dates = "Apr 21, 2016"
+        details = "This course will help you learn all of the major language features in the latest versions of TypeScript."
+
+        [[params.experience.list]]
+        title = "Docker Deep Dive"
+        url = "https://app.pluralsight.com/library/courses/docker-deep-dive/table-of-contents"
+        certificate = "docker-deep-dive.pdf"
+        dates = "Apr 7, 2016"
+        details = "Containers are taking the world by storm. It teaches you everything you need to know to get started in the world of Docker and containers."
+
+        [[params.experience.list]]
+        title = "Entity Framework Database Performance Anti-patterns"
+        url = "https://app.pluralsight.com/library/courses/entity-framework-database-performance-anti-patterns/table-of-contents"
+        certificate = "entity-framework-database-performance-anti-patterns.pdf"
+        dates = "Apr 7, 2016"
+        details = "Coding practices to avoid or replace that can and will have an immediate impact on performance in your Entity Framework applications."
+
+        [[params.experience.list]]
+        title = "Passwords: Keys to the Kingdom"
+        url = "https://app.pluralsight.com/library/courses/passwords-keys-kingdom/table-of-contents"
+        certificate = "passwords-keys-kingdom.pdf"
+        dates = "Mar 23, 2016"
+        details = "This course covers all aspects of passwords and their implications and impact on authentication."
+
+        [[params.experience.list]]
+        title = "Docker and Containers: The Big Picture"
+        url = "https://app.pluralsight.com/library/courses/docker-containers-big-picture/table-of-contents"
+        certificate = "docker-containers-big-picture.pdf"
+        dates = "Mar 23, 2016"
+        details = "Get up to speed with all of the big picture stuff regarding containers and Docker, so that you and your organization are prepared to thrive in a world full of containers."
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "https://github.com/jrbeverly"
+        title = "jrbeverly"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "https://ca.linkedin.com/in/jrbeverly/"
+        title = "jrbeverly"
