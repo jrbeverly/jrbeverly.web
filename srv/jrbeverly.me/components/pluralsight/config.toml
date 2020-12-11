@@ -68,7 +68,7 @@ theme = "hugo-devresume-theme"
 
     [params.summary]
         enable = true
-        text = "This page acts as a statement of record for my Pluralsight Skill IQs and Certificate of Completions. I was given the opportunity to learn through Pluralsight, an enterprise training platform, through previous places of employ. As I have advanced in my career, I have found I prefer project-oriented learning styles, as opposed to the lecture style offered by Pluralsight. The profile for my user `jrbeverly` is no longer accessible at [app.pluralsight.com/profile/jrbeverly](https://archive.is/nHN0Z), as I have no longer make use of the platform. **The technologies and skills referenced here may be out of date.**"
+        text = "This page acts as a statement of record for my Pluralsight Skill IQs and Certificate of Completions. I was given the opportunity to learn through Pluralsight, an enterprise training platform, through previous places of employ. As I have advanced in my career, I have found I prefer project-oriented learning styles, as opposed to the lecture style offered by Pluralsight. The profile for my user `jrbeverly` is no longer accessible at [app.pluralsight.com/profile/jrbeverly](https://archive.is/nHN0Z), as I no longer make use of the platform."
 
     [params.experience]
         enable = true
