@@ -45,7 +45,7 @@
                     <ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
                         {{ range .Site.Params.social.list }}
                         <li class="list-inline-item mb-lg-0 mr-3">
-                            <a class="resume-link" href="{{ .url }}" target="_blank">
+                            <a class="resume-link" rel="noreferrer" href="{{ .url }}" target="_blank">
                                 <i class="{{ .icon }} fa-2x mr-2" data-fa-transform="down-4"></i>
                                 <span class="d-none d-lg-inline-block text-muted">{{ .title }}</span>
                             </a>
@@ -62,9 +62,9 @@
                 Thank you for your support. :)
                 If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com
             */-->
-            <small class="copyright text-muted">Designed with <i class="fas fa-heart"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+            <small class="copyright text-muted">Designed with <i class="fas fa-heart"></i> by <a class="theme-link" rel="noreferrer" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
             <br>
-            <small class="copyright">{{ now.Year }} &copy; {{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ else }}Ported to Hugo by <a href="https://github.com/cowboysmall" target="_blank">CowboySmall</a>{{ end }}</small>
+            <small class="copyright">{{ now.Year }} &copy; {{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ else }}Ported to Hugo by <a href="https://github.com/cowboysmall" rel="noreferrer" target="_blank">CowboySmall</a>{{ end }}</small>
         </footer>
     </div>
     <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
