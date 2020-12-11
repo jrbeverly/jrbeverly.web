@@ -1,8 +1,8 @@
 # Page settings
 
-baseURL = "https://vscode.lab.jrbeverly.me/"
+baseURL = "https://jrbeverly.me/"
 languageCode = "en"
-title = ""
+title = "Pluralsight - jrbeverly"
 theme = "hugo-devresume-theme"
 
 [params]
