@@ -13,7 +13,10 @@ jobs:
       - uses: actions/checkout@v1
       - uses: docker://cardboardci/hugo:latest
         with:
-          args: bash -c 'for x in srv/jrbeverly.me/components/* ; do ( cd $x ; hugo --verbose --minify ) ; done'
+          args: hugo --verbose --minify -s srv/jrbeverly.me/components/pluralsight
+      - uses: docker://cardboardci/hugo:latest
+        with:
+          args: hugo --verbose --minify -s srv/jrbeverly.me/components/udacity
       - name: Copy component public sites
         run: for x in components/* ; do sudo mv $x/public public/${x#"components/"} ; done
         working-directory: srv/jrbeverly.me/
