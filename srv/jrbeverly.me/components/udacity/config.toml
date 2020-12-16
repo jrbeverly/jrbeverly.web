@@ -1,0 +1,64 @@
+# Page settings
+
+baseURL = "https://jrbeverly.me/"
+languageCode = "en"
+title = "Udacity - jrbeverly"
+theme = "hugo-devresume-theme"
+
+[params]
+    author = "Jonathan Beverly (jrbeverly)"
+    description = "Udacity Certificates and Projects"
+
+    primaryColor = "#02B3E4"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Udacity"
+        tagline = "jrbeverly certificates"
+        avatar = "profile.png"
+
+    [params.contact]
+        enable = true
+        location = "Canada"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.items]]
+        details = "Python"
+        [[params.skills.items]]
+        details = "Golang"
+
+    [params.summary]
+        enable = true
+        text = "This page acts as a statement of record for my Pluralsight Skill IQs and Certificate of Completions. I was given the opportunity to learn through Pluralsight, an enterprise training platform, through previous places of employ. As I have advanced in my career, I have found I prefer project-oriented learning styles, as opposed to the lecture style offered by Pluralsight. The profile for my user `jrbeverly` is no longer accessible at [app.pluralsight.com/profile/jrbeverly](https://archive.is/nHN0Z), as I no longer make use of the platform."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Making .NET Applications Even Faster"
+        url = "https://app.pluralsight.com/library/courses/making-dotnet-applications-even-faster/table-of-contents"
+        certificate = "making-dotnet-applications-even-faster.pdf"
+        dates = "Sep 17, 2018"
+        details = "Learn how to make .NET applications even faster by reducing GC pressure, using SIMD instructions, optimizing for CPU utilization, and using .NET optimization technologies."
+
+        [[params.experience.list]]
+        title = "Designing Immutable Infrastructure with Packer"
+        url = "https://app.pluralsight.com/library/courses/packer-designing-immutable-infrastructure/table-of-contents"
+        certificate = "packer-designing-immutable-infrastructure.pdf"
+        dates = "Aug 22, 2018"
+        details = "Create immutable infrastructure without the headaches! In this course, you'll learn to create images that are reusable, make scaling architecture easy, and run everywhere with Packer."
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "https://github.com/jrbeverly"
+        title = "jrbeverly"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "https://ca.linkedin.com/in/jrbeverly/"
+        title = "jrbeverly"
