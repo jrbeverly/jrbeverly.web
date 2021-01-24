@@ -3,26 +3,21 @@
 <html lang="{{ .Site.LanguageCode }}">
 
 <head>
-    <title>{{ .Site.Title }}</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ .Site.Params.description }}">
-    <meta name="author" content="{{ .Site.Params.author }}">
+    {{ partial "head.html" . }}
 
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900">
-
-    {{ $style := resources.Get "scss/devresume.scss" | resources.ExecuteAsTemplate "scss/devresume.scss" . | toCSS (dict "targetPath" "assets/css/devresume.css") | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ strings.TrimPrefix `/` $style.RelPermalink }}">
 </head>
 
 <body>
+
     <div class="main-wrapper">
+
         <div class="container px-3 px-lg-5">
+
             <article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
+
                 {{ partial "header.html" . }}
+
                 <hr>
 
                 {{ if .Site.Params.summary.enable }}
@@ -30,46 +25,49 @@
                 {{ end }}
 
                 <hr>
+
                 <div class="resume-body">
+
                     <div class="row">
+
                         <div class="resume-main col-12 col-lg-8 col-xl-9 pr-0 pr-lg-5">
+
                             {{ if .Site.Params.experience.enable }}
                             {{ partial "experience.html" . }}
                             {{ end }}
-                            {{ if .Site.Params.experience.enable }}
-                            {{ partial "experience.html" . }}
+
+                            {{ if .Site.Params.projects.enable }}
+                            {{ partial "projects.html" . }}
                             {{ end }}
-                        </div>
+
+                            {{ if .Site.Params.information.enable }}
+                            {{ partial "information.html" . }}
+                            {{ end }}
+
+                        </div><!--//resume-main-->
+
                         {{ partial "sidebar.html" . }}
-                    </div>
-                </div>
+
+                    </div><!--//row-->
+
+                </div><!--//resume-body-->
+
                 <hr>
-                <div class="resume-footer text-center">
-                    <ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
-                        {{ range .Site.Params.social.list }}
-                        <li class="list-inline-item mb-lg-0 mr-3">
-                            <a class="resume-link" rel="noreferrer" href="{{ .url }}" target="_blank">
-                                <i class="{{ .icon }} fa-2x mr-2" data-fa-transform="down-4"></i>
-                                <span class="d-none d-lg-inline-block text-muted">{{ .title }}</span>
-                            </a>
-                        </li>
-                        {{ end }}
-                    </ul>
-                </div>
+
+                {{ if .Site.Params.social.enable }}
+                {{ partial "social.html" . }}
+                {{ end }}
+
             </article>
-        </div>
-        <footer class="footer text-center py-4">
-            <!--/*
-                This template is released under the Creative Commons Attribution 3.0 License.
-                Please keep the attribution link below when using for your own project.
-                Thank you for your support. :)
-                If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com
-            */-->
-            <small class="copyright text-muted">Designed with <i class="fas fa-heart"></i> by <a class="theme-link" rel="noreferrer" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-            <br>
-            <small class="copyright">{{ now.Year }} &copy; {{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ else }}Ported to Hugo by <a href="https://github.com/cowboysmall" rel="noreferrer" target="_blank">CowboySmall</a>{{ end }}</small>
-        </footer>
-    </div>
-    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+
+        </div><!--//container-->
+
+        {{ partial "footer.html" . }}
+
+    </div><!--//main-wrapper-->
+
+    {{ partial "scripts.html" . }}
+
 </body>
+
 </html>
