@@ -18,23 +18,6 @@ theme = "hugo-devresume-theme"
         tagline = "jrbeverly certificates"
         avatar = "profile.png"
 
-    [params.contact]
-        enable = true
-        location = "Canada"
-
-        [[params.contact.list]]
-        icon = "fas fa-phone-square"
-        url = "tel:#"
-        text = "0123 4567 890"
-        [[params.contact.list]]
-        icon = "fas fa-envelope-square"
-        url = "mailto:#"
-        text = "simon.doe@yourwebsite.com"
-        [[params.contact.list]]
-        icon = "fas fa-globe"
-        url = "#"
-        text = "www.yourwebsite.com"
-
     [params.skills]
         enable = true
 
@@ -66,51 +49,6 @@ theme = "hugo-devresume-theme"
         [[params.skills.list.items]]
         details = "Good time management"
 
-    [params.education]
-        enable = true
-
-        [[params.education.list]]
-        degree = "MSc in Computer Science"
-        university = "University College London"
-        dates = "2010 - 2011"
-        [[params.education.list]]
-        degree = "BSc Maths and Physics"
-        university = "Imperial College London"
-        dates = "2007 - 2010"
-
-    [params.awards]
-        enable = true
-
-        [[params.awards.list]]
-        name = "Award Lorem Ipsum"
-        body = "Microsoft lorem ipsum"
-        date = "2019"
-        [[params.awards.list]]
-        name = "Award Donec Sodales"
-        body = "Oracle Aenean"
-        date = "2017"
-
-    [params.languages]
-        enable = true
-
-        [[params.languages.list]]
-        name = "English"
-        level = "Native"
-        [[params.languages.list]]
-        name = "Spanish"
-        level = "Professional"
-
-    [params.interests]
-        enable = true
-
-        [[params.interests.list]]
-        name = "Climbing"
-        [[params.interests.list]]
-        name = "Snowboarding"
-        [[params.interests.list]]
-        name = "Photography"
-        [[params.interests.list]]
-        name = "Travelling"
 
     [params.summary]
         enable = true
@@ -183,32 +121,15 @@ theme = "hugo-devresume-theme"
         meta = "Open Source"
         tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
 
-    [params.information]
-        enable = true
-
-        [[params.information.list]]
-        title = "Papers"
-        [[params.information.list.items]]
-        details = "2018 · Lorem Ipsum"
-        [[params.information.list.items]]
-        details = "2016 · Sed Fringilla"
-
-        [[params.information.list]]
-        title = "Interests"
-        details = "Climbing, Snowboarding, Photography, Travelling"
-
     [params.social]
         enable = true
 
         [[params.social.list]]
         icon = "fab fa-github-square"
-        url = "//github.com/username"
-        title = "username"
+        url = "https://github.com/jrbeverly"
+        title = "jrbeverly"
         [[params.social.list]]
         icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/username"
-        title = "username"
-        [[params.social.list]]
-        icon = "fab fa-twitter-square"
-        url = "//twitter.com/username"
-        title = "@username"
+        url = "https://ca.linkedin.com/in/jrbeverly/"
+        title = "jrbeverly"
+
