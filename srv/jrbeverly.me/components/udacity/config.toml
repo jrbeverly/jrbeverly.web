@@ -22,35 +22,25 @@ theme = "hugo-devresume-theme"
         enable = true
 
         [[params.skills.items]]
-        details = "Using the SCRUM Framework"
+        details = "Jupyter Notebook"
         [[params.skills.items]]
-        details = "Security for Hackers and Developers"
+        details = "Python"
         [[params.skills.items]]
-        details = "JavaScript Core Language"
+        details = "matplotlib"
         [[params.skills.items]]
-        details = "ASP.NET MVC5"
+        details = "pandas"
         [[params.skills.items]]
-        details = "Building Web Applications with React"
+        details = "numpy"
         [[params.skills.items]]
-        details = "CSS"
+        details = "sklearn"
         [[params.skills.items]]
-        details = "MySQL"
+        details = "JavaScript"
         [[params.skills.items]]
-        details = "Windows PowerShell"
+        details = "react"
         [[params.skills.items]]
-        details = "C#"
+        details = "react-native"
         [[params.skills.items]]
-        details = "HTML5"
-        [[params.skills.items]]
-        details = "Angular"
-        [[params.skills.items]]
-        details = "Docker"
-        [[params.skills.items]]
-        details = "Android"
-        [[params.skills.items]]
-        details = "C++"
-        [[params.skills.items]]
-        details = "Java"
+        details = "redux"
 
     [params.summary]
         enable = true
@@ -63,31 +53,79 @@ theme = "hugo-devresume-theme"
         title = "Machine Learning Nanodegree"
 
         [[params.experience.entry.list]]
-        title = "Classification of Dogs"
-        dates = "Fall 2019"
+        title = "Predicting Boston Housing Prices"
+        dates = "Fall 2018"
         company = "Udacity"
-        details = "My implementation of the Convolutional Neural Networks (CNN) algorithm for identifying a canine’s breed from an image. Additionally, it supply the resembled dog breed if provided an image of a human."
-        url = "https://github.com/jrbeverly/dog-project"
-        github = "https://github.com/jrbeverly/dog-project"
+        details = "Leverage a few basic machine learning concepts to assist you and a client with finding the best selling price for their home."
+        url = "https://github.com/jrbeverly/boston-housing"
+        github = "https://github.com/jrbeverly/boston-housing"
+        gitlab = "https://gitlab.com/jrbeverly/boston-housing"
+
+        [[params.experience.entry.list]]
+        title = "Creating Customer Segments"
+        dates = "Fall 2018"
+        company = "Udacity"
+        details = "Applying unsupervised learning techniques on product spending data to identify customer segments hidden in the data."
+        url = "https://github.com/jrbeverly/customer-segments"
+        github = "https://github.com/jrbeverly/customer-segments"
+        gitlab = "https://gitlab.com/jrbeverly/customer-segments"
+
+        [[params.experience.entry.list]]
+        title = "Finding Donors for CharityML"
+        dates = "Fall 2018"
+        company = "Udacity"
+        details = "CharityML is a fictitious charity organization that was established to provide financial support for people eager to learn machine learning."
+        url = "https://github.com/jrbeverly/charityml"
+        github = "https://github.com/jrbeverly/charityml"
+        gitlab = "https://gitlab.com/jrbeverly/charityml"
 
         [[params.experience.entry.list]]
         title = "Classification of Dogs"
-        dates = "Fall 2019"
+        dates = "Fall 2018"
         company = "Udacity"
-        details = "My implementation of the Convolutional Neural Networks (CNN) algorithm for identifying a canine’s breed from an image. Additionally, it supply the resembled dog breed if provided an image of a human."
+        details = "Implementation of the Convolutional Neural Networks (CNN) algorithm for identifying a canine’s breed from an image. Additionally, supply the resembled dog breed if provided an image of a human."
         url = "https://github.com/jrbeverly/dog-project"
         github = "https://github.com/jrbeverly/dog-project"
+        gitlab = "https://gitlab.com/jrbeverly/dog-project"
+
+        [[params.experience.entry.list]]
+        title = "Quadcopter using Reinforcement Learning"
+        dates = "Fall 2018"
+        company = "Udacity"
+        details = "A quadcopter flying agent that learns to take off using reinforcement learning."
+        url = "https://github.com/jrbeverly/quadcopter"
+        github = "https://github.com/jrbeverly/quadcopter"
+        gitlab = "https://gitlab.com/jrbeverly/quadcopter"
 
         [[params.experience.entry]]
         title = "React Nanodegree"
 
         [[params.experience.entry.list]]
-        title = "Classification of Dogs"
-        dates = "Fall 2019"
+        title = "MyReads"
+        dates = "Winter 2017"
         company = "Udacity"
-        details = "My implementation of the Convolutional Neural Networks (CNN) algorithm for identifying a canine’s breed from an image. Additionally, it supply the resembled dog breed if provided an image of a human."
-        url = "https://github.com/jrbeverly/dog-project"
-        github = "https://github.com/jrbeverly/dog-project"
+        details = "A digital bookshelf app that allows you to select and categorize books you have read, are currently reading, or want to read."
+        url = "https://github.com/jrbeverly/myreads"
+        github = "https://github.com/jrbeverly/myreads"
+        gitlab = "https://gitlab.com/jrbeverly/myreads"
+
+        [[params.experience.entry.list]]
+        title = "Classification of Dogs"
+        dates = "Winter 2017"
+        company = "Udacity"
+        details = "A content and comment web app. Users are able to post content to predefined categories, comment on their posts and other users' posts, and vote on posts and comments. Users are also able to edit and delete posts and comments."
+        url = "https://github.com/jrbeverly/Readable"
+        github = "https://github.com/jrbeverly/Readable"
+        gitlab = "https://gitlab.com/jrbeverly/Readable"
+
+        [[params.experience.entry.list]]
+        title = "UdaciCards"
+        dates = "Winter 2017"
+        company = "Udacity"
+        details = "A mobile application that allows users to study collections of flashcards. The app allows users to create different categories of flashcards called decks, add flashcards to those decks, then take quizzes on those decks."
+        url = "https://github.com/jrbeverly/UdaciCards"
+        github = "https://github.com/jrbeverly/UdaciCards"
+        gitlab = "https://gitlab.com/jrbeverly/UdaciCards"
 
     [params.social]
         enable = true
