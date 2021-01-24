@@ -2,6 +2,11 @@
 <section class="work-section py-3">
   <h3 class="text-uppercase resume-section-heading mb-4">
     {{ .title }}
+    {{ if .certificate }}
+    <a rel="noreferrer" target="_blank" href="{{ .certificate }}">
+      <i class="fas fa-passport mr-2"></i>
+    </a>
+    {{end}}
   </h3>
 
   {{ range .list }}
