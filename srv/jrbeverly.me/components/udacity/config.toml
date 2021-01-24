@@ -18,37 +18,39 @@ theme = "hugo-devresume-theme"
         tagline = "jrbeverly certificates"
         avatar = "profile.png"
 
-    [params.skills]
+       [params.skills]
         enable = true
 
-        [[params.skills.list]]
-        title = "Technical"
-        [[params.skills.list.items]]
-        details = "JavaScript/Angular/React/Vue"
-        [[params.skills.list.items]]
-        details = "Python/Ruby/PHP"
-        [[params.skills.list.items]]
-        details = "Node.js/ASP.NET"
-        [[params.skills.list.items]]
-        details = "PostgreSQL/MySQL"
-        [[params.skills.list.items]]
-        details = "Object-oriented design"
-        [[params.skills.list.items]]
-        details = "Design and implement database structures"
-        [[params.skills.list.items]]
-        details = "Lead and deliver complex software systems"
-
-        [[params.skills.list]]
-        title = "Professional"
-        [[params.skills.list.items]]
-        details = "Effective communication"
-        [[params.skills.list.items]]
-        details = "Team player"
-        [[params.skills.list.items]]
-        details = "Strong problem solver"
-        [[params.skills.list.items]]
-        details = "Good time management"
-
+        [[params.skills.items]]
+        details = "Using the SCRUM Framework"
+        [[params.skills.items]]
+        details = "Security for Hackers and Developers"
+        [[params.skills.items]]
+        details = "JavaScript Core Language"
+        [[params.skills.items]]
+        details = "ASP.NET MVC5"
+        [[params.skills.items]]
+        details = "Building Web Applications with React"
+        [[params.skills.items]]
+        details = "CSS"
+        [[params.skills.items]]
+        details = "MySQL"
+        [[params.skills.items]]
+        details = "Windows PowerShell"
+        [[params.skills.items]]
+        details = "C#"
+        [[params.skills.items]]
+        details = "HTML5"
+        [[params.skills.items]]
+        details = "Angular"
+        [[params.skills.items]]
+        details = "Docker"
+        [[params.skills.items]]
+        details = "Android"
+        [[params.skills.items]]
+        details = "C++"
+        [[params.skills.items]]
+        details = "Java"
 
     [params.summary]
         enable = true
@@ -57,69 +59,35 @@ theme = "hugo-devresume-theme"
     [params.experience]
         enable = true
 
-        [[params.experience.list]]
-        title = "Senior Software Engineer"
-        dates = "2019 - Present"
-        company = "Google"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
-        [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
-        [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
-        [[params.experience.list.items]]
-        details = "Etiam ultricies nisi vel augue."
+        [[params.experience.entry]]
+        title = "Machine Learning Nanodegree"
 
-        [[params.experience.list]]
-        title = "Lead Software Developer"
-        dates = "2016 - 2019"
-        company = "Apple"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
-        [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
-        [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
+        [[params.experience.entry.list]]
+        title = "Classification of Dogs"
+        dates = "Fall 2019"
+        company = "Udacity"
+        details = "My implementation of the Convolutional Neural Networks (CNN) algorithm for identifying a canine’s breed from an image. Additionally, it supply the resembled dog breed if provided an image of a human."
+        url = "https://github.com/jrbeverly/dog-project"
+        github = "https://github.com/jrbeverly/dog-project"
 
-        [[params.experience.list]]
-        title = "Senior Software Developer"
-        dates = "2014 - 2016"
-        company = "Dropbox"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        [[params.experience.entry.list]]
+        title = "Classification of Dogs"
+        dates = "Fall 2019"
+        company = "Udacity"
+        details = "My implementation of the Convolutional Neural Networks (CNN) algorithm for identifying a canine’s breed from an image. Additionally, it supply the resembled dog breed if provided an image of a human."
+        url = "https://github.com/jrbeverly/dog-project"
+        github = "https://github.com/jrbeverly/dog-project"
 
-        [[params.experience.list]]
-        title = "Senior Developer"
-        dates = "2013 - 2014"
-        company = "Uber"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+        [[params.experience.entry]]
+        title = "React Nanodegree"
 
-        [[params.experience.list]]
-        title = "Backend Developer"
-        dates = "2014 - 2016"
-        company = "Amazon"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-
-        [[params.experience.list]]
-        title = "Frontend Developer"
-        dates = "2013 - 2014"
-        company = "Startup"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
-
-    [params.projects]
-        enable = true
-
-        [[params.projects.list]]
-        title = "Project Lorem Ipsum"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-
-        [[params.projects.list]]
-        title = "Project Sed Fringilla"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
-
-        [[params.projects.list]]
-        title = "Project Praesent"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        [[params.experience.entry.list]]
+        title = "Classification of Dogs"
+        dates = "Fall 2019"
+        company = "Udacity"
+        details = "My implementation of the Convolutional Neural Networks (CNN) algorithm for identifying a canine’s breed from an image. Additionally, it supply the resembled dog breed if provided an image of a human."
+        url = "https://github.com/jrbeverly/dog-project"
+        github = "https://github.com/jrbeverly/dog-project"
 
     [params.social]
         enable = true
