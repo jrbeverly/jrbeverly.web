@@ -18,38 +18,114 @@ theme = "hugo-devresume-theme"
         tagline = "jrbeverly certificates"
         avatar = "profile.png"
 
-    [params.contact]
-        enable = true
-        location = "Canada"
-
-    [params.skills]
+       [params.skills]
         enable = true
 
+        [[params.skills.items]]
+        details = "Jupyter Notebook"
         [[params.skills.items]]
         details = "Python"
         [[params.skills.items]]
-        details = "Golang"
+        details = "matplotlib"
+        [[params.skills.items]]
+        details = "pandas"
+        [[params.skills.items]]
+        details = "numpy"
+        [[params.skills.items]]
+        details = "sklearn"
+        [[params.skills.items]]
+        details = "JavaScript"
+        [[params.skills.items]]
+        details = "react"
+        [[params.skills.items]]
+        details = "react-native"
+        [[params.skills.items]]
+        details = "redux"
 
     [params.summary]
         enable = true
-        text = "This page acts as a statement of record for my Pluralsight Skill IQs and Certificate of Completions. I was given the opportunity to learn through Pluralsight, an enterprise training platform, through previous places of employ. As I have advanced in my career, I have found I prefer project-oriented learning styles, as opposed to the lecture style offered by Pluralsight. The profile for my user `jrbeverly` is no longer accessible at [app.pluralsight.com/profile/jrbeverly](https://archive.is/nHN0Z), as I no longer make use of the platform."
+        text = "This page acts as a statement of record for my Udacity Nanodegree Projects. I was given the opportunity to learn through Udacity, a technology educational organization, through previous places of employ. The profile for my user jrbeverly is no longer accessible at Udacity, as I no longer make use of the platform."
 
     [params.experience]
         enable = true
 
-        [[params.experience.list]]
-        title = "Making .NET Applications Even Faster"
-        url = "https://app.pluralsight.com/library/courses/making-dotnet-applications-even-faster/table-of-contents"
-        certificate = "making-dotnet-applications-even-faster.pdf"
-        dates = "Sep 17, 2018"
-        details = "Learn how to make .NET applications even faster by reducing GC pressure, using SIMD instructions, optimizing for CPU utilization, and using .NET optimization technologies."
+        [[params.experience.entry]]
+        title = "Machine Learning Nanodegree"
 
-        [[params.experience.list]]
-        title = "Designing Immutable Infrastructure with Packer"
-        url = "https://app.pluralsight.com/library/courses/packer-designing-immutable-infrastructure/table-of-contents"
-        certificate = "packer-designing-immutable-infrastructure.pdf"
-        dates = "Aug 22, 2018"
-        details = "Create immutable infrastructure without the headaches! In this course, you'll learn to create images that are reusable, make scaling architecture easy, and run everywhere with Packer."
+        [[params.experience.entry.list]]
+        title = "Predicting Boston Housing Prices"
+        dates = "Fall 2018"
+        company = "Udacity"
+        details = "Leverage a few basic machine learning concepts to assist you and a client with finding the best selling price for their home."
+        url = "https://github.com/jrbeverly/boston-housing"
+        github = "https://github.com/jrbeverly/boston-housing"
+        gitlab = "https://gitlab.com/jrbeverly/boston-housing"
+
+        [[params.experience.entry.list]]
+        title = "Creating Customer Segments"
+        dates = "Fall 2018"
+        company = "Udacity"
+        details = "Applying unsupervised learning techniques on product spending data to identify customer segments hidden in the data."
+        url = "https://github.com/jrbeverly/customer-segments"
+        github = "https://github.com/jrbeverly/customer-segments"
+        gitlab = "https://gitlab.com/jrbeverly/customer-segments"
+
+        [[params.experience.entry.list]]
+        title = "Finding Donors for CharityML"
+        dates = "Fall 2018"
+        company = "Udacity"
+        details = "CharityML is a fictitious charity organization that was established to provide financial support for people eager to learn machine learning."
+        url = "https://github.com/jrbeverly/charityml"
+        github = "https://github.com/jrbeverly/charityml"
+        gitlab = "https://gitlab.com/jrbeverly/charityml"
+
+        [[params.experience.entry.list]]
+        title = "Classification of Dogs"
+        dates = "Fall 2018"
+        company = "Udacity"
+        details = "Implementation of the Convolutional Neural Networks (CNN) algorithm for identifying a canine’s breed from an image. Additionally, supply the resembled dog breed if provided an image of a human."
+        url = "https://github.com/jrbeverly/dog-project"
+        github = "https://github.com/jrbeverly/dog-project"
+        gitlab = "https://gitlab.com/jrbeverly/dog-project"
+
+        [[params.experience.entry.list]]
+        title = "Quadcopter using Reinforcement Learning"
+        dates = "Fall 2018"
+        company = "Udacity"
+        details = "A quadcopter flying agent that learns to take off using reinforcement learning."
+        url = "https://github.com/jrbeverly/quadcopter"
+        github = "https://github.com/jrbeverly/quadcopter"
+        gitlab = "https://gitlab.com/jrbeverly/quadcopter"
+
+        [[params.experience.entry]]
+        title = "React Nanodegree"
+
+        [[params.experience.entry.list]]
+        title = "MyReads"
+        dates = "Winter 2017"
+        company = "Udacity"
+        details = "A digital bookshelf app that allows you to select and categorize books you have read, are currently reading, or want to read."
+        url = "https://github.com/jrbeverly/myreads"
+        github = "https://github.com/jrbeverly/myreads"
+        gitlab = "https://gitlab.com/jrbeverly/myreads"
+
+        [[params.experience.entry.list]]
+        title = "Classification of Dogs"
+        dates = "Winter 2017"
+        company = "Udacity"
+        details = "A content and comment web app. Users are able to post content to predefined categories, comment on their posts and other users' posts, and vote on posts and comments. Users are also able to edit and delete posts and comments."
+        url = "https://github.com/jrbeverly/Readable"
+        github = "https://github.com/jrbeverly/Readable"
+        gitlab = "https://gitlab.com/jrbeverly/Readable"
+
+        [[params.experience.entry.list]]
+        title = "UdaciCards"
+        dates = "Winter 2017"
+        company = "Udacity"
+        details = "A mobile application that allows users to study collections of flashcards. The app allows users to create different categories of flashcards called decks, add flashcards to those decks, then take quizzes on those decks."
+        url = "https://github.com/jrbeverly/UdaciCards"
+        github = "https://github.com/jrbeverly/UdaciCards"
+        gitlab = "https://gitlab.com/jrbeverly/UdaciCards"
 
     [params.social]
         enable = true
@@ -62,3 +138,4 @@ theme = "hugo-devresume-theme"
         icon = "fab fa-linkedin"
         url = "https://ca.linkedin.com/in/jrbeverly/"
         title = "jrbeverly"
+
