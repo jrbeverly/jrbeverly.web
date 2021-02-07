@@ -22,7 +22,7 @@ tags=["docker", "continuous-integration"]
   <a href="https://hub.docker.com/u/cardboardci">
     <img alt="DockerHub" src="https://img.shields.io/badge/view-dockerhub-yellow.svg" />
   </a>
-  <a href="https://cardboardci.jrbeverly.dev/">
+  <a href="https://cardboardci.jrbeverly.me/">
     <img alt="Docs" src="https://img.shields.io/badge/view-docs-blue.svg" />
   </a>
 </div>
