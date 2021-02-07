@@ -7,7 +7,7 @@ tags=["friending"]
 +++
 # Friending Landing Page
 
-This repository contains the source for the webpage [friending.jrbeverly.dev](https://friending.jrbeverly.dev/).
+This repository contains the source for the webpage [friending.jrbeverly.me](https://friending.jrbeverly.me/).
 
 The webpage is built off a Jekyll template.
 
