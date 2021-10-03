@@ -8,7 +8,8 @@ def _hugo_site_impl(ctx):
         output = build_file,
         content = """
 tar -xf {archive} --directory {site}
-{hugo_path} --verbose --minify -s {site} -d {outputs}
+{hugo_path} --quiet --minify -s {site} -d public
+mv -T {site}/public {outputs}
         """.format(
             outputs = outputs.path,
             site = site.path,
