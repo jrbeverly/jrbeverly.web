@@ -1,0 +1,59 @@
+# load("//bazel/macros:publish.bzl", "publish_files")
+load("@bazel_tools//tools/build_defs/pkg:pkg.bzl", "pkg_tar")
+
+pkg_tar(
+    name = "public",
+    srcs = glob([
+        "public/*", 
+        "public/**/*"
+    ]),
+    deps = [
+        ":udacity",
+        ":pluralsight",
+    ],
+    strip_prefix = "./"
+)
+
+pkg_tar(
+    name = "pluralsight",
+    deps = [
+        "//srv/jrbeverly.me/components/pluralsight:website",
+    ],
+    package_dir = "public/pluralsight",
+    strip_prefix = "./"
+)
+
+
+pkg_tar(
+    name = "udacity",
+    deps = [
+        "//srv/jrbeverly.me/components/udacity:website",
+    ],
+    package_dir = "public/udacity",
+    strip_prefix = "./"
+)
+
+
+
+# # pkg_tar(
+# #     name = "website",
+# #     deps = [
+# #         ":public",
+# #         "//srv/jrbeverly.me/components/pluralsight:website",
+# #         "//srv/jrbeverly.me/components/udacity:website",
+# #     ],
+# #     strip_prefix = "./"
+# # )
+
+# # hugo_site(
+# #     name = "website",
+# #     config = ":config.yml",
+# #     src = ":build",
+# # )
+
+# # publish_files(
+# #     name = "publish",
+# #     output = "public/jrbeverly.dev",
+# #     dirs = [":website"],
+# #     srcs = [],
+# # )
