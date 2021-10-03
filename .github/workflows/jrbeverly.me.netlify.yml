@@ -11,19 +11,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: docker://cardboardci/hugo:latest
+
+      - name: Build & Package
+        run: |
+          bazel run //srv/jrbeverly.me:publish
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        # if: github.ref == 'refs/heads/main'
         with:
-          args: hugo --verbose --minify -s srv/jrbeverly.me/components/pluralsight
-      - uses: docker://cardboardci/hugo:latest
-        with:
-          args: hugo --verbose --minify -s srv/jrbeverly.me/components/udacity
-      - name: Copy component public sites
-        run: for x in components/* ; do sudo mv $x/public public/${x#"components/"} ; done
-        working-directory: srv/jrbeverly.me/
-      - name: Describe the site to be deployed
-        run: ls -la public/
-        working-directory: srv/jrbeverly.me/
-      - uses: docker://cardboardci/netlify:latest
-        if: github.ref == 'refs/heads/master'
-        with:
-          args: "netlify deploy --dir srv/jrbeverly.me/public/ --site ${{ secrets.NETLIFY_JRBEVERLY_ME }} --auth ${{ secrets.NETLIFY_TOKEN }} --prod"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: netlify/jrbeverly.me
+          publish_dir: ./public/jrbeverly.me

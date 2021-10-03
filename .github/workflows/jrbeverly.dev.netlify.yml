@@ -18,12 +18,8 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: netlify/jrbeverly.dev
           publish_dir: ./public/jrbeverly.dev
-
-      - uses: docker://cardboardci/netlify:latest
-        if: github.ref == 'refs/heads/master'
-        with:
-          args: "netlify deploy --dir srv/jrbeverly.dev/artifacts --site ${{ secrets.NETLIFY_JRBEVERLY_DEV }} --auth ${{ secrets.NETLIFY_TOKEN }} --prod"
