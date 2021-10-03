@@ -9,6 +9,5 @@ hugo_site(
 publish_files(
     name = "publish",
     output = "public/jrbeverly.dev",
-    dirs = [":website"],
-    srcs = [],
+    srcs = [":website"],
 )

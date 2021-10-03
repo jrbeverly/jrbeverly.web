@@ -11,7 +11,7 @@ def _hugo_site_impl(ctx):
         content = """
 tar -xf {archive} --directory {site}
 {hugo_path} --quiet --minify -s {site} -d public
-tar -cf {output} {site}/public
+tar -cf {output} -C {site}/public .
         """.format(
             output = outputs.path,
             site = site.path,

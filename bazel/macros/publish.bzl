@@ -2,8 +2,8 @@ def _cmd_copy_dirs(directory, dirs):
     cmd = "cp -r {dir}/. $BUILD_WORKSPACE_DIRECTORY/%s" % (directory)
     return "\n".join([cmd.format(dir = d.short_path) for d in dirs])
 
-def _cmd_copy_files(directory, files):
-    return "\n".join(["cp {} $BUILD_WORKSPACE_DIRECTORY/{}.".format(f.path, directory) for f in files])
+def _cmd_extract_tars(directory, files):
+    return "\n".join(["tar -xf {} -C $BUILD_WORKSPACE_DIRECTORY/{}".format(f.short_path, directory) for f in files])
 
 def _publish_files_impl(ctx):
     ctx.actions.write(
@@ -16,7 +16,7 @@ mkdir -p $BUILD_WORKSPACE_DIRECTORY/{output}
 chmod -R 744 $BUILD_WORKSPACE_DIRECTORY/{output}
         """.format(
             output = ctx.attr.output,
-            cp_files = _cmd_copy_files(ctx.attr.output, ctx.files.srcs),
+            cp_files = _cmd_extract_tars(ctx.attr.output, ctx.files.srcs),
             cp_dirs = _cmd_copy_dirs(ctx.attr.output, ctx.files.dirs),
         ),
     )
