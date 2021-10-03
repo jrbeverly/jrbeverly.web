@@ -1,0 +1,39 @@
+load("//bazel/macros:publish.bzl", "publish_files")
+load("@bazel_tools//tools/build_defs/pkg:pkg.bzl", "pkg_tar")
+
+publish_files(
+    name = "publish",
+    output = "public/jrbeverly.me",
+    srcs = [":public"],
+)
+
+pkg_tar(
+    name = "public",
+    srcs = glob([
+        "public/*", 
+        "public/**/*"
+    ]),
+    deps = [
+        ":udacity",
+        ":pluralsight",
+    ],
+    strip_prefix = "./public"
+)
+
+pkg_tar(
+    name = "pluralsight",
+    deps = [
+        "//srv/jrbeverly.me/components/pluralsight:website",
+    ],
+    package_dir = "pluralsight",
+    strip_prefix = "./"
+)
+
+pkg_tar(
+    name = "udacity",
+    deps = [
+        "//srv/jrbeverly.me/components/udacity:website",
+    ],
+    package_dir = "udacity",
+    strip_prefix = "./"
+)

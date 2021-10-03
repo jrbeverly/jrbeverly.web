@@ -1,0 +1,9 @@
+Name=hugo
+Version=0.88.1
+
+[linux_amd64]
+OS=linux
+CPU=x86_64
+Executable=hugo
+URL=https://github.com/gohugoio/hugo/releases/download/v0.88.1/hugo_extended_0.88.1_Linux-64bit.tar.gz
+Sha256Sum=51850899dcd76f71c76004b9be28c7c1ea1b645d7227ff79534f773acd5e88fe
