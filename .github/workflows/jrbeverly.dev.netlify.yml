@@ -11,10 +11,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+
       - name: Build & Package
         run: |
           bazel run //srv/jrbeverly.dev:publish
-  
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: netlify/jrbeverly.dev
+          publish_dir: ./public/jrbeverly.dev
+
       - uses: docker://cardboardci/netlify:latest
         if: github.ref == 'refs/heads/master'
         with:
