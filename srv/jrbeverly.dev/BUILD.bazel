@@ -1,3 +1,4 @@
+load("//bazel/macros:publish.bzl", "publish_files")
 load("//bazel/macros:hugo.bzl", "hugo_site")
 load("@bazel_tools//tools/build_defs/pkg:pkg.bzl", "pkg_tar")
 
@@ -11,4 +12,11 @@ hugo_site(
     name = "website",
     config = ":config.yml",
     src = ":build",
+)
+
+publish_files(
+    name = "publish",
+    output = "public",
+    dirs = [":website"],
+    srcs = [],
 )
