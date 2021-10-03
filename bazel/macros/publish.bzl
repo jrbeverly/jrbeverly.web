@@ -13,6 +13,7 @@ rm -rf $BUILD_WORKSPACE_DIRECTORY/{output}
 mkdir -p $BUILD_WORKSPACE_DIRECTORY/{output}
 {cp_files}
 {cp_dirs}
+chmod -R 744 $BUILD_WORKSPACE_DIRECTORY/{output}
         """.format(
             output = ctx.attr.output,
             cp_files = _cmd_copy_files(ctx.attr.output, ctx.files.srcs),
