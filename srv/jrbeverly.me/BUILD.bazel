@@ -3,7 +3,7 @@ load("@bazel_tools//tools/build_defs/pkg:pkg.bzl", "pkg_tar")
 
 publish_files(
     name = "publish",
-    output = "public/jrbeverly.dev",
+    output = "public/jrbeverly.me",
     srcs = [":public"],
 )
 
