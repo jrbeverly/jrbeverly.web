@@ -5,7 +5,8 @@ date="2019-12-30T23:57:22Z"
 description="SAM Application for a simple chat application based on WebSockets in API Gateway"
 tags=[
   "aws-websockets",
-  "experiment"
+  "experiment",
+  "org:jrbeverly"
 ]
 +++
 

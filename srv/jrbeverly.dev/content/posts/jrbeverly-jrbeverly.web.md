@@ -6,7 +6,8 @@ description="Repository mapping to the infrastructure of jrbeverly."
 tags=[
   "jrbeverly",
   "monorepo",
-  "personal-site"
+  "personal-site",
+  "org:jrbeverly"
 ]
 +++
 

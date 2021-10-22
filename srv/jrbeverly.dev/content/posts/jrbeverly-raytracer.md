@@ -8,7 +8,8 @@ tags=[
   "coursework",
   "graphics",
   "mathematics",
-  "raytracer"
+  "raytracer",
+  "org:jrbeverly"
 ]
 +++
 

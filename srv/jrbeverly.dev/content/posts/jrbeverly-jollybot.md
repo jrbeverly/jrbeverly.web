@@ -10,7 +10,8 @@ tags=[
   "jabberwacky",
   "prision",
   "simple",
-  "strategy"
+  "strategy",
+  "org:jrbeverly"
 ]
 +++
 

@@ -8,7 +8,8 @@ tags=[
   "java",
   "junit",
   "makefile",
-  "maven"
+  "maven",
+  "org:jrbeverly"
 ]
 +++
 

@@ -7,7 +7,8 @@ tags=[
   "conversion",
   "html",
   "latex",
-  "pdf2htmlex"
+  "pdf2htmlex",
+  "org:thefriending"
 ]
 +++
 

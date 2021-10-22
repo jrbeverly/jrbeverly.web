@@ -5,7 +5,8 @@ date="2019-09-01T20:31:22Z"
 description="GitHub Learning Lab Tutorial on 'Write a Learning Lab course'"
 tags=[
   "github",
-  "github-learning-lab"
+  "github-learning-lab",
+  "org:jrbeverly"
 ]
 +++
 

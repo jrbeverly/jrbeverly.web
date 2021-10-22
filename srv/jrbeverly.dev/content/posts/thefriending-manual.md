@@ -7,7 +7,8 @@ tags=[
   "gitlab-ci",
   "latex",
   "specification",
-  "user-manual"
+  "user-manual",
+  "org:thefriending"
 ]
 +++
 

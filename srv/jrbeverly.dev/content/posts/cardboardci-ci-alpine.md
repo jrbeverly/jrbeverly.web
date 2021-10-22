@@ -8,7 +8,8 @@ tags=[
   "baseimage",
   "docker",
   "docker-ci-images",
-  "gitlab-ci"
+  "gitlab-ci",
+  "org:cardboardci"
 ]
 +++
 

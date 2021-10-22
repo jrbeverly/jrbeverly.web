@@ -10,7 +10,8 @@ tags=[
   "docker-image",
   "html",
   "pdf",
-  "wkhtmltopdf"
+  "wkhtmltopdf",
+  "org:cardboardci"
 ]
 +++
 

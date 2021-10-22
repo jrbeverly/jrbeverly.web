@@ -6,7 +6,8 @@ description="A super small image with X Window System development libraries inst
 tags=[
   "docker",
   "docker-image",
-  "x11"
+  "x11",
+  "org:xplatformer"
 ]
 +++
 

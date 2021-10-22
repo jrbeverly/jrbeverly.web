@@ -8,7 +8,8 @@ tags=[
   "mobile",
   "react",
   "react-native",
-  "udacity-react-nanodegree"
+  "udacity-react-nanodegree",
+  "org:jrbeverly"
 ]
 +++
 

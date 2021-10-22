@@ -6,7 +6,8 @@ description="IAM-less AWS API access for humans."
 tags=[
   "d2l",
   "iam",
-  "okta"
+  "okta",
+  "org:jrbeverly"
 ]
 +++
 

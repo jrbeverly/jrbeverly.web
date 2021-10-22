@@ -10,7 +10,8 @@ tags=[
   "proof-of-concept",
   "prototype",
   "roslyn",
-  "strongly-typed"
+  "strongly-typed",
+  "org:jrbeverly"
 ]
 +++
 

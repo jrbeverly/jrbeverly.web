@@ -8,7 +8,8 @@ tags=[
   "docker",
   "docker-image",
   "image-compression",
-  "web"
+  "web",
+  "org:cardboardci"
 ]
 +++
 

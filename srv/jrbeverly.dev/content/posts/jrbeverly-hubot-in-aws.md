@@ -5,7 +5,8 @@ date="2019-12-28T15:56:31Z"
 description="Hubot in AWS on ECS Fargate"
 tags=[
   "aws",
-  "hubot"
+  "hubot",
+  "org:jrbeverly"
 ]
 +++
 

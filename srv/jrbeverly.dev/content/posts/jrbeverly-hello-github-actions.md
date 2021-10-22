@@ -6,7 +6,8 @@ description="The GitHub Learning Lab 'Hello GitHub Actions' tutorial"
 tags=[
   "github",
   "github-actions",
-  "tutorial"
+  "tutorial",
+  "org:jrbeverly"
 ]
 +++
 

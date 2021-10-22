@@ -6,7 +6,8 @@ description="A quadcopter flying agent that learns to take off using reinforceme
 tags=[
   "ddpg",
   "quadcopter",
-  "udacity-ml-nanodegree"
+  "udacity-ml-nanodegree",
+  "org:jrbeverly"
 ]
 +++
 

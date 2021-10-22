@@ -6,7 +6,8 @@ description="The source for the landing page of Friending"
 tags=[
   "html",
   "landing-page",
-  "website"
+  "website",
+  "org:thefriending"
 ]
 +++
 

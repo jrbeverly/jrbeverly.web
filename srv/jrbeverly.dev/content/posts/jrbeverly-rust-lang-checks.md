@@ -3,7 +3,9 @@ author="jrbeverly"
 title="rust-lang-checks"
 date="2021-07-12T15:05:14Z"
 description="Experimenting with some aspects of the Rust language"
-tags=[]
+tags=[
+  "org:jrbeverly"
+]
 +++
 
 # Rust Language Checks

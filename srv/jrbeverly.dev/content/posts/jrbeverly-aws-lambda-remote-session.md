@@ -6,7 +6,8 @@ description="Prototype running of New-PSSession in an AWS PowerShell Lambda"
 tags=[
   "aws",
   "helpers",
-  "powershell"
+  "powershell",
+  "org:jrbeverly"
 ]
 +++
 

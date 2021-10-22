@@ -3,7 +3,9 @@ author="jrbeverly"
 title="gitpod-cobra-golang"
 date="2021-07-12T19:10:27Z"
 description="Experimenting with using GitPod for Golang CLI apps with Cobra"
-tags=[]
+tags=[
+  "org:jrbeverly"
+]
 +++
 
 # GitPod Golang CLI

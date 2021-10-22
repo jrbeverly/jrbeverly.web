@@ -12,7 +12,8 @@ tags=[
   "js",
   "minify",
   "web",
-  "web-compression"
+  "web-compression",
+  "org:cardboardci"
 ]
 +++
 

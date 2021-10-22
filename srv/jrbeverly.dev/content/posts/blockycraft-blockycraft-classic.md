@@ -6,7 +6,8 @@ description="Blockycraft is a Minecraft inspired Block Engine."
 tags=[
   "block-engine",
   "opengl",
-  "sdl2"
+  "sdl2",
+  "org:blockycraft"
 ]
 +++
 

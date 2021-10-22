@@ -9,7 +9,8 @@ tags=[
   "personal",
   "personal-website",
   "profile",
-  "static-site"
+  "static-site",
+  "org:jrbeverly"
 ]
 +++
 

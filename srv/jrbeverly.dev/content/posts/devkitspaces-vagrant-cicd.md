@@ -11,7 +11,8 @@ tags=[
   "linter",
   "rubocop",
   "vagrant",
-  "virtualbox"
+  "virtualbox",
+  "org:devkitspaces"
 ]
 +++
 

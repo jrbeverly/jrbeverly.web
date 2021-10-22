@@ -6,7 +6,8 @@ description="XSamples provides a collection of XWindows starter code that works 
 tags=[
   "platformer",
   "samples",
-  "x11"
+  "x11",
+  "org:xplatformer"
 ]
 +++
 

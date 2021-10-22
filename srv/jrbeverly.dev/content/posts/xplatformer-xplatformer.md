@@ -5,7 +5,8 @@ date="2017-05-31T22:44:28Z"
 description="XPlatformer is a simple video game reminiscent of the classic side-scrolling arcade game."
 tags=[
   "game-development",
-  "platformer"
+  "platformer",
+  "org:xplatformer"
 ]
 +++
 

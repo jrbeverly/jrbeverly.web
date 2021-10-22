@@ -8,7 +8,8 @@ tags=[
   "graphical-interface",
   "shell",
   "vagrant",
-  "virtualbox"
+  "virtualbox",
+  "org:devkitspaces"
 ]
 +++
 
