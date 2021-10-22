@@ -12,12 +12,12 @@ dir_repo="${DIR}/repositories"
 mkdir -p "${dir_repo}"
 while IFS= read -r org; do
     echo "[GitHub] Synchronizing from ${org}"
-    get_repos_in_organization "${dir_repo}/${org}" "${org}"
+    # get_repos_in_organization "${dir_repo}/${org}" "${org}"
 done <"${DIR}/data/organizations"
 
 user="$(cat "${DIR}/data/user")"
 echo "[GitHub] Synchronizing from ${user}"
-get_repos_in_user "${dir_repo}/${user}" "${user}"
+# get_repos_in_user "${dir_repo}/${user}" "${user}"
 
 echo "[GitHub] Synchronizing posts from Git Users"
 for dataset in "${DIR}/repositories"/* ; do
@@ -39,7 +39,7 @@ for dataset in "${DIR}/repositories"/* ; do
         get_github_repo_file "${repo}" "${readme_resp}"
         
         download_url="$(jq -r '.download_url' "${readme_resp}")"
-        if [[ "${download_url}" == "" ]]; then
+        if [[ "${download_url}" == "null" ]]; then
             continue
         fi
         curl -sSL "${download_url}" -o "${readme_file}"
