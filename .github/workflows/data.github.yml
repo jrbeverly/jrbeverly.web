@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Synchronize the branch
         run: |
-          bash scripts/render.bash
+          bash scripts/sync.bash
           mv outputs/* srv/jrbeverly.dev/content/posts
 
           git config --global user.email "bot@jrbeverly.dev"
