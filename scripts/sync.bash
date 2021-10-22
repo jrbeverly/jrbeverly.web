@@ -47,13 +47,13 @@ for dataset in "${DIR}/repositories"/* ; do
         result_file="${DIR_OUTPUT}/${dataset_name}-${name}.md"
         touch "${result_file}"
         echo """+++
-    author=\"jrbeverly\"
-    title=\"${name}\"
-    date=\"${created_at}\"
-    description=\"${description}\"
-    tags=${topics}
-    +++
-    """ > "${result_file}" 
+author=\"jrbeverly\"
+title=\"${name}\"
+date=\"${created_at}\"
+description=\"${description}\"
+tags=${topics}
++++
+""" > "${result_file}" 
         cat "${readme_file}" >> "${result_file}" 
     done <"${dataset}"
 done
