@@ -1,9 +1,9 @@
 +++
-    author="jrbeverly"
-    title="githooks"
-    date="2017-09-16T01:04:05Z"
-    description="GitHooks provides a multi-hook framework for Git Hooks."
-    tags=[
+author="jrbeverly"
+title="githooks"
+date="2017-09-16T01:04:05Z"
+description="GitHooks provides a multi-hook framework for Git Hooks."
+tags=[
   "bash",
   "bats",
   "collection",
@@ -11,8 +11,8 @@
   "linux",
   "workflow"
 ]
-    +++
-    
++++
+
 # Githooks
 
 ## Summary

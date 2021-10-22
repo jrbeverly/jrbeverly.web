@@ -1,14 +1,14 @@
 +++
-    author="jrbeverly"
-    title="git-timeline"
-    date="2020-01-04T01:26:48Z"
-    description="Adjust the time of a series of commits in a git repository"
-    tags=[
+author="jrbeverly"
+title="git-timeline"
+date="2020-01-04T01:26:48Z"
+description="Adjust the time of a series of commits in a git repository"
+tags=[
   "git",
   "git-commit-format"
 ]
-    +++
-    
++++
+
 # Git Timeline
 
 Allows bulk modification of the commit dates of a repository, changing the history of a repository.

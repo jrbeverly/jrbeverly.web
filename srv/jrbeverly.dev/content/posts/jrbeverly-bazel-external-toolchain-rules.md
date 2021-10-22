@@ -1,15 +1,15 @@
 +++
-    author="jrbeverly"
-    title="bazel-external-toolchain-rules"
-    date="2021-09-26T22:20:07Z"
-    description="Exploring enabling bazel toolchains with an external 'toolchain' file"
-    tags=[
+author="jrbeverly"
+title="bazel-external-toolchain-rules"
+date="2021-09-26T22:20:07Z"
+description="Exploring enabling bazel toolchains with an external 'toolchain' file"
+tags=[
   "bazel",
   "bazel-rules",
   "toolchains"
 ]
-    +++
-    
++++
+
 # bazel-external-toolchain-rules
 
 Experimenting with setting up Bazel toolchains using an externally managed `.toolchain` file, that is responsible for defining properties such as:

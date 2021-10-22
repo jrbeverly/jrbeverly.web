@@ -1,11 +1,11 @@
 +++
-    author="jrbeverly"
-    title="github-actions-dbx-upload"
-    date="2021-08-28T22:26:52Z"
-    description="Testing publishing to Dropbox programatically"
-    tags=[]
-    +++
-    
+author="jrbeverly"
+title="github-actions-dbx-upload"
+date="2021-08-28T22:26:52Z"
+description="Testing publishing to Dropbox programatically"
+tags=[]
++++
+
 # github-actions-dbx-upload
 
 Publishing to Dropbox programmatically from GitHub Actions with the intentions to mirror the model of AWS S3 publishing.

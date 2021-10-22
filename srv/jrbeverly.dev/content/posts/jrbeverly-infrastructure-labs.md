@@ -1,9 +1,9 @@
 +++
-    author="jrbeverly"
-    title="infrastructure-labs"
-    date="2018-11-02T23:41:32Z"
-    description="Terraform modules that define 'Repositories - jrbeverly'"
-    tags=[
+author="jrbeverly"
+title="infrastructure-labs"
+date="2018-11-02T23:41:32Z"
+description="Terraform modules that define 'Repositories - jrbeverly'"
+tags=[
   "gitlab",
   "gitlab-groups",
   "repositories",
@@ -11,8 +11,8 @@
   "terraform",
   "terraform-modules"
 ]
-    +++
-    
++++
+
 # Infrastructure
 
 ## Summary

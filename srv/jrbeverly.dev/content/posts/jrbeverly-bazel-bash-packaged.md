@@ -1,15 +1,15 @@
 +++
-    author="jrbeverly"
-    title="bazel-bash-packaged"
-    date="2021-10-05T23:00:41Z"
-    description="Experimenting with using bazel to package+test glue shell scripts"
-    tags=[
+author="jrbeverly"
+title="bazel-bash-packaged"
+date="2021-10-05T23:00:41Z"
+description="Experimenting with using bazel to package+test glue shell scripts"
+tags=[
   "bats-core",
   "bazel",
   "bazel-shell"
 ]
-    +++
-    
++++
+
 # Bazel Bash Packaged
 
 Experimenting with using Bazel & Bats in container images for writing up tests for shell scripts.

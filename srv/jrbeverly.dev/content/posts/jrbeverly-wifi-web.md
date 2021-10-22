@@ -1,17 +1,17 @@
 +++
-    author="jrbeverly"
-    title="wifi-web"
-    date="2018-11-02T00:52:35Z"
-    description="Wifi Web provides an autorun USB for connecting to wireless access points for devices that do not have access to a camera"
-    tags=[
+author="jrbeverly"
+title="wifi-web"
+date="2018-11-02T00:52:35Z"
+description="Wifi Web provides an autorun USB for connecting to wireless access points for devices that do not have access to a camera"
+tags=[
   "html",
   "static-site",
   "usb",
   "wifi",
   "wifi-password"
 ]
-    +++
-    
++++
+
 # Wifi Web
 
 ## Summary

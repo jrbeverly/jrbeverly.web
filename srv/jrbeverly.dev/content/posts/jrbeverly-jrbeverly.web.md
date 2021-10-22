@@ -1,15 +1,15 @@
 +++
-    author="jrbeverly"
-    title="jrbeverly.web"
-    date="2020-06-27T21:01:56Z"
-    description="Repository mapping to the infrastructure of jrbeverly."
-    tags=[
+author="jrbeverly"
+title="jrbeverly.web"
+date="2020-06-27T21:01:56Z"
+description="Repository mapping to the infrastructure of jrbeverly."
+tags=[
   "jrbeverly",
   "monorepo",
   "personal-site"
 ]
-    +++
-    
++++
+
 # jrbeverly
 
 Represents the infrastructure resources of 'jrbeverly', keeping track of infrastructure components, assets and other resources that are needed for components.

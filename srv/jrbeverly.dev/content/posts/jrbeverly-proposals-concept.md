@@ -1,14 +1,14 @@
 +++
-    author="jrbeverly"
-    title="proposals-concept"
-    date="2019-10-30T03:40:50Z"
-    description="Index of all proposals and design documents"
-    tags=[
+author="jrbeverly"
+title="proposals-concept"
+date="2019-10-30T03:40:50Z"
+description="Index of all proposals and design documents"
+tags=[
   "design-documents",
   "proposals"
 ]
-    +++
-    
++++
+
 # Proposals
 
 Experimenting with the underlying infrastructure for a GitHub based proposals mechanisms that deploys to a web resource (website/subpage/etc)

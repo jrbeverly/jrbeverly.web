@@ -1,11 +1,11 @@
 +++
-    author="jrbeverly"
-    title="pwsh-from-github"
-    date="2019-11-17T15:13:06Z"
-    description="Experimenting with using GitHub to host a powershell library"
-    tags=[]
-    +++
-    
+author="jrbeverly"
+title="pwsh-from-github"
+date="2019-11-17T15:13:06Z"
+description="Experimenting with using GitHub to host a powershell library"
+tags=[]
++++
+
 # Powershell Library on GitHub
 
 ## Summary

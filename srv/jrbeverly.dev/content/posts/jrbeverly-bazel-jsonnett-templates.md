@@ -1,15 +1,15 @@
 +++
-    author="jrbeverly"
-    title="bazel-jsonnett-templates"
-    date="2021-09-12T17:15:18Z"
-    description="Experimenting with using bazel & jsonett to generate data from configuration files"
-    tags=[
+author="jrbeverly"
+title="bazel-jsonnett-templates"
+date="2021-09-12T17:15:18Z"
+description="Experimenting with using bazel & jsonett to generate data from configuration files"
+tags=[
   "bazel",
   "experiments",
   "jsonnet"
 ]
-    +++
-    
++++
+
 # Bazel & Jsonnet Templates
 
 Generating files from base configuration files using Jsonnet.

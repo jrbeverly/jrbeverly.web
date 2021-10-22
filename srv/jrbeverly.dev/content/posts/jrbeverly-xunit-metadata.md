@@ -1,9 +1,9 @@
 +++
-    author="jrbeverly"
-    title="xunit-metadata"
-    date="2018-11-02T00:52:39Z"
-    description="Strongly-typed attributes for the management and organization of tests."
-    tags=[
+author="jrbeverly"
+title="xunit-metadata"
+date="2018-11-02T00:52:39Z"
+description="Strongly-typed attributes for the management and organization of tests."
+tags=[
   "categories",
   "categorization",
   "organization",
@@ -11,8 +11,8 @@
   "testing",
   "testing-tools"
 ]
-    +++
-    
++++
+
 # XUnit.Metadata
 
 ## Summary

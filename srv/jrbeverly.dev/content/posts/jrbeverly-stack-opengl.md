@@ -1,16 +1,16 @@
 +++
-    author="jrbeverly"
-    title="stack-opengl"
-    date="2018-11-02T00:52:30Z"
-    description="stack-opengl is a variant of stack-net written in OpenGL. "
-    tags=[
+author="jrbeverly"
+title="stack-opengl"
+date="2018-11-02T00:52:30Z"
+description="stack-opengl is a variant of stack-net written in OpenGL. "
+tags=[
   "blocks",
   "opengl",
   "simple",
   "stacking"
 ]
-    +++
-    
++++
+
 # stack-opengl
 
 ## Summary

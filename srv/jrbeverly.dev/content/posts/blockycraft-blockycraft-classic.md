@@ -1,15 +1,15 @@
 +++
-    author="jrbeverly"
-    title="blockycraft-classic"
-    date="2020-01-13T00:26:20Z"
-    description="Blockycraft is a Minecraft inspired Block Engine."
-    tags=[
+author="jrbeverly"
+title="blockycraft-classic"
+date="2020-01-13T00:26:20Z"
+description="Blockycraft is a Minecraft inspired Block Engine."
+tags=[
   "block-engine",
   "opengl",
   "sdl2"
 ]
-    +++
-    
++++
+
 <h1 align="center">
   <a href="https://github.com/jrbeverly/Blockycraft" title="Blockycraft">
     <img alt="Blockycraft" src="./logo.png" width="200px" height="200px" />

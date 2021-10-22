@@ -1,9 +1,9 @@
 +++
-    author="jrbeverly"
-    title="exp-portfolio"
-    date="2018-11-02T00:52:25Z"
-    description="Collections data from a specified list of gitlab projects, then converts them into static HTML briefs."
-    tags=[
+author="jrbeverly"
+title="exp-portfolio"
+date="2018-11-02T00:52:25Z"
+description="Collections data from a specified list of gitlab projects, then converts them into static HTML briefs."
+tags=[
   "html",
   "outline",
   "personal-site",
@@ -11,8 +11,8 @@
   "redirect-page",
   "static-site"
 ]
-    +++
-    
++++
+
 # jrbeverly portfolio
 
 ## Summary

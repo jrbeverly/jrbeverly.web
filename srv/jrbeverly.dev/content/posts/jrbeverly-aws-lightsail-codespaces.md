@@ -1,15 +1,15 @@
 +++
-    author="jrbeverly"
-    title="aws-lightsail-codespaces"
-    date="2020-08-20T22:21:48Z"
-    description="code-server running on AWS Lightsail"
-    tags=[
+author="jrbeverly"
+title="aws-lightsail-codespaces"
+date="2020-08-20T22:21:48Z"
+description="code-server running on AWS Lightsail"
+tags=[
   "aws-lightsail",
   "code-server",
   "codespaces"
 ]
-    +++
-    
++++
+
 # Running code-server on AWS Lightsail
 
 ## Summary

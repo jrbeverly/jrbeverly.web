@@ -1,14 +1,14 @@
 +++
-    author="jrbeverly"
-    title="dog-project"
-    date="2020-01-11T18:05:28Z"
-    description="Identify a canine breed from an image."
-    tags=[
+author="jrbeverly"
+title="dog-project"
+date="2020-01-11T18:05:28Z"
+description="Identify a canine breed from an image."
+tags=[
   "cnn-classification",
   "udacity-ml-nanodegree"
 ]
-    +++
-    
++++
+
 # Classification of Dogs
 
 My implementation of the Convolutional Neural Networks (CNN) algorithm for identifying a canine’s breed from an image. Additionally, it supply the resembled dog breed if provided an image of a human.

@@ -1,17 +1,17 @@
 +++
-    author="jrbeverly"
-    title="vagrant-desktop-opengl"
-    date="2017-05-31T22:52:23Z"
-    description="[DEPRECATED] A base OpenGL Desktop environment, sandboxed on your local computer."
-    tags=[
+author="jrbeverly"
+title="vagrant-desktop-opengl"
+date="2017-05-31T22:52:23Z"
+description="[DEPRECATED] A base OpenGL Desktop environment, sandboxed on your local computer."
+tags=[
   "desktop-environment",
   "opengl",
   "shell",
   "vagrant",
   "virtualbox"
 ]
-    +++
-    
++++
+
 # Vagrant OpenGL Desktop
 
 ## Summary

@@ -1,9 +1,9 @@
 +++
-    author="jrbeverly"
-    title="contentbundler"
-    date="2018-11-02T00:41:04Z"
-    description="A proof of concept for generation of strongly typed paths using the Roslyn Framework."
-    tags=[
+author="jrbeverly"
+title="contentbundler"
+date="2018-11-02T00:41:04Z"
+description="A proof of concept for generation of strongly typed paths using the Roslyn Framework."
+tags=[
   "code-generation",
   "experiment",
   "poc",
@@ -12,8 +12,8 @@
   "roslyn",
   "strongly-typed"
 ]
-    +++
-    
++++
+
 # ContentBundler
 
 ## Summary

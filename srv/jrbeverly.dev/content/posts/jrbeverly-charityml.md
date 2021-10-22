@@ -1,14 +1,14 @@
 +++
-    author="jrbeverly"
-    title="charityml"
-    date="2020-02-24T17:50:35Z"
-    description="CharityML is a fictitious charity organization that was established to provide financial support for people eager to learn machine learning."
-    tags=[
+author="jrbeverly"
+title="charityml"
+date="2020-02-24T17:50:35Z"
+description="CharityML is a fictitious charity organization that was established to provide financial support for people eager to learn machine learning."
+tags=[
   "charityml",
   "udacity-mlnd"
 ]
-    +++
-    
++++
+
 # Finding Donors for CharityML
 
 Employ several supervised algorithms to accurately model individuals' income using data collected from the 1994 U.S. Census. From the best candidate algorithm from preliminary results and further optimize this algorithm to best model the data. Construct a model that accurately predicts whether an individual makes more than $50,000. This sort of task can arise in a non-profit setting, where organizations survive on donations. Understanding an individual's income can help a non-profit better understand how large of a donation to request, or whether or not they should reach out to begin with. While it can be difficult to determine an individual's general income bracket directly from public sources, we can (as we will see) infer this value from other publically available features.

@@ -1,11 +1,11 @@
 +++
-    author="jrbeverly"
-    title="rust-lang-checks"
-    date="2021-07-12T15:05:14Z"
-    description="Experimenting with some aspects of the Rust language"
-    tags=[]
-    +++
-    
+author="jrbeverly"
+title="rust-lang-checks"
+date="2021-07-12T15:05:14Z"
+description="Experimenting with some aspects of the Rust language"
+tags=[]
++++
+
 # Rust Language Checks
 
 Experimenting with aspects of Rustlang for working with database, and immutable data structures.

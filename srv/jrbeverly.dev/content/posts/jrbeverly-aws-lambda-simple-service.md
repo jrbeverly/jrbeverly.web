@@ -1,11 +1,11 @@
 +++
-    author="jrbeverly"
-    title="aws-lambda-simple-service"
-    date="2020-08-19T23:16:36Z"
-    description="Experimenting with lambda as on-demand app"
-    tags=[]
-    +++
-    
+author="jrbeverly"
+title="aws-lambda-simple-service"
+date="2020-08-19T23:16:36Z"
+description="Experimenting with lambda as on-demand app"
+tags=[]
++++
+
 # Express in Deployments
 
 A simple Express application built with the intent to test an Express server running in different environments (local, docker, lambda).
