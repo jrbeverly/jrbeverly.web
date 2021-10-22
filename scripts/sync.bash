@@ -28,6 +28,7 @@ for dataset in "${DIR}/repositories"/* ; do
         get_github_repo "${repo}" "${resp}"
 
         topics="$(jq -r '.topics' "${resp}")"
+        topics="$(jq -r ". |= . + [\"org:${dataset_name}\"]" <<< "$topics")"
         name="$(jq -r '.name' "${resp}")"
         ssh_url="$(jq -r '.ssh_url' "${resp}")"
         created_at="$(jq -r '.created_at' "${resp}")"
