@@ -1,14 +1,14 @@
 +++
-    author="jrbeverly"
-    title="ml-learning-lab"
-    date="2021-03-16T02:03:08Z"
-    description="Machine Learning Lab"
-    tags=[
+author="jrbeverly"
+title="ml-learning-lab"
+date="2021-03-16T02:03:08Z"
+description="Machine Learning Lab"
+tags=[
   "jupyter-notebook",
   "machine-learning"
 ]
-    +++
-    
++++
+
 # Machine Learning Lab
 
 A repository for aggregating my machine learning exercises, practices and learning labs. The projects included in this repository are based on the coursework for Udacity's Deep Learning Nanodegree Foundations. These are primarily from working on the Machine Learning Nanodegree offered by Udacity.

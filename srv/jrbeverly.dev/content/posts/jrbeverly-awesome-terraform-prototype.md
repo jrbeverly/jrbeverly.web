@@ -1,17 +1,17 @@
 +++
-    author="jrbeverly"
-    title="awesome-terraform-prototype"
-    date="2019-10-05T20:41:57Z"
-    description="Prototyping a concept of an awesome-list based on yaml files."
-    tags=[
+author="jrbeverly"
+title="awesome-terraform-prototype"
+date="2019-10-05T20:41:57Z"
+description="Prototyping a concept of an awesome-list based on yaml files."
+tags=[
   "awesome-list",
   "markdown",
   "mkdocs",
   "netlify",
   "yml"
 ]
-    +++
-    
++++
+
 # Awesome Terraform Prototype
 
 An experiment using `mkdocs` and a series of json/yml files to define an awesome list.

@@ -1,9 +1,9 @@
 +++
-    author="jrbeverly"
-    title="profile"
-    date="2018-11-02T00:52:26Z"
-    description="This is a one page user profile for Jonathan Beverly (jrbeverly - i.e. me)."
-    tags=[
+author="jrbeverly"
+title="profile"
+date="2018-11-02T00:52:26Z"
+description="This is a one page user profile for Jonathan Beverly (jrbeverly - i.e. me)."
+tags=[
   "about-me",
   "html",
   "personal",
@@ -11,8 +11,8 @@
   "profile",
   "static-site"
 ]
-    +++
-    
++++
+
 # jrbeverly.profile
 
 ## Summary

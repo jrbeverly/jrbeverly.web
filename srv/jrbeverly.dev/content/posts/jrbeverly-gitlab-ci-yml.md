@@ -1,9 +1,9 @@
 +++
-    author="jrbeverly"
-    title="gitlab-ci-yml"
-    date="2018-11-02T00:52:10Z"
-    description="A collection of GitLab CI configuration files that are used by my projects."
-    tags=[
+author="jrbeverly"
+title="gitlab-ci-yml"
+date="2018-11-02T00:52:10Z"
+description="A collection of GitLab CI configuration files that are used by my projects."
+tags=[
   "ci",
   "ci-cd",
   "docker",
@@ -12,8 +12,8 @@
   "samples",
   "templates"
 ]
-    +++
-    
++++
+
 # gitlab-ci.yml
 
 A collection of GitLab CI configuration files that are used by my projects. Stored here as the process of docker projects are polished and standardized.

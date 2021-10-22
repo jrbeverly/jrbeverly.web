@@ -1,11 +1,11 @@
 +++
-    author="jrbeverly"
-    title="github-app-golang"
-    date="2021-07-16T16:57:05Z"
-    description="Experiments with GitHub App written in Golang"
-    tags=[]
-    +++
-    
+author="jrbeverly"
+title="github-app-golang"
+date="2021-07-16T16:57:05Z"
+description="Experiments with GitHub App written in Golang"
+tags=[]
++++
+
 # GitHub App in Golang Prototyping
 
 GitHub App written in Golang with the AWS & GitHub integrations split away, to try and encode the core 'concepts' solely into the lib/ component

@@ -1,15 +1,15 @@
 +++
-    author="jrbeverly"
-    title="internal-reserved-license-repo"
-    date="2021-09-11T19:18:11Z"
-    description="Experimenting with laying out the licensing stamp for a closed/internal source repository"
-    tags=[
+author="jrbeverly"
+title="internal-reserved-license-repo"
+date="2021-09-11T19:18:11Z"
+description="Experimenting with laying out the licensing stamp for a closed/internal source repository"
+tags=[
   "experiments",
   "licensing",
   "repository-templates"
 ]
-    +++
-    
++++
+
 # internal-reserved-license-repo
 
 Experimenting with laying out the licensing stamp for a closed/internal source repository

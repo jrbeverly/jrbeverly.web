@@ -1,9 +1,9 @@
 +++
-    author="jrbeverly"
-    title="stack-net"
-    date="2018-11-02T00:52:29Z"
-    description="A block blueprinter, built using a visual graph style approach to graphics."
-    tags=[
+author="jrbeverly"
+title="stack-net"
+date="2018-11-02T00:52:29Z"
+description="A block blueprinter, built using a visual graph style approach to graphics."
+tags=[
   "blocks",
   "commands",
   "design",
@@ -12,8 +12,8 @@
   "windows",
   "wpf"
 ]
-    +++
-    
++++
+
 # Stack-NET
 
 ## Summary

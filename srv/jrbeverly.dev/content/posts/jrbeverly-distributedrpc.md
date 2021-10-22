@@ -1,9 +1,9 @@
 +++
-    author="jrbeverly"
-    title="distributedrpc"
-    date="2018-11-02T00:41:09Z"
-    description="A multi-client, multi-server environment that relies on a binder to facilitate an RPC system."
-    tags=[
+author="jrbeverly"
+title="distributedrpc"
+date="2018-11-02T00:41:09Z"
+description="A multi-client, multi-server environment that relies on a binder to facilitate an RPC system."
+tags=[
   "commands",
   "courseware",
   "experiments",
@@ -12,8 +12,8 @@
   "rpc-client",
   "rpc-framework"
 ]
-    +++
-    
++++
+
 # DistributedRPC
 
 ## Summary

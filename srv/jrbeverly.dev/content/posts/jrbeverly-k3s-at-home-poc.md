@@ -1,11 +1,11 @@
 +++
-    author="jrbeverly"
-    title="k3s-at-home-poc"
-    date="2021-07-12T20:40:29Z"
-    description="Validating that K3s in internal HomeLab is viable"
-    tags=[]
-    +++
-    
+author="jrbeverly"
+title="k3s-at-home-poc"
+date="2021-07-12T20:40:29Z"
+description="Validating that K3s in internal HomeLab is viable"
+tags=[]
++++
+
 # K3s In HomeLab Proof of Concept
 
 Determining how viable it would to be switch from using docker-compose to using K3s to run my internal homelab environment.

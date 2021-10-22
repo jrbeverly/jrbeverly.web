@@ -1,15 +1,15 @@
 +++
-    author="jrbeverly"
-    title="aws-lambda-remote-session"
-    date="2020-01-03T22:26:00Z"
-    description="Prototype running of New-PSSession in an AWS PowerShell Lambda"
-    tags=[
+author="jrbeverly"
+title="aws-lambda-remote-session"
+date="2020-01-03T22:26:00Z"
+description="Prototype running of New-PSSession in an AWS PowerShell Lambda"
+tags=[
   "aws",
   "helpers",
   "powershell"
 ]
-    +++
-    
++++
+
 # AWS Lambda PowerShell Example
 
 A simple Lambda function written in PowerShell to validate if `New-PSSession` can be leveraged from an AWS Lambda.

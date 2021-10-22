@@ -1,9 +1,9 @@
 +++
-    author="jrbeverly"
-    title="localization-net"
-    date="2018-11-02T00:52:18Z"
-    description="A simple experiment prototyping a concept for strongly typed language terms."
-    tags=[
+author="jrbeverly"
+title="localization-net"
+date="2018-11-02T00:52:18Z"
+description="A simple experiment prototyping a concept for strongly typed language terms."
+tags=[
   "code-generation",
   "demonstration",
   "experiment",
@@ -11,8 +11,8 @@
   "prototype",
   "strongly-typed"
 ]
-    +++
-    
++++
+
 # Localization.NET Concept
 
 ## Summary

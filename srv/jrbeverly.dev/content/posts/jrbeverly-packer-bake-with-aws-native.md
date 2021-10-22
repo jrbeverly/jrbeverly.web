@@ -1,13 +1,13 @@
 +++
-    author="jrbeverly"
-    title="packer-bake-with-aws-native"
-    date="2021-05-01T01:10:12Z"
-    description="Creating AMIs from a common packaged environment in AWS"
-    tags=[
+author="jrbeverly"
+title="packer-bake-with-aws-native"
+date="2021-05-01T01:10:12Z"
+description="Creating AMIs from a common packaged environment in AWS"
+tags=[
   "experiment"
 ]
-    +++
-    
++++
+
 # Packer Bakery with AWS Native
 
 Creating pre-baked AMIs using Packer within AWS Native resources (Codepipeline / CodeBuild).

@@ -1,17 +1,17 @@
 +++
-    author="jrbeverly"
-    title="jcompiler"
-    date="2021-10-04T23:31:06Z"
-    description="A Joos programming language compiler, written in Java."
-    tags=[
+author="jrbeverly"
+title="jcompiler"
+date="2021-10-04T23:31:06Z"
+description="A Joos programming language compiler, written in Java."
+tags=[
   "compiler",
   "coursework",
   "java",
   "joos",
   "parser"
 ]
-    +++
-    
++++
+
 # JCompiler
 
 ## Summary

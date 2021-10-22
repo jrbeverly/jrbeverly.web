@@ -1,15 +1,15 @@
 +++
-    author="jrbeverly"
-    title="home"
-    date="2020-11-28T02:46:39Z"
-    description="Ansible descriptions of internal home network"
-    tags=[
+author="jrbeverly"
+title="home"
+date="2020-11-28T02:46:39Z"
+description="Ansible descriptions of internal home network"
+tags=[
   "ansible",
   "homelab",
   "raspberrypi"
 ]
-    +++
-    
++++
+
 # HomeLab - Internal Tooling
 
 Ansible playbooks for configuring services running within my internal home cloud.

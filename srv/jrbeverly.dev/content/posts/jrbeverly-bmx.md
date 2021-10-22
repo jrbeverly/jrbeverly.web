@@ -1,15 +1,15 @@
 +++
-    author="jrbeverly"
-    title="bmx"
-    date="2020-01-08T18:15:28Z"
-    description="IAM-less AWS API access for humans."
-    tags=[
+author="jrbeverly"
+title="bmx"
+date="2020-01-08T18:15:28Z"
+description="IAM-less AWS API access for humans."
+tags=[
   "d2l",
   "iam",
   "okta"
 ]
-    +++
-    
++++
+
 # BMX
 
 BMX grants you API access to your AWS accounts, based on Okta credentials that you already own.  

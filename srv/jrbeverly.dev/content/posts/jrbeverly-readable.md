@@ -1,15 +1,15 @@
 +++
-    author="jrbeverly"
-    title="readable"
-    date="2018-01-17T23:40:48Z"
-    description="Udacity Nanodegree React Project."
-    tags=[
+author="jrbeverly"
+title="readable"
+date="2018-01-17T23:40:48Z"
+description="Udacity Nanodegree React Project."
+tags=[
   "react",
   "reactjs",
   "udacity-react-nanodegree"
 ]
-    +++
-    
++++
+
 ## Readable
 
 Udacity Nanodegree React Project

@@ -1,9 +1,9 @@
 +++
-    author="jrbeverly"
-    title="mirroring"
-    date="2018-11-02T00:52:21Z"
-    description="A lightweight bash script that allows easy mirroring of projects to external git hosts."
-    tags=[
+author="jrbeverly"
+title="mirroring"
+date="2018-11-02T00:52:21Z"
+description="A lightweight bash script that allows easy mirroring of projects to external git hosts."
+tags=[
   "backup",
   "backup-script",
   "backups",
@@ -13,8 +13,8 @@
   "mirroring",
   "mirrors"
 ]
-    +++
-    
++++
+
 # Mirroring
 
 ## Summary

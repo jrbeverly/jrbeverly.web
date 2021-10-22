@@ -1,14 +1,14 @@
 +++
-    author="jrbeverly"
-    title="lab-starter"
-    date="2019-09-01T20:31:22Z"
-    description="GitHub Learning Lab Tutorial on 'Write a Learning Lab course'"
-    tags=[
+author="jrbeverly"
+title="lab-starter"
+date="2019-09-01T20:31:22Z"
+description="GitHub Learning Lab Tutorial on 'Write a Learning Lab course'"
+tags=[
   "github",
   "github-learning-lab"
 ]
-    +++
-    
++++
+
 # GitHub Learning Lab - Lab Starter
 
 Noticed this when working with GitHub Actions that you can have a automated 'teacher' by using linting + GitHub Bot. Thought this was an interesting idea, and have started this repository to get a better understanding of how this actually works.

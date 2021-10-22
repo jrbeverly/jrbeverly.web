@@ -1,16 +1,16 @@
 +++
-    author="jrbeverly"
-    title="bazel-toolchain-from-s3"
-    date="2021-09-26T23:53:42Z"
-    description="Exploring bazel toolchains mirrored in AWS S3"
-    tags=[
+author="jrbeverly"
+title="bazel-toolchain-from-s3"
+date="2021-09-26T23:53:42Z"
+description="Exploring bazel toolchains mirrored in AWS S3"
+tags=[
   "aws-s3",
   "bazel",
   "bazel-aws",
   "bazel-toolchain"
 ]
-    +++
-    
++++
+
 # bazel-toolchain-from-s3
 
 Experimenting with setting up Bazek toolchains, when the tools are mirrored into an AWS S3 bucket.

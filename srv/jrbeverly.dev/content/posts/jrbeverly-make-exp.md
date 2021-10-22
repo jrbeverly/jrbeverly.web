@@ -1,16 +1,16 @@
 +++
-    author="jrbeverly"
-    title="make-exp"
-    date="2018-12-12T22:46:15Z"
-    description="Experimenting with a build-harness style of makefiles"
-    tags=[
+author="jrbeverly"
+title="make-exp"
+date="2018-12-12T22:46:15Z"
+description="Experimenting with a build-harness style of makefiles"
+tags=[
   "build",
   "build-tool",
   "experiment",
   "makefile"
 ]
-    +++
-    
++++
+
 # Makefile Experiments
 
 ## Summary
