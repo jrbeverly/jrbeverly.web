@@ -1,0 +1,24 @@
+name: "Dataset - Synchronize from GitHub"
+
+on:
+  schedule:
+    - cron: "30 4 * * 4"
+  workflow_dispatch:
+
+jobs:
+  dataset-synchronize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Configure git
+        if: ${{ steps.digest.outputs.image-digest != steps.source.outputs.image-digest }}
+        uses: ./.github/actions/git-config
+        with:
+          username: jrbeverly
+          email: jonathan@jrbeverly.me
+          branch: "base-image-to-${{ steps.tag.outputs.image-tag }}"
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Synchronize the branch
+        run: |
+          git add -f .
+          git commit -m 'sync(github): Repository datasets'
