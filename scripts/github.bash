@@ -37,3 +37,23 @@ function get_repos_in_user() {
         echo "${contents}" | jq -r '.[] | .full_name' | tr '[:upper:]' '[:lower:]' >> "${results}"
     done
 }
+
+function get_github_repo() {
+    local -r repo="$1"
+    local -r result="$2"
+
+    local -r url="https://api.github.com/repos/${repo}"
+    curl -s -u "jrbeverly:${GITHUB_TOKEN}" \
+        -H "Accept: application/vnd.github.mercy-preview+json" \
+        "${url}" > "${result}"
+}
+
+function get_github_repo_file() {
+    local -r repo="$1"
+    local -r result="$2"
+
+    local -r url="https://api.github.com/repos/${repo}/contents/README.md"
+    curl -s -u "jrbeverly:${GITHUB_TOKEN}" \
+        -H "Accept: application/vnd.github.mercy-preview+json" \
+        "${url}" > "${result}"
+}
