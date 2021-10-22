@@ -1,0 +1,38 @@
+name: "jrbeverly.dev"
+
+on:
+  schedule:
+    - cron: "30 4 * * 2"
+  workflow_dispatch:
+  push:
+    paths:
+    - srv/**
+    - .github/workflows/build.deploy.yml
+
+jobs:
+  hugo:
+    name: build-deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Build & Package
+        run: |
+          bazel run //srv/jrbeverly.dev:publish
+          bazel run //srv/jrbeverly.me:publish
+
+      - name: Deploy - jrbeverly.dev
+        uses: jrbeverly-actions/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: netlify/jrbeverly.dev
+          publish_dir: ./public/jrbeverly.dev
+
+      - name: Deploy - jrbeverly.me
+        uses: jrbeverly-actions/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: netlify/jrbeverly.me
+          publish_dir: ./public/jrbeverly.me
