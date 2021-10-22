@@ -10,7 +10,8 @@ tags=[
   "docker-ci-images",
   "html",
   "html-generation",
-  "pdf2htmlex"
+  "pdf2htmlex",
+  "org:cardboardci"
 ]
 +++
 

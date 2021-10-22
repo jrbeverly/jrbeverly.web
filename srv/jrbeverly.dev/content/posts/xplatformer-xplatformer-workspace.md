@@ -5,7 +5,8 @@ date="2018-11-02T00:52:36Z"
 description="A meta-repository for facilitating development of the many-repository XPlatformer project."
 tags=[
   "platformer",
-  "x11"
+  "x11",
+  "org:xplatformer"
 ]
 +++
 

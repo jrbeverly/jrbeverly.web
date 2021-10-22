@@ -6,7 +6,8 @@ description="Experimenting with laying out the licensing stamp for a closed/inte
 tags=[
   "experiments",
   "licensing",
-  "repository-templates"
+  "repository-templates",
+  "org:jrbeverly"
 ]
 +++
 

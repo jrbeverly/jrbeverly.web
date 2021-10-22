@@ -5,7 +5,8 @@ date="2017-05-31T22:46:03Z"
 description="A framework for a 2D Platformer built using the X Window System."
 tags=[
   "game-development",
-  "x11"
+  "x11",
+  "org:xplatformer"
 ]
 +++
 

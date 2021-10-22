@@ -6,7 +6,8 @@ description="Udacity Nanodegree React Project."
 tags=[
   "react",
   "reactjs",
-  "udacity-react-nanodegree"
+  "udacity-react-nanodegree",
+  "org:jrbeverly"
 ]
 +++
 

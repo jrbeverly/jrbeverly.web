@@ -7,7 +7,8 @@ tags=[
   "docker",
   "dockerfile",
   "linter",
-  "shellcheck"
+  "shellcheck",
+  "org:cardboardci"
 ]
 +++
 

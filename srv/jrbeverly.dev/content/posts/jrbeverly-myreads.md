@@ -6,7 +6,8 @@ description="A digital bookshelf app that allows you to select and categorize bo
 tags=[
   "react",
   "react-redux",
-  "udacity-react-nanodegree"
+  "udacity-react-nanodegree",
+  "org:jrbeverly"
 ]
 +++
 

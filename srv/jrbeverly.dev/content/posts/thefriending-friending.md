@@ -8,7 +8,8 @@ tags=[
   "html",
   "javascript",
   "mockups",
-  "prototype"
+  "prototype",
+  "org:thefriending"
 ]
 +++
 

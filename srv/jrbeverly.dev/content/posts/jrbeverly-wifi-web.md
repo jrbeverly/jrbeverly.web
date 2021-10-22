@@ -8,7 +8,8 @@ tags=[
   "static-site",
   "usb",
   "wifi",
-  "wifi-password"
+  "wifi-password",
+  "org:jrbeverly"
 ]
 +++
 

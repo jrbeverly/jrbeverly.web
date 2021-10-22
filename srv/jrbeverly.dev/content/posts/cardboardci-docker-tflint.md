@@ -9,7 +9,8 @@ tags=[
   "hcl",
   "linter",
   "terraform",
-  "tflint"
+  "tflint",
+  "org:cardboardci"
 ]
 +++
 

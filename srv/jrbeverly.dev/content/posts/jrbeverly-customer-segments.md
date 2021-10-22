@@ -5,7 +5,8 @@ date="2020-02-24T17:48:47Z"
 description="Applying unsupervised learning techniques on product spending data to identify customer segments hidden in the data."
 tags=[
   "customer-segmentation",
-  "udacity-mlnd"
+  "udacity-mlnd",
+  "org:jrbeverly"
 ]
 +++
 

@@ -6,7 +6,8 @@ description="Experimenting with using bazel & jsonett to generate data from conf
 tags=[
   "bazel",
   "experiments",
-  "jsonnet"
+  "jsonnet",
+  "org:jrbeverly"
 ]
 +++
 

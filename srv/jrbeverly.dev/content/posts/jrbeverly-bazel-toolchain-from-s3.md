@@ -7,7 +7,8 @@ tags=[
   "aws-s3",
   "bazel",
   "bazel-aws",
-  "bazel-toolchain"
+  "bazel-toolchain",
+  "org:jrbeverly"
 ]
 +++
 

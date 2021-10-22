@@ -9,7 +9,8 @@ tags=[
   "experiments",
   "shell",
   "vagrant",
-  "virtualbox"
+  "virtualbox",
+  "org:cardboardci"
 ]
 +++
 

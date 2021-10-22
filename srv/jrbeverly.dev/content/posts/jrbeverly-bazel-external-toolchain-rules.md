@@ -6,7 +6,8 @@ description="Exploring enabling bazel toolchains with an external 'toolchain' fi
 tags=[
   "bazel",
   "bazel-rules",
-  "toolchains"
+  "toolchains",
+  "org:jrbeverly"
 ]
 +++
 

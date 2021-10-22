@@ -6,7 +6,8 @@ description="code-server running on AWS Lightsail"
 tags=[
   "aws-lightsail",
   "code-server",
-  "codespaces"
+  "codespaces",
+  "org:jrbeverly"
 ]
 +++
 

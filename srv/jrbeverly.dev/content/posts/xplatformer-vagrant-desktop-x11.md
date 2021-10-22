@@ -8,7 +8,8 @@ tags=[
   "shell",
   "vagrant",
   "virtualbox",
-  "x11"
+  "x11",
+  "org:xplatformer"
 ]
 +++
 

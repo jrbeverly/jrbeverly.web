@@ -7,7 +7,8 @@ tags=[
   "alpine",
   "baseimage",
   "docker",
-  "docker-ci-images"
+  "docker-ci-images",
+  "org:cardboardci"
 ]
 +++
 

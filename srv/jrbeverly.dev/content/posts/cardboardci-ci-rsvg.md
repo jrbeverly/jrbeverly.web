@@ -8,7 +8,8 @@ tags=[
   "docker-ci-images",
   "gitlab-ci",
   "makefile",
-  "svg"
+  "svg",
+  "org:cardboardci"
 ]
 +++
 

@@ -8,7 +8,8 @@ tags=[
   "docker",
   "docker-ci-images",
   "latex",
-  "tex"
+  "tex",
+  "org:cardboardci"
 ]
 +++
 

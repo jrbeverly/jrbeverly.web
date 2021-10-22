@@ -5,7 +5,8 @@ date="2021-03-16T02:03:08Z"
 description="Machine Learning Lab"
 tags=[
   "jupyter-notebook",
-  "machine-learning"
+  "machine-learning",
+  "org:jrbeverly"
 ]
 +++
 

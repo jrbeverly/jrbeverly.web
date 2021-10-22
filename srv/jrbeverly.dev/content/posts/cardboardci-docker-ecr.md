@@ -8,7 +8,8 @@ tags=[
   "awscli",
   "docker-registry",
   "dockerfile",
-  "ecr"
+  "ecr",
+  "org:cardboardci"
 ]
 +++
 

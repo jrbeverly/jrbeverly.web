@@ -10,7 +10,8 @@ tags=[
   "docker-ci-images",
   "makefile",
   "shell",
-  "template"
+  "template",
+  "org:cardboardci"
 ]
 +++
 

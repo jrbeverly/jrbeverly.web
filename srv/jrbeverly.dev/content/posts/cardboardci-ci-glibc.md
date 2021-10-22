@@ -9,7 +9,8 @@ tags=[
   "docker-ci-images",
   "docker-latex",
   "gitlab-ci",
-  "glibc"
+  "glibc",
+  "org:cardboardci"
 ]
 +++
 

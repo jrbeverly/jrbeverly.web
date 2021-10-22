@@ -8,7 +8,8 @@ tags=[
   "infrastructure-as-code",
   "packer",
   "simple",
-  "template"
+  "template",
+  "org:devkitspaces"
 ]
 +++
 

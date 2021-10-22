@@ -9,7 +9,8 @@ tags=[
   "png",
   "rasterization",
   "rsvg",
-  "svg"
+  "svg",
+  "org:jrbeverly"
 ]
 +++
 

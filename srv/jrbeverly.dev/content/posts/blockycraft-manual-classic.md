@@ -7,7 +7,8 @@ tags=[
   "blockycraft",
   "documentation",
   "latex",
-  "manual"
+  "manual",
+  "org:blockycraft"
 ]
 +++
 

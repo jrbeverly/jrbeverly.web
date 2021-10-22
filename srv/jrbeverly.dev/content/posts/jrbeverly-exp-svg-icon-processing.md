@@ -7,7 +7,8 @@ tags=[
   "nodejs",
   "rasterization",
   "svg",
-  "svg-icons"
+  "svg-icons",
+  "org:jrbeverly"
 ]
 +++
 

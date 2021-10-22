@@ -4,7 +4,8 @@ title="packer-bake-with-aws-native"
 date="2021-05-01T01:10:12Z"
 description="Creating AMIs from a common packaged environment in AWS"
 tags=[
-  "experiment"
+  "experiment",
+  "org:jrbeverly"
 ]
 +++
 

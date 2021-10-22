@@ -3,7 +3,9 @@ author="jrbeverly"
 title="pwsh-from-github"
 date="2019-11-17T15:13:06Z"
 description="Experimenting with using GitHub to host a powershell library"
-tags=[]
+tags=[
+  "org:jrbeverly"
+]
 +++
 
 # Powershell Library on GitHub

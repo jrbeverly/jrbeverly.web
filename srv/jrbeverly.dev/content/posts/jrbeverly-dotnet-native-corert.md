@@ -6,7 +6,8 @@ description="A simple CI/CD pipeline making use of CoreRT to build native toolin
 tags=[
   "cicd",
   "docker",
-  "dotnet"
+  "dotnet",
+  "org:jrbeverly"
 ]
 +++
 

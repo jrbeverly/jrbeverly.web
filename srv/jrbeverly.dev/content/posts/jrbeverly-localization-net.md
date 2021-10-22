@@ -9,7 +9,8 @@ tags=[
   "experiment",
   "globalization-and-localization",
   "prototype",
-  "strongly-typed"
+  "strongly-typed",
+  "org:jrbeverly"
 ]
 +++
 

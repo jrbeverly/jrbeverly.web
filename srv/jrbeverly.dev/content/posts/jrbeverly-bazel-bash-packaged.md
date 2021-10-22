@@ -6,7 +6,8 @@ description="Experimenting with using bazel to package+test glue shell scripts"
 tags=[
   "bats-core",
   "bazel",
-  "bazel-shell"
+  "bazel-shell",
+  "org:jrbeverly"
 ]
 +++
 

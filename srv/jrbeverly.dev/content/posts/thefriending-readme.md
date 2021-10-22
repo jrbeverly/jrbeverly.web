@@ -5,7 +5,8 @@ date="2020-04-10T19:38:05Z"
 description="README for the Friending Community"
 tags=[
   "brand",
-  "readme"
+  "readme",
+  "org:thefriending"
 ]
 +++
 

@@ -5,7 +5,8 @@ date="2019-10-30T03:40:50Z"
 description="Index of all proposals and design documents"
 tags=[
   "design-documents",
-  "proposals"
+  "proposals",
+  "org:jrbeverly"
 ]
 +++
 

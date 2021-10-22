@@ -7,7 +7,8 @@ tags=[
   "batch",
   "boxstarter",
   "chocolatey",
-  "windows"
+  "windows",
+  "org:devkitspaces"
 ]
 +++
 
