@@ -15,6 +15,7 @@ function get_repos_in_organization() {
 
         url="${base_url}?page=${i}"
         echo "${contents}" | jq -r '.[] | .full_name' | tr '[:upper:]' '[:lower:]' >> "${results}"
+        sleep 10
     done
 }
 
@@ -35,6 +36,7 @@ function get_repos_in_user() {
 
         url="${base_url}?page=${i}"
         echo "${contents}" | jq -r '.[] | .full_name' | tr '[:upper:]' '[:lower:]' >> "${results}"
+        sleep 10
     done
 }
 
