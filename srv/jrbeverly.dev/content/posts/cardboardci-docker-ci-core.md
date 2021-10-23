@@ -3,11 +3,7 @@ author="jrbeverly"
 title="docker-ci-core"
 date="2019-10-27T02:27:12Z"
 description="A base ubuntu image for CI images to work off."
-tags=[
-  "baseimage",
-  "dockerfile",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # CI Core

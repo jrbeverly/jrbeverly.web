@@ -3,11 +3,7 @@ author="jrbeverly"
 title="git-timeline"
 date="2020-01-04T01:26:48Z"
 description="Adjust the time of a series of commits in a git repository"
-tags=[
-  "git",
-  "git-commit-format",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # Git Timeline

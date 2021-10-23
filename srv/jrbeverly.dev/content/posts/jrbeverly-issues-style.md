@@ -3,17 +3,7 @@ author="jrbeverly"
 title="issues-style"
 date="2018-11-02T00:52:13Z"
 description="A style guide for issue management, release versioning, Git Flow and repository documentation."
-tags=[
-  "issue-management",
-  "issues",
-  "markdown",
-  "organization",
-  "prototype",
-  "pull-requests",
-  "team",
-  "templates",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # Issues.Style

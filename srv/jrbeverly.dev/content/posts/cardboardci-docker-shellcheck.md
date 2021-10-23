@@ -3,14 +3,7 @@ author="jrbeverly"
 title="docker-shellcheck"
 date="2019-03-02T17:59:54Z"
 description="ShellCheck is a static anaylsis tool that automatically finds bugs in your shell scripts."
-tags=[
-  "developer-tools",
-  "dockerfile",
-  "linter",
-  "shell",
-  "static-analysis",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for Shellcheck

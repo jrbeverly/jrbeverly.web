@@ -3,14 +3,7 @@ author="jrbeverly"
 title="raytracer"
 date="2018-11-02T00:52:27Z"
 description="A Raytracer that receives a scene defined in lua, and produces an image output."
-tags=[
-  "broken-ray",
-  "coursework",
-  "graphics",
-  "mathematics",
-  "raytracer",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # RayTracer

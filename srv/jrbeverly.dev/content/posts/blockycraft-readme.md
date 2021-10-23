@@ -3,11 +3,7 @@ author="jrbeverly"
 title="readme"
 date="2020-05-07T01:08:13Z"
 description="README of the Blockycraft organization"
-tags=[
-  "brand",
-  "readme",
-  "org:blockycraft"
-]
+tags=["org:blockycraft"]
 +++
 
 # Blockycraft

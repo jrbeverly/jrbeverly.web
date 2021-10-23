@@ -3,13 +3,7 @@ author="jrbeverly"
 title="bazel-csharp-testcases"
 date="2019-10-26T21:27:51Z"
 description="A collection of example usages of rules_csharp for development purposes"
-tags=[
-  "bazel",
-  "csharp",
-  "dotnet",
-  "rules-csharp",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # Bazel CSharp Rules Examples

@@ -3,16 +3,7 @@ author="jrbeverly"
 title="boxstarter-workspace"
 date="2018-11-02T00:40:42Z"
 description="A set of chocolatey packages for setting up a Windows PC."
-tags=[
-  "chocolatey",
-  "chocolatey-packages",
-  "dependencies",
-  "nuget",
-  "packages",
-  "provisioning",
-  "windows",
-  "org:devkitspaces"
-]
+tags=["org:devkitspaces"]
 +++
 
 # Boxstarter.Workspace

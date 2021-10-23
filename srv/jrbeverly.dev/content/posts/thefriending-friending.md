@@ -3,14 +3,7 @@ author="jrbeverly"
 title="friending"
 date="2017-05-31T22:07:30Z"
 description="Friending is an imaginary online dating, friendship, and social networking mobile application that features user-created questionnaires. "
-tags=[
-  "css",
-  "html",
-  "javascript",
-  "mockups",
-  "prototype",
-  "org:thefriending"
-]
+tags=["org:thefriending"]
 +++
 
 # Friending

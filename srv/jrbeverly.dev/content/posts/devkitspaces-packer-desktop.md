@@ -3,14 +3,7 @@ author="jrbeverly"
 title="packer-desktop"
 date="2018-11-02T00:52:23Z"
 description="This build configuration installs the vagrant-desktop environments onto minimal ubuntu images that can be used with Virtualbox."
-tags=[
-  "desktop-environment",
-  "infrastructure-as-code",
-  "packer",
-  "simple",
-  "template",
-  "org:devkitspaces"
-]
+tags=["org:devkitspaces"]
 +++
 
 # Packer Desktop

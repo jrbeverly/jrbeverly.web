@@ -3,16 +3,7 @@ author="jrbeverly"
 title="ci-boilerplate"
 date="2017-05-31T23:01:35Z"
 description="[DEPRECATED] A boilerplate template for specifying a docker image using the makefile build approach."
-tags=[
-  "boilerplate",
-  "docker",
-  "docker-boilerplate",
-  "docker-ci-images",
-  "makefile",
-  "shell",
-  "template",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Boilerplate for Docker Repository

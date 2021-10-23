@@ -3,15 +3,7 @@ author="jrbeverly"
 title="localization-net"
 date="2018-11-02T00:52:18Z"
 description="A simple experiment prototyping a concept for strongly typed language terms."
-tags=[
-  "code-generation",
-  "demonstration",
-  "experiment",
-  "globalization-and-localization",
-  "prototype",
-  "strongly-typed",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # Localization.NET Concept

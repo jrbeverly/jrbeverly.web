@@ -3,14 +3,7 @@ author="jrbeverly"
 title="awesome-terraform-prototype"
 date="2019-10-05T20:41:57Z"
 description="Prototyping a concept of an awesome-list based on yaml files."
-tags=[
-  "awesome-list",
-  "markdown",
-  "mkdocs",
-  "netlify",
-  "yml",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # Awesome Terraform Prototype

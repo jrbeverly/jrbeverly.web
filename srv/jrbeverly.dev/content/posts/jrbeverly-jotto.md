@@ -3,14 +3,7 @@ author="jrbeverly"
 title="jotto"
 date="2017-05-31T14:21:28Z"
 description="Jotto is a logic-oriented word game played with two players."
-tags=[
-  "gitalb-ci",
-  "java",
-  "junit",
-  "makefile",
-  "maven",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # Jotto

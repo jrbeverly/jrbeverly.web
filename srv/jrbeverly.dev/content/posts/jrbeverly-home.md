@@ -3,12 +3,7 @@ author="jrbeverly"
 title="home"
 date="2020-11-28T02:46:39Z"
 description="Ansible descriptions of internal home network"
-tags=[
-  "ansible",
-  "homelab",
-  "raspberrypi",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # HomeLab - Internal Tooling

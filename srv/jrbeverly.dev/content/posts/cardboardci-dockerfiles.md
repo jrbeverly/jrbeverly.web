@@ -3,12 +3,7 @@ author="jrbeverly"
 title="dockerfiles"
 date="2020-04-20T03:31:14Z"
 description="Dockerfiles for CardboardCI images"
-tags=[
-  "cardboardci-images",
-  "docker",
-  "dockerfile",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # cardboardci-dockerfiles

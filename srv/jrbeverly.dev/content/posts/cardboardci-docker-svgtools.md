@@ -3,13 +3,7 @@ author="jrbeverly"
 title="docker-svgtools"
 date="2019-03-02T17:59:57Z"
 description="Tools for working with Scalable Vector Graphics (SVG) files"
-tags=[
-  "dockerfile",
-  "png",
-  "svg",
-  "svg-editor",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for SVG Tools

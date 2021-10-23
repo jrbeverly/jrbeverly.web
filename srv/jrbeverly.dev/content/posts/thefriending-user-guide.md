@@ -3,13 +3,7 @@ author="jrbeverly"
 title="user-guide"
 date="2017-05-31T22:07:15Z"
 description="The Friending user manual provided as a web resource generated from the user manual."
-tags=[
-  "conversion",
-  "html",
-  "latex",
-  "pdf2htmlex",
-  "org:thefriending"
-]
+tags=["org:thefriending"]
 +++
 
 # Friending User Guide

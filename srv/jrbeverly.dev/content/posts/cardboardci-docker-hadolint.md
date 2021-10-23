@@ -3,13 +3,7 @@ author="jrbeverly"
 title="docker-hadolint"
 date="2019-03-02T17:51:37Z"
 description="Dockerfile linter, validate inline bash, written in Haskell."
-tags=[
-  "docker",
-  "dockerfile",
-  "linter",
-  "shellcheck",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for HadoLint

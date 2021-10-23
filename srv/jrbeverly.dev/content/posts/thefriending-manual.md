@@ -3,13 +3,7 @@ author="jrbeverly"
 title="manual"
 date="2017-05-31T22:07:04Z"
 description="The Friending user manual provides info and tips to help you understand the mobile application."
-tags=[
-  "gitlab-ci",
-  "latex",
-  "specification",
-  "user-manual",
-  "org:thefriending"
-]
+tags=["org:thefriending"]
 +++
 
 # Friending Manual

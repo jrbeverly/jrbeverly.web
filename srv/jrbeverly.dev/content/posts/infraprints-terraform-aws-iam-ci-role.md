@@ -3,9 +3,7 @@ author="jrbeverly"
 title="terraform-aws-iam-ci-role"
 date="2019-11-04T00:24:25Z"
 description="Describes IAM resources for delegating access to external services."
-tags=[
-  "org:infraprints"
-]
+tags=["org:infraprints"]
 +++
 
 # AWS IAM External Role

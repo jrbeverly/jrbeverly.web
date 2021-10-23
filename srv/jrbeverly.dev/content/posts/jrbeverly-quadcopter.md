@@ -3,12 +3,7 @@ author="jrbeverly"
 title="quadcopter"
 date="2020-01-10T02:31:05Z"
 description="A quadcopter flying agent that learns to take off using reinforcement learning."
-tags=[
-  "ddpg",
-  "quadcopter",
-  "udacity-ml-nanodegree",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # Quadcopter using Reinforcement Learning

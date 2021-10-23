@@ -3,14 +3,7 @@ author="jrbeverly"
 title="docker-github"
 date="2019-03-02T17:58:39Z"
 description="A command-line tool that makes git easier to use with GitHub."
-tags=[
-  "dockerfile",
-  "github-api",
-  "githubcli",
-  "hub",
-  "pull-request",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for GitHubCLI

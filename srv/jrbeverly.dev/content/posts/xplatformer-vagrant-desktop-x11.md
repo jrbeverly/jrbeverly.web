@@ -3,14 +3,7 @@ author="jrbeverly"
 title="vagrant-desktop-x11"
 date="2017-05-31T22:52:11Z"
 description="This repository provides a X11 Linux Desktop environment for the development of the XPlatformer project."
-tags=[
-  "desktop-environment",
-  "shell",
-  "vagrant",
-  "virtualbox",
-  "x11",
-  "org:xplatformer"
-]
+tags=["org:xplatformer"]
 +++
 
 # Vagrant X11 Desktop

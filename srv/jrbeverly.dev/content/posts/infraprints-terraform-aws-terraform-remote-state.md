@@ -3,9 +3,7 @@ author="jrbeverly"
 title="terraform-aws-terraform-remote-state"
 date="2019-11-04T00:20:48Z"
 description="Provision storage and locking mechanisms for Terraform."
-tags=[
-  "org:infraprints"
-]
+tags=["org:infraprints"]
 +++
 
 # AWS Terraform Remote State with Lock Table

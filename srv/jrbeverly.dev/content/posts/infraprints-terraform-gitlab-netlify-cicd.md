@@ -3,12 +3,7 @@ author="jrbeverly"
 title="terraform-gitlab-netlify-cicd"
 date="2019-11-04T00:00:28Z"
 description="Configures the Gitlab CI environment variables for a Netlify deploy."
-tags=[
-  "cicd",
-  "gitlab",
-  "netlify",
-  "org:infraprints"
-]
+tags=["org:infraprints"]
 +++
 
 # Terraform Netlify Gitlab CI/CD

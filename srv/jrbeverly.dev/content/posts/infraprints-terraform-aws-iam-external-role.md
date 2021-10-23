@@ -3,9 +3,7 @@ author="jrbeverly"
 title="terraform-aws-iam-external-role"
 date="2019-11-04T00:11:46Z"
 description="Describes an IAM role for delegating cross-account access."
-tags=[
-  "org:infraprints"
-]
+tags=["org:infraprints"]
 +++
 
 # AWS IAM External Role

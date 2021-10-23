@@ -3,14 +3,7 @@ author="jrbeverly"
 title="udacicards"
 date="2018-04-07T20:55:53Z"
 description="Mobile Flashcards."
-tags=[
-  "flashcards",
-  "mobile",
-  "react",
-  "react-native",
-  "udacity-react-nanodegree",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # UdaciCards

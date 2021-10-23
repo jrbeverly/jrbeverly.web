@@ -3,15 +3,7 @@ author="jrbeverly"
 title="project-icons"
 date="2018-11-02T00:52:12Z"
 description="A collection of scalable vector graphics (SVG) that define project and group icons."
-tags=[
-  "gitlab",
-  "organization",
-  "png",
-  "rasterization",
-  "rsvg",
-  "svg",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # jrbeverly.icons

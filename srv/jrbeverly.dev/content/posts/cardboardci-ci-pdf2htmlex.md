@@ -3,16 +3,7 @@ author="jrbeverly"
 title="ci-pdf2htmlex"
 date="2017-05-31T23:02:17Z"
 description="[DEPRECATED] A super small image with pdf2htmlEX installed."
-tags=[
-  "alpine",
-  "css",
-  "docker",
-  "docker-ci-images",
-  "html",
-  "html-generation",
-  "pdf2htmlex",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Dockerized pdf2htmlEX

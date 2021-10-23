@@ -3,11 +3,7 @@ author="jrbeverly"
 title="ml-learning-lab"
 date="2021-03-16T02:03:08Z"
 description="Machine Learning Lab"
-tags=[
-  "jupyter-notebook",
-  "machine-learning",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # Machine Learning Lab

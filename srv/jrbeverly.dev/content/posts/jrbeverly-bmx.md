@@ -3,12 +3,7 @@ author="jrbeverly"
 title="bmx"
 date="2020-01-08T18:15:28Z"
 description="IAM-less AWS API access for humans."
-tags=[
-  "d2l",
-  "iam",
-  "okta",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # BMX

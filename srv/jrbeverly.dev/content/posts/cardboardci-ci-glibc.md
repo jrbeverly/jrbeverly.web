@@ -3,15 +3,7 @@ author="jrbeverly"
 title="ci-glibc"
 date="2017-05-31T23:02:05Z"
 description="[DEPRECATED] A super small image with glibc installed, to allow binaries compiled against glibc to work."
-tags=[
-  "alpine",
-  "docker",
-  "docker-ci-images",
-  "docker-latex",
-  "gitlab-ci",
-  "glibc",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Dockerized GLibC

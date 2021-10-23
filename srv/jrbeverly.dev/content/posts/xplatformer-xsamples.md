@@ -3,12 +3,7 @@ author="jrbeverly"
 title="xsamples"
 date="2017-05-31T22:46:13Z"
 description="XSamples provides a collection of XWindows starter code that works with the XGameLib library."
-tags=[
-  "platformer",
-  "samples",
-  "x11",
-  "org:xplatformer"
-]
+tags=["org:xplatformer"]
 +++
 
 # XSamples

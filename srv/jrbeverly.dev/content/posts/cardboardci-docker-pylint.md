@@ -3,14 +3,7 @@ author="jrbeverly"
 title="docker-pylint"
 date="2019-10-27T02:25:18Z"
 description="Pylint is a Python static code analysis tool which looks for programming errors."
-tags=[
-  "code-analysis",
-  "code-quality",
-  "dockerfile",
-  "linter",
-  "python",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for PyLint

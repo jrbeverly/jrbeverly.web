@@ -3,13 +3,7 @@ author="jrbeverly"
 title="exp-svg-icon-processing"
 date="2019-10-05T20:37:56Z"
 description="An experiment for performing SVG icon processing"
-tags=[
-  "nodejs",
-  "rasterization",
-  "svg",
-  "svg-icons",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # SVG Icon Processing

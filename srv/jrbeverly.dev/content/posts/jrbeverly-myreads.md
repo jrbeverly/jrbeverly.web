@@ -3,12 +3,7 @@ author="jrbeverly"
 title="myreads"
 date="2017-11-18T22:49:02Z"
 description="A digital bookshelf app that allows you to select and categorize books you have read, are currently reading, or want to read."
-tags=[
-  "react",
-  "react-redux",
-  "udacity-react-nanodegree",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # MyReads Project

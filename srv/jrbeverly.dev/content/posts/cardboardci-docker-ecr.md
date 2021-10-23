@@ -3,14 +3,7 @@ author="jrbeverly"
 title="docker-ecr"
 date="2019-03-02T17:59:40Z"
 description="A unified tool to deploy Docker images to Amazon Elastic Container Registry (ECR)."
-tags=[
-  "aws",
-  "awscli",
-  "docker-registry",
-  "dockerfile",
-  "ecr",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for AWS CLI & Docker

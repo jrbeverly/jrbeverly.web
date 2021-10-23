@@ -3,14 +3,7 @@ author="jrbeverly"
 title="vagrant-desktop-homelab"
 date="2017-09-23T17:15:23Z"
 description="This repository provides a base Homelab Desktop environment, sandboxed on your local computer."
-tags=[
-  "desktop-environment",
-  "docker",
-  "homelab",
-  "shell",
-  "vagrant",
-  "org:devkitspaces"
-]
+tags=["org:devkitspaces"]
 +++
 
 # Vagrant Homelab Desktop

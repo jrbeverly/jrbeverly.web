@@ -3,14 +3,7 @@ author="jrbeverly"
 title="packer-on-github"
 date="2019-10-24T01:48:46Z"
 description="Experimenting with GitHub Actions for building machine images with Packer"
-tags=[
-  "cicd",
-  "docker",
-  "github-actions",
-  "packer",
-  "virtualbox",
-  "org:devkitspaces"
-]
+tags=["org:devkitspaces"]
 +++
 
 # Packer with GitHub Actions

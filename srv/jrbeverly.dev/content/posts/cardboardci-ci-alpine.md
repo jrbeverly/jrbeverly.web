@@ -3,14 +3,7 @@ author="jrbeverly"
 title="ci-alpine"
 date="2017-05-31T23:02:24Z"
 description="[DEPRECATED] A super small image with basic development libraries installed. "
-tags=[
-  "alpine",
-  "baseimage",
-  "docker",
-  "docker-ci-images",
-  "gitlab-ci",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker Alpine Base

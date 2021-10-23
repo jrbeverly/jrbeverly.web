@@ -3,16 +3,7 @@ author="jrbeverly"
 title="jollybot"
 date="2018-04-07T20:50:44Z"
 description="A Prisoners' Dilemma A.I. bot performing an 'Olive Branch' strategy focusing on attempting to cooperate whenever possible."
-tags=[
-  "ai",
-  "bot",
-  "dilemma",
-  "jabberwacky",
-  "prision",
-  "simple",
-  "strategy",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # JollyBot

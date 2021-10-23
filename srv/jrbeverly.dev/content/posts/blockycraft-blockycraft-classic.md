@@ -3,12 +3,7 @@ author="jrbeverly"
 title="blockycraft-classic"
 date="2020-01-13T00:26:20Z"
 description="Blockycraft is a Minecraft inspired Block Engine."
-tags=[
-  "block-engine",
-  "opengl",
-  "sdl2",
-  "org:blockycraft"
-]
+tags=["org:blockycraft"]
 +++
 
 <h1 align="center">

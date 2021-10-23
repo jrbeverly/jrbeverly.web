@@ -3,16 +3,7 @@ author="jrbeverly"
 title="docker-stylelint"
 date="2019-10-27T02:24:42Z"
 description="A mighty, modern style linter."
-tags=[
-  "css",
-  "dockerfile",
-  "html",
-  "linter",
-  "markdown",
-  "postcss",
-  "scss",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for StyleLint

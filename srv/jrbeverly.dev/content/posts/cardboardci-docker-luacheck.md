@@ -3,12 +3,7 @@ author="jrbeverly"
 title="docker-luacheck"
 date="2019-10-27T02:25:40Z"
 description="Luacheck is a static analyzer and a linter for Lua."
-tags=[
-  "dockerfile",
-  "linter",
-  "lua",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for LuaCheck

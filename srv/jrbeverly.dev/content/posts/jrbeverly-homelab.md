@@ -3,15 +3,7 @@ author="jrbeverly"
 title="homelab"
 date="2017-05-31T22:54:15Z"
 description="A collection of templates and utility scripts used in my homelab."
-tags=[
-  "homelab",
-  "it-engineering",
-  "one-off",
-  "scripts",
-  "shell",
-  "tooling",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # Homelab

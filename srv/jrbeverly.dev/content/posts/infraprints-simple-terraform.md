@@ -3,12 +3,7 @@ author="jrbeverly"
 title="simple-terraform"
 date="2019-01-18T00:04:09Z"
 description="A simple repository for testing terraform pipelines."
-tags=[
-  "aws",
-  "terraform",
-  "terraform-pipelines",
-  "org:infraprints"
-]
+tags=["org:infraprints"]
 +++
 
 # Prototype CodePipeline Terraform Repository

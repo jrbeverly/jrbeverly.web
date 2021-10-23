@@ -3,11 +3,7 @@ author="jrbeverly"
 title="lab-starter"
 date="2019-09-01T20:31:22Z"
 description="GitHub Learning Lab Tutorial on 'Write a Learning Lab course'"
-tags=[
-  "github",
-  "github-learning-lab",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # GitHub Learning Lab - Lab Starter

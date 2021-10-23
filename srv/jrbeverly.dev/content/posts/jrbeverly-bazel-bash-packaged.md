@@ -3,12 +3,7 @@ author="jrbeverly"
 title="bazel-bash-packaged"
 date="2021-10-05T23:00:41Z"
 description="Experimenting with using bazel to package+test glue shell scripts"
-tags=[
-  "bats-core",
-  "bazel",
-  "bazel-shell",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # Bazel Bash Packaged

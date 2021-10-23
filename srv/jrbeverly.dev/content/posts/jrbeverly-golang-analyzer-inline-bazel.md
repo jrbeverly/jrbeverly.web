@@ -3,13 +3,7 @@ author="jrbeverly"
 title="golang-analyzer-inline-bazel"
 date="2021-08-18T01:16:50Z"
 description="Experimenting with Golang Analyzers with Bazel"
-tags=[
-  "bazel",
-  "experiments",
-  "golang",
-  "golang-analyzer",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # Bazel Golang Inline Analyzer

@@ -3,12 +3,7 @@ author="jrbeverly"
 title="bazel-external-toolchain-rules"
 date="2021-09-26T22:20:07Z"
 description="Exploring enabling bazel toolchains with an external 'toolchain' file"
-tags=[
-  "bazel",
-  "bazel-rules",
-  "toolchains",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # bazel-external-toolchain-rules

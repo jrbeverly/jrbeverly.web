@@ -3,12 +3,7 @@ author="jrbeverly"
 title="dotnet-native-corert"
 date="2019-02-03T03:52:04Z"
 description="A simple CI/CD pipeline making use of CoreRT to build native tooling."
-tags=[
-  "cicd",
-  "docker",
-  "dotnet",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # .NET Core Native Compilation Experiments

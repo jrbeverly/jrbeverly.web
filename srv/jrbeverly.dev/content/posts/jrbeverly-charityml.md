@@ -3,11 +3,7 @@ author="jrbeverly"
 title="charityml"
 date="2020-02-24T17:50:35Z"
 description="CharityML is a fictitious charity organization that was established to provide financial support for people eager to learn machine learning."
-tags=[
-  "charityml",
-  "udacity-mlnd",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # Finding Donors for CharityML

@@ -3,16 +3,7 @@ author="jrbeverly"
 title="gitlab-ci-yml"
 date="2018-11-02T00:52:10Z"
 description="A collection of GitLab CI configuration files that are used by my projects."
-tags=[
-  "ci",
-  "ci-cd",
-  "docker",
-  "gitlab",
-  "gitlab-ci",
-  "samples",
-  "templates",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # gitlab-ci.yml

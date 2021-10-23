@@ -3,13 +3,7 @@ author="jrbeverly"
 title="docker-pdftools"
 date="2019-03-02T17:59:51Z"
 description="Command lines tools for manipulating pdfs."
-tags=[
-  "dockerfile",
-  "pdf",
-  "pdf-document-processor",
-  "pdfunite",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for PdfTools

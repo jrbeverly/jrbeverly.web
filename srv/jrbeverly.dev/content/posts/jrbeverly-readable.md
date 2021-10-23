@@ -3,12 +3,7 @@ author="jrbeverly"
 title="readable"
 date="2018-01-17T23:40:48Z"
 description="Udacity Nanodegree React Project."
-tags=[
-  "react",
-  "reactjs",
-  "udacity-react-nanodegree",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 ## Readable

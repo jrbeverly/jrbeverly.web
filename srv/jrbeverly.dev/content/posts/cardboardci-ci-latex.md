@@ -3,14 +3,7 @@ author="jrbeverly"
 title="ci-latex"
 date="2017-05-31T23:01:43Z"
 description="[DEPRECATED] Comprehensive TeX document production system for use as a continuous integration image."
-tags=[
-  "alpine",
-  "docker",
-  "docker-ci-images",
-  "latex",
-  "tex",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Dockerized LaTeX

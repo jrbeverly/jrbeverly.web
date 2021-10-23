@@ -3,13 +3,7 @@ author="jrbeverly"
 title="docker-hugo"
 date="2019-03-02T17:59:45Z"
 description="Hugo is an open-source static site generator."
-tags=[
-  "dockerfile",
-  "hugo",
-  "static-site",
-  "static-site-generator",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for Hugo

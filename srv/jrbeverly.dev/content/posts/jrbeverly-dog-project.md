@@ -3,11 +3,7 @@ author="jrbeverly"
 title="dog-project"
 date="2020-01-11T18:05:28Z"
 description="Identify a canine breed from an image."
-tags=[
-  "cnn-classification",
-  "udacity-ml-nanodegree",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # Classification of Dogs

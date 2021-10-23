@@ -3,12 +3,7 @@ author="jrbeverly"
 title="terraform-aws-acm-certificate"
 date="2019-11-04T00:14:04Z"
 description="Provision a certificate for a domain, verified through DNS."
-tags=[
-  "aws",
-  "terraform",
-  "terraform-module",
-  "org:infraprints"
-]
+tags=["org:infraprints"]
 +++
 
 # AWS ACM DNS Validated Certificate

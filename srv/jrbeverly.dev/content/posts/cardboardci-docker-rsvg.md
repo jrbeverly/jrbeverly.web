@@ -3,11 +3,7 @@ author="jrbeverly"
 title="docker-rsvg"
 date="2019-10-27T02:25:06Z"
 description="Turn SVG files into raster images."
-tags=[
-  "docker",
-  "rsvg",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for Render SVGs

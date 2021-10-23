@@ -3,12 +3,7 @@ author="jrbeverly"
 title="aws-lightsail-codespaces"
 date="2020-08-20T22:21:48Z"
 description="code-server running on AWS Lightsail"
-tags=[
-  "aws-lightsail",
-  "code-server",
-  "codespaces",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # Running code-server on AWS Lightsail

@@ -3,13 +3,7 @@ author="jrbeverly"
 title="docker-win-awscli"
 date="2019-02-26T17:40:22Z"
 description="The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services."
-tags=[
-  "aws",
-  "awscli",
-  "docker",
-  "docker-windows",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker AWSCLI

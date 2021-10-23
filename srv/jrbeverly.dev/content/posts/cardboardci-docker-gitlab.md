@@ -3,13 +3,7 @@ author="jrbeverly"
 title="docker-gitlab"
 date="2019-03-02T17:59:42Z"
 description="Lab wraps Git or Hub, making it simple to clone, fork, and interact with repositories on GitLab."
-tags=[
-  "dockerfile",
-  "gitlab",
-  "gitlabcli",
-  "source-control",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for GitLabCLI

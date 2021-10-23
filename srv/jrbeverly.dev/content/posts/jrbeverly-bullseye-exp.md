@@ -3,13 +3,7 @@ author="jrbeverly"
 title="bullseye-exp"
 date="2019-10-05T20:35:47Z"
 description="Experimenting with using the .NET library BullsEye"
-tags=[
-  "bullseye",
-  "cli",
-  "dotnet",
-  "experiment",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # BullsEye Experimentation

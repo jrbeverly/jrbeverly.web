@@ -3,9 +3,7 @@ author="jrbeverly"
 title="terraform-aws-s3-artifacts"
 date="2019-11-04T00:18:24Z"
 description="Provision a bucket for storing build artifacts in S3."
-tags=[
-  "org:infraprints"
-]
+tags=["org:infraprints"]
 +++
 
 # AWS S3 Terraform State Output

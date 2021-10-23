@@ -3,11 +3,7 @@ author="jrbeverly"
 title="exp-circleci-orbs"
 date="2019-10-30T02:21:11Z"
 description="Experimenting with CircleCI Orbs for running types of workflows"
-tags=[
-  "circleci",
-  "circleci-orbs",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # Experimenting with CircleCI Orbs

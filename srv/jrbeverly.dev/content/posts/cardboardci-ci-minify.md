@@ -3,18 +3,7 @@ author="jrbeverly"
 title="ci-minify"
 date="2018-11-02T00:52:02Z"
 description="[DEPRECATED] A super small image with Minify. "
-tags=[
-  "ci-cd-pipeline",
-  "css",
-  "docker",
-  "docker-image",
-  "html",
-  "js",
-  "minify",
-  "web",
-  "web-compression",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Dockerized Minify

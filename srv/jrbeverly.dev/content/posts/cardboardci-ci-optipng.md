@@ -3,14 +3,7 @@ author="jrbeverly"
 title="ci-optipng"
 date="2018-11-02T00:52:03Z"
 description="[DEPRECATED] A super small Alpine image with OptiPNG installed."
-tags=[
-  "ci-cd",
-  "docker",
-  "docker-image",
-  "image-compression",
-  "web",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Dockerized Optipng

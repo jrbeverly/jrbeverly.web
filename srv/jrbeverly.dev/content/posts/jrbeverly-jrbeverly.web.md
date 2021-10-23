@@ -3,12 +3,7 @@ author="jrbeverly"
 title="jrbeverly.web"
 date="2020-06-27T21:01:56Z"
 description="Repository mapping to the infrastructure of jrbeverly."
-tags=[
-  "jrbeverly",
-  "monorepo",
-  "personal-site",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # jrbeverly

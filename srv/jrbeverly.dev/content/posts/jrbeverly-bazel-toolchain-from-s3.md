@@ -3,13 +3,7 @@ author="jrbeverly"
 title="bazel-toolchain-from-s3"
 date="2021-09-26T23:53:42Z"
 description="Exploring bazel toolchains mirrored in AWS S3"
-tags=[
-  "aws-s3",
-  "bazel",
-  "bazel-aws",
-  "bazel-toolchain",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # bazel-toolchain-from-s3

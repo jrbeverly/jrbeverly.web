@@ -3,15 +3,7 @@ author="jrbeverly"
 title="entity-net"
 date="2018-11-02T00:52:07Z"
 description="A simple experiment prototyping a concept for strongly typed ORMs."
-tags=[
-  "code-generation",
-  "demonstration",
-  "experiment",
-  "orm",
-  "prototype",
-  "strongly-typed",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # Entity.NET Concept

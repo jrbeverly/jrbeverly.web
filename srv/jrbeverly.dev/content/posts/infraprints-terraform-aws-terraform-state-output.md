@@ -3,9 +3,7 @@ author="jrbeverly"
 title="terraform-aws-terraform-state-output"
 date="2019-11-04T00:23:12Z"
 description="Describes an S3 Object representing a terraform outputs file."
-tags=[
-  "org:infraprints"
-]
+tags=["org:infraprints"]
 +++
 
 # AWS S3 Terraform State Output

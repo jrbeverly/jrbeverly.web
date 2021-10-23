@@ -3,17 +3,7 @@ author="jrbeverly"
 title="vagrant-cicd"
 date="2019-10-05T20:31:43Z"
 description="Using Rubocop and Shellcheck to perform linting on a Vagrantfile."
-tags=[
-  "cicd",
-  "experiment",
-  "gitlab",
-  "gitlab-ci",
-  "linter",
-  "rubocop",
-  "vagrant",
-  "virtualbox",
-  "org:devkitspaces"
-]
+tags=["org:devkitspaces"]
 +++
 
 # Vagrant Continuous Integration Prototype

@@ -3,12 +3,7 @@ author="jrbeverly"
 title="docker-xwindow"
 date="2017-05-31T23:01:57Z"
 description="A super small image with X Window System development libraries installed."
-tags=[
-  "docker",
-  "docker-image",
-  "x11",
-  "org:xplatformer"
-]
+tags=["org:xplatformer"]
 +++
 
 # Dockerized X Window System

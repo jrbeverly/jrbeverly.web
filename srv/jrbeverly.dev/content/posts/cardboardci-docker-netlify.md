@@ -3,13 +3,7 @@ author="jrbeverly"
 title="docker-netlify"
 date="2019-03-02T17:59:48Z"
 description="Netlify builds, deploys and hosts your netlify services."
-tags=[
-  "dockerfile",
-  "netlify",
-  "static-site",
-  "web-hosting",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for Netlify

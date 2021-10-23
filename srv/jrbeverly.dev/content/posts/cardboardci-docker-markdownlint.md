@@ -3,13 +3,7 @@ author="jrbeverly"
 title="docker-markdownlint"
 date="2019-10-27T02:34:03Z"
 description="A Node.js style checker and lint tool for Markdown/CommonMark files."
-tags=[
-  "commonmark",
-  "dockerfile",
-  "linter",
-  "markdown",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for MarkdownLint

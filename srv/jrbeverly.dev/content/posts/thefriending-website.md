@@ -3,12 +3,7 @@ author="jrbeverly"
 title="website"
 date="2020-01-02T02:42:36Z"
 description="The source for the landing page of Friending"
-tags=[
-  "html",
-  "landing-page",
-  "website",
-  "org:thefriending"
-]
+tags=["org:thefriending"]
 +++
 
 # Friending Landing Page

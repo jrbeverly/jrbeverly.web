@@ -3,13 +3,7 @@ author="jrbeverly"
 title="docker-htmlhint"
 date="2019-10-27T02:25:50Z"
 description="The static code analysis tool you need for your HTML."
-tags=[
-  "code-analysis",
-  "code-quality",
-  "dockerfile",
-  "html",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for HTMLHint

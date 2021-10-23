@@ -3,15 +3,7 @@ author="jrbeverly"
 title="docker-tflint"
 date="2018-12-26T00:11:06Z"
 description="TFLint is a Terraform linter for detecting errors that can not be detected by terraform plan."
-tags=[
-  "aws",
-  "dockerfile",
-  "hcl",
-  "linter",
-  "terraform",
-  "tflint",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for TfLint

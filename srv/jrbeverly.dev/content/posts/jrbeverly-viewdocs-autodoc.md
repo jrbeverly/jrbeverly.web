@@ -3,13 +3,7 @@ author="jrbeverly"
 title="viewdocs-autodoc"
 date="2019-10-05T20:47:31Z"
 description="Viewdocs is simple project documentation. It renders Markdown as simple static pages."
-tags=[
-  "bash",
-  "experiment",
-  "html",
-  "markdown",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # Viewdocs Autodoc

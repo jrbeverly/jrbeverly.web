@@ -3,13 +3,7 @@ author="jrbeverly"
 title="docker-surge"
 date="2019-03-02T17:59:56Z"
 description="Surge is static web publishing for Front-End Developers, right from the CLI."
-tags=[
-  "cli",
-  "dockerfile",
-  "static-site",
-  "surge",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for Surge

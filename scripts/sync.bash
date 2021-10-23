@@ -31,7 +31,7 @@ for dataset in "${DIR}/repositories"/* ; do
 
         # topics="$(jq -r '.topics' "${resp}")"
         # topics="$(jq -r ". |= . + [/\"org:${dataset_name}\"]" <<< "$topics")"
-        topics="[/\"org:${dataset_name}\"]"
+        topics="[\"org:${dataset_name}\"]"
         name="$(jq -r '.name' "${resp}")"
         ssh_url="$(jq -r '.ssh_url' "${resp}")"
         created_at="$(jq -r '.created_at' "${resp}")"

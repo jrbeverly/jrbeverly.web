@@ -3,13 +3,7 @@ author="jrbeverly"
 title="docker-psscriptanalyzer"
 date="2019-03-02T17:59:53Z"
 description="PSScriptAnalyzer is a static code checker for Windows PowerShell modules and scripts."
-tags=[
-  "best-practices",
-  "dockerfile",
-  "lint",
-  "powershell",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for PSScriptAnalyzer

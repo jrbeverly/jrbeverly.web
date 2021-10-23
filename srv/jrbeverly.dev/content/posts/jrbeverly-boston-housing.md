@@ -3,11 +3,7 @@ author="jrbeverly"
 title="boston-housing"
 date="2020-02-24T17:50:55Z"
 description="Leverage a few basic machine learning concepts to assist you and a client with finding the best selling price for their home."
-tags=[
-  "boston-housing-price-prediction",
-  "udacity-mlnd",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # Predicting Boston Housing Prices

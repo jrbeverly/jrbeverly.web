@@ -3,16 +3,7 @@ author="jrbeverly"
 title="ci-wkhtmltopdf"
 date="2018-11-02T00:52:06Z"
 description="[DEPRECATED] A super small image with wkhtmltopdf installed."
-tags=[
-  "ci",
-  "docker",
-  "docker-ci-images",
-  "docker-image",
-  "html",
-  "pdf",
-  "wkhtmltopdf",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Dockerized WKHtmlToPDF

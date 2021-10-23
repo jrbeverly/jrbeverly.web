@@ -3,9 +3,7 @@ author="jrbeverly"
 title="github-app-golang"
 date="2021-07-16T16:57:05Z"
 description="Experiments with GitHub App written in Golang"
-tags=[
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # GitHub App in Golang Prototyping

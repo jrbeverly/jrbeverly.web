@@ -3,12 +3,7 @@ author="jrbeverly"
 title="docker-dbxcli"
 date="2019-10-27T02:26:48Z"
 description="A command line client for Dropbox built using the Go SDK."
-tags=[
-  "dockerfile",
-  "dropbox",
-  "filesystem",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for AWS CLI

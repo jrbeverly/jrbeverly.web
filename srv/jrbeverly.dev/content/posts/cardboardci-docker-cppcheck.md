@@ -3,14 +3,7 @@ author="jrbeverly"
 title="docker-cppcheck"
 date="2019-10-27T02:27:01Z"
 description="Static analysis of C/C++ code."
-tags=[
-  "cplusplus",
-  "cppcheck",
-  "cross-platform",
-  "dockerfile",
-  "static-analysis",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for CppCheck

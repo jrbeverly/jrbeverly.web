@@ -3,14 +3,7 @@ author="jrbeverly"
 title="docker-rubocop"
 date="2019-10-27T02:24:56Z"
 description="A Ruby static code analyzer and formatter, based on the community Ruby style guide."
-tags=[
-  "code-formatter",
-  "dockerfile",
-  "linter",
-  "ruby",
-  "static-code-analysis",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for Rubocop

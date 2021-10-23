@@ -3,15 +3,7 @@ author="jrbeverly"
 title="xunit-metadata"
 date="2018-11-02T00:52:39Z"
 description="Strongly-typed attributes for the management and organization of tests."
-tags=[
-  "categories",
-  "categorization",
-  "organization",
-  "strongly-typed",
-  "testing",
-  "testing-tools",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # XUnit.Metadata

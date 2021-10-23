@@ -3,9 +3,7 @@ author="jrbeverly"
 title="aws-lambda-simple-service"
 date="2020-08-19T23:16:36Z"
 description="Experimenting with lambda as on-demand app"
-tags=[
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # Express in Deployments

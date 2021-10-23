@@ -3,14 +3,7 @@ author="jrbeverly"
 title="docker-pdf2htmlex"
 date="2019-03-02T17:59:49Z"
 description="Convert PDF to HTML without losing text or format."
-tags=[
-  "dockerfile",
-  "html",
-  "pdf",
-  "pdf-document-processor",
-  "pdf2html",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for Pdf2HtmlEX

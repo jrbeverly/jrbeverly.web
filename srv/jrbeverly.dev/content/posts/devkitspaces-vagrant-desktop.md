@@ -3,14 +3,7 @@ author="jrbeverly"
 title="vagrant-desktop"
 date="2017-05-31T22:52:01Z"
 description="This repository provides a base Linux Desktop environment, sandboxed on your local computer."
-tags=[
-  "desktop-environment",
-  "graphical-interface",
-  "shell",
-  "vagrant",
-  "virtualbox",
-  "org:devkitspaces"
-]
+tags=["org:devkitspaces"]
 +++
 
 # Vagrant Linux Desktop

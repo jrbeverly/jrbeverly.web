@@ -3,12 +3,7 @@ author="jrbeverly"
 title="readme"
 date="2019-10-27T02:06:14Z"
 description="README for the CardboardCI Community"
-tags=[
-  "code-of-conduct",
-  "guidelines",
-  "readme",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # CardboardCI

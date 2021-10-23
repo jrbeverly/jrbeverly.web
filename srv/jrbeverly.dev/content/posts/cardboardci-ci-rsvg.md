@@ -3,14 +3,7 @@ author="jrbeverly"
 title="ci-rsvg"
 date="2017-05-31T23:01:15Z"
 description="[DEPRECATED] A super small image with librsvg installed."
-tags=[
-  "docker",
-  "docker-ci-images",
-  "gitlab-ci",
-  "makefile",
-  "svg",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Dockerized RSvg

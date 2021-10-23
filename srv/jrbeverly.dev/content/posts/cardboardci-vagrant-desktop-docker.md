@@ -3,15 +3,7 @@ author="jrbeverly"
 title="vagrant-desktop-docker"
 date="2017-09-23T17:15:34Z"
 description="This repository provides a base Docker Desktop environment, sandboxed on your local computer."
-tags=[
-  "desktop-environment",
-  "docker",
-  "experiments",
-  "shell",
-  "vagrant",
-  "virtualbox",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Vagrant Docker Desktop

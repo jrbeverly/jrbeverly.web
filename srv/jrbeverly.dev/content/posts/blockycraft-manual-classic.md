@@ -3,13 +3,7 @@ author="jrbeverly"
 title="manual-classic"
 date="2017-05-31T22:51:29Z"
 description="Blockycraft is an interactive graphics demo to create a Minecraft inspired demo. "
-tags=[
-  "blockycraft",
-  "documentation",
-  "latex",
-  "manual",
-  "org:blockycraft"
-]
+tags=["org:blockycraft"]
 +++
 
 # Blockycraft Manual

@@ -3,13 +3,7 @@ author="jrbeverly"
 title="bazel-docker-awscli"
 date="2019-11-26T22:15:52Z"
 description="Building the AWSCLI Docker image in Bazel"
-tags=[
-  "awscli",
-  "bazel",
-  "docker",
-  "docker-image",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker AWSCLI Built with Bazel

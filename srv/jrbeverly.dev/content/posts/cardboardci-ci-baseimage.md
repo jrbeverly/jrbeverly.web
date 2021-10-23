@@ -3,13 +3,7 @@ author="jrbeverly"
 title="ci-baseimage"
 date="2017-05-31T23:01:25Z"
 description="[DEPRECATED] A super small image to act as a baseimage for continuous integration images."
-tags=[
-  "alpine",
-  "baseimage",
-  "docker",
-  "docker-ci-images",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker Baseimage

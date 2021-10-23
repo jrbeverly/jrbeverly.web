@@ -3,11 +3,7 @@ author="jrbeverly"
 title="blockycraft"
 date="2020-05-23T17:31:06Z"
 description="Blockycraft is a Minecraft inspired Block Engine."
-tags=[
-  "block-engine",
-  "unity",
-  "org:blockycraft"
-]
+tags=["org:blockycraft"]
 +++
 
 # blockycraft

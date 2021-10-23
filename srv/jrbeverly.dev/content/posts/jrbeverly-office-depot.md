@@ -3,13 +3,7 @@ author="jrbeverly"
 title="office-depot"
 date="2018-11-02T00:52:22Z"
 description="office-depot is a container based software development stack."
-tags=[
-  "docker",
-  "experimental",
-  "homelab",
-  "infrastructure-as-code",
-  "org:jrbeverly"
-]
+tags=["org:jrbeverly"]
 +++
 
 # office-depot

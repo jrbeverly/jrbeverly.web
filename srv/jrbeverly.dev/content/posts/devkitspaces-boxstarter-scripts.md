@@ -3,13 +3,7 @@ author="jrbeverly"
 title="boxstarter-scripts"
 date="2017-05-31T22:54:37Z"
 description="A script for setting up a Windows PC using BoxStarter and Chocolatey."
-tags=[
-  "batch",
-  "boxstarter",
-  "chocolatey",
-  "windows",
-  "org:devkitspaces"
-]
+tags=["org:devkitspaces"]
 +++
 
 # Automated Windows Setup

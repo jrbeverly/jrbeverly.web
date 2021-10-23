@@ -3,12 +3,7 @@ author="jrbeverly"
 title="docker-latex"
 date="2019-03-02T17:59:46Z"
 description="LaTeX is a sys­tem for com­puter type­set­ting of doc­u­ments."
-tags=[
-  "dockerfile",
-  "latex",
-  "latex-kernel",
-  "org:cardboardci"
-]
+tags=["org:cardboardci"]
 +++
 
 # Docker image for LaTeX
