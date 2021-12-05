@@ -16,6 +16,7 @@ pkg_tar(
     deps = [
         ":udacity",
         ":pluralsight",
+        ":repositories",
     ],
     strip_prefix = "./public"
 )

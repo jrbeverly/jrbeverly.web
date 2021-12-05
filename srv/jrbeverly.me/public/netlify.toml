@@ -44,6 +44,11 @@
   status = 301
   force = true
 [[redirects]]
+  from = "/g/repos"
+  to = "https://jrbeverly.me/repositories"
+  status = 301
+  force = true
+[[redirects]]
   from = "/g/friending"
   to = "https://friending.jrbeverly.me/"
   status = 301

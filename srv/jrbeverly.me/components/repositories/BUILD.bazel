@@ -1,13 +1,7 @@
-load("//bazel/macros:publish.bzl", "publish_files")
 load("//bazel/macros:hugo.bzl", "hugo_site")
 
 hugo_site(
     name = "website",
     srcs = glob(["*", "**/*"]),
-)
-
-publish_files(
-    name = "publish",
-    output = "public/jrbeverly.me",
-    srcs = [":website"],
+    visibility = ["//visibility:public"],
 )
