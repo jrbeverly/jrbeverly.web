@@ -64,11 +64,6 @@ menu:
       title: Friending
       url: /friending/readme
       weight: 6
-    - identifier: threethirtythree
-      name: ThreeThirtyThree
-      title: ThreeThirtyThree
-      url: /threethirtythree/readme
-      weight: 7
     - identifier: wisevault
       name: WiseVault
       title: WiseVault
@@ -84,7 +79,6 @@ params:
     home: icon-home-fill
     tags: icon-tags
     repositories: icon-archives-fill
-    threethirtythree: icon-folder
     cardboardci: icon-project
     infraprints: icon-book-fill
     blockycraft: icon-cup-fill

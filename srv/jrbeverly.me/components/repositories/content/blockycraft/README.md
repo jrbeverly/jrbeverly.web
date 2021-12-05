@@ -52,4 +52,4 @@ Recently I opened up the old developer machine I used for development, and recor
 
 ## Screenshot
 
-[![Blockycraft World Screenshot](/img/blockycraft-world.png)](https://github.com/jrbeverly/blockycraft-manual)
+[![Blockycraft World Screenshot](img/blockycraft-world.png)](https://github.com/jrbeverly/blockycraft-manual)
