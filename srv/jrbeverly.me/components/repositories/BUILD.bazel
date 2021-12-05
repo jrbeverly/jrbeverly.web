@@ -8,6 +8,6 @@ hugo_site(
 
 publish_files(
     name = "publish",
-    output = "public/jrbeverly.dev",
+    output = "public/jrbeverly.me",
     srcs = [":website"],
 )

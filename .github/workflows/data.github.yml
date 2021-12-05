@@ -17,12 +17,12 @@ jobs:
       - name: Synchronize the branch
         run: |
           bash scripts/sync.bash
-          mv outputs/* srv/jrbeverly.dev/content/posts
+          mv outputs/* srv/jrbeverly.me/components/repositories/content/posts
 
           git config --global user.email "bot@jrbeverly.dev"
           git config --global user.name "GitHub Actions"
 
-          git add -f srv/jrbeverly.dev
+          git add -f srv/jrbeverly.me
           git commit -m "sync(github): Synchronize repository posts" || true
           git push -u origin $GITHUB_REF
         env:
