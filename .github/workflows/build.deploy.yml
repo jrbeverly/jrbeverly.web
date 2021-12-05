@@ -18,16 +18,7 @@ jobs:
 
       - name: Build & Package
         run: |
-          bazel run //srv/jrbeverly.dev:publish
           bazel run //srv/jrbeverly.me:publish
-
-      - name: Deploy - jrbeverly.dev
-        uses: jrbeverly-actions/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: netlify/jrbeverly.dev
-          publish_dir: ./public/jrbeverly.dev
 
       - name: Deploy - jrbeverly.me
         uses: jrbeverly-actions/actions-gh-pages@v3
