@@ -3,7 +3,7 @@ load("//bazel/macros:publish.bzl", "publish_files")
 
 publish_files(
     name = "publish",
-    output = "public/workshop.jrbeverly.me",
+    output = "public/workbench.jrbeverly.me",
     srcs = [":website"],
 )
 
