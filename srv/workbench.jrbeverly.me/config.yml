@@ -103,7 +103,7 @@ params:
       width: 40
       height: 40
       url: favicon.ico
-    title: jrbeverly.dev
+    title: workbench.jrbeverly.me
     favicon: favicon.ico
     board: Repository links
 
