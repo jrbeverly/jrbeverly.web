@@ -14,7 +14,9 @@
 	"extensions": [
 		"dbaeumer.vscode-eslint"
 	],
-
+	"mounts": [
+		"source=${localEnv:HOME}${localEnv:USERPROFILE},target=/host-home-folder,type=bind,consistency=cached",
+	],
 	"remoteUser": "node",
 	"features": {
 		"git": "latest"
