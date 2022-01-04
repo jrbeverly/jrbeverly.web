@@ -1,11 +1,10 @@
-<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+<script type="text/javascript" src="{{ "js/jquery.min.js" | absURL }}"></script>
 <script>
    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 </script>
-<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
-<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/rust.min.js"></script>
-<script type="text/javascript"
-   src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script type="text/javascript" src="{{ "js/highlight.min.js" | absURL }}"></script>
+<script type="text/javascript" src="{{ "js/rust.min.js" | absURL }}"></script>
+<script type="text/javascript" src="{{ "js/dockerfile.min.js" | absURL }}"></script>
 <script>
 hljs.configure({
   tabReplace: '    ', // 4 spaces
