@@ -15,7 +15,7 @@
 		"dbaeumer.vscode-eslint"
 	],
 	"mounts": [
-		"source=${localEnv:HOME}${localEnv:USERPROFILE},target=/host-home-folder,type=bind,consistency=cached",
+		"source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/host/.ssh,type=bind,consistency=cached",
 	],
 	"remoteUser": "node",
 	"features": {
