@@ -45,12 +45,12 @@
   force = true
 [[redirects]]
   from = "/g/repos"
-  to = "https://workshop.jrbeverly.me"
+  to = "https://workbench.jrbeverly.me"
   status = 301
   force = true
 [[redirects]]
-  from = "/g/workshop"
-  to = "https://workshop.jrbeverly.me"
+  from = "/g/workbench"
+  to = "https://workbench.jrbeverly.me"
   status = 301
   force = true
 [[redirects]]
