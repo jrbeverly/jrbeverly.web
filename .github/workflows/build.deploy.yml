@@ -19,6 +19,9 @@ jobs:
       - name: Build & Package
         run: |
           bazel run //srv/jrbeverly.me:publish
+          bazel run //srv/pluralsight.jrbeverly.me:publish
+          bazel run //srv/udacity.jrbeverly.me:publish
+          bazel run //srv/workshop.jrbeverly.me:publish
 
       - name: Deploy - jrbeverly.me
         uses: jrbeverly-actions/actions-gh-pages@v3
@@ -27,3 +30,27 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: netlify/jrbeverly.me
           publish_dir: ./public/jrbeverly.me
+
+      - name: Deploy - pluralsight.jrbeverly.me
+        uses: jrbeverly-actions/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: netlify/pluralsight.jrbeverly.me
+          publish_dir: ./public/pluralsight.jrbeverly.me
+
+      - name: Deploy - udacity.jrbeverly.me
+        uses: jrbeverly-actions/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: netlify/udacity.jrbeverly.me
+          publish_dir: ./public/udacity.jrbeverly.me
+
+      - name: Deploy - workshop.jrbeverly.me
+        uses: jrbeverly-actions/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: netlify/workshop.jrbeverly.me
+          publish_dir: ./public/workshop.jrbeverly.me

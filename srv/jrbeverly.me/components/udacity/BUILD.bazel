@@ -1,7 +1,0 @@
-load("//bazel/macros:hugo.bzl", "hugo_site")
-
-hugo_site(
-    name = "website",
-    srcs = glob(["*", "**/*"]),
-    visibility = ["//visibility:public"],
-)
