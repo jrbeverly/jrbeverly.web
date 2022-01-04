@@ -13,37 +13,5 @@ pkg_tar(
         "public/*", 
         "public/**/*"
     ]),
-    deps = [
-        ":udacity",
-        ":pluralsight",
-        ":repositories",
-    ],
     strip_prefix = "./public"
-)
-
-pkg_tar(
-    name = "pluralsight",
-    deps = [
-        "//srv/jrbeverly.me/components/pluralsight:website",
-    ],
-    package_dir = "pluralsight",
-    strip_prefix = "./"
-)
-
-pkg_tar(
-    name = "udacity",
-    deps = [
-        "//srv/jrbeverly.me/components/udacity:website",
-    ],
-    package_dir = "udacity",
-    strip_prefix = "./"
-)
-
-pkg_tar(
-    name = "repositories",
-    deps = [
-        "//srv/jrbeverly.me/components/repositories:website",
-    ],
-    package_dir = "repositories",
-    strip_prefix = "./"
 )

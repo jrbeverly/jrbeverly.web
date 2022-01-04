@@ -1,0 +1,14 @@
+load("//bazel/macros:hugo.bzl", "hugo_site")
+load("//bazel/macros:publish.bzl", "publish_files")
+
+publish_files(
+    name = "publish",
+    output = "public/udacity.jrbeverly.me",
+    srcs = [":website"],
+)
+
+hugo_site(
+    name = "website",
+    srcs = glob(["*", "**/*"]),
+    visibility = ["//visibility:public"],
+)
