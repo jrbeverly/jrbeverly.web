@@ -35,17 +35,22 @@
 # Projects
 [[redirects]]
   from = "/g/udacity"
-  to = "https://jrbeverly.me/udacity"
+  to = "https://udacity.jrbeverly.me"
   status = 301
   force = true
 [[redirects]]
   from = "/g/pluralsight"
-  to = "https://jrbeverly.me/pluralsight"
+  to = "https://pluralsight.jrbeverly.me"
   status = 301
   force = true
 [[redirects]]
   from = "/g/repos"
-  to = "https://jrbeverly.me/repositories"
+  to = "https://workshop.jrbeverly.me"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/g/workshop"
+  to = "https://workshop.jrbeverly.me"
   status = 301
   force = true
 [[redirects]]

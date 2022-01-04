@@ -21,7 +21,7 @@ jobs:
           bazel run //srv/jrbeverly.me:publish
           bazel run //srv/pluralsight.jrbeverly.me:publish
           bazel run //srv/udacity.jrbeverly.me:publish
-          bazel run //srv/workshop.jrbeverly.me:publish
+          bazel run //srv/workbench.jrbeverly.me:publish
 
       - name: Deploy - jrbeverly.me
         uses: jrbeverly-actions/actions-gh-pages@v3
@@ -47,10 +47,10 @@ jobs:
           publish_branch: netlify/udacity.jrbeverly.me
           publish_dir: ./public/udacity.jrbeverly.me
 
-      - name: Deploy - workshop.jrbeverly.me
+      - name: Deploy - workbench.jrbeverly.me
         uses: jrbeverly-actions/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: netlify/workshop.jrbeverly.me
-          publish_dir: ./public/workshop.jrbeverly.me
+          publish_branch: netlify/workbench.jrbeverly.me
+          publish_dir: ./public/workbench.jrbeverly.me
