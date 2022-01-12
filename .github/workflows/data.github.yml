@@ -17,7 +17,7 @@ jobs:
       - name: Synchronize the branch
         run: |
           bash scripts/sync.bash
-          mv outputs/* srv/jrbeverly.me/components/repositories/content/posts
+          mv outputs/* srv/workbench.jrbeverly.me/content/posts
 
           git config --global user.email "bot@jrbeverly.dev"
           git config --global user.name "GitHub Actions"
