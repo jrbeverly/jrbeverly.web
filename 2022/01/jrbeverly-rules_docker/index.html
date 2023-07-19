@@ -1,0 +1,1460 @@
+<!doctype html><html lang=en>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
+<title>
+rules_docker - jrbeverly
+</title>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui">
+<meta name=renderer content="webkit">
+<meta http-equiv=cache-control content="no-transform">
+<meta http-equiv=cache-control content="no-siteapp">
+<meta name=apple-mobile-web-app-capable content="yes">
+<meta name=apple-mobile-web-app-status-bar-style content="black">
+<meta name=format-detection content="telephone=no,email=no,adress=no">
+<meta name=theme-color content="#000000">
+<meta http-equiv=window-target content="_top">
+<meta name=description content="Rules for building and handling Docker images with Bazel">
+<meta name=generator content="Hugo 0.88.1 with theme pure">
+<title>rules_docker - jrbeverly</title>
+<link rel=stylesheet href=/css/style.css>
+<link rel=stylesheet href=/github.min.css>
+<meta property="og:title" content="rules_docker">
+<meta property="og:description" content="Rules for building and handling Docker images with Bazel">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/2022/01/jrbeverly-rules_docker/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2022-01-12T01:24:06+00:00">
+<meta property="article:modified_time" content="2022-01-12T01:24:06+00:00">
+<meta itemprop=name content="rules_docker">
+<meta itemprop=description content="Rules for building and handling Docker images with Bazel"><meta itemprop=datePublished content="2022-01-12T01:24:06+00:00">
+<meta itemprop=dateModified content="2022-01-12T01:24:06+00:00">
+<meta itemprop=wordCount content="4711">
+<meta itemprop=keywords content="org:jrbeverly,"><meta name=twitter:card content="summary">
+<meta name=twitter:title content="rules_docker">
+<meta name=twitter:description content="Rules for building and handling Docker images with Bazel">
+</head>
+</head>
+<body class="main-center theme-white" itemscope itemtype=http://schema.org/WebPage><header class=header itemscope itemtype=http://schema.org/WPHeader>
+<div class=slimContent>
+<div class=navbar-header>
+<div class="profile-block text-center">
+<a id=avatar href=https://github.com/jrbeverly target=_blank>
+<img class="img-circle img-rotate" src=/avatar.png width=200 height=200>
+</a>
+<h2 id=name class="hidden-xs hidden-sm">Jonathan Beverly</h2>
+<h3 id=title class="hidden-xs hidden-sm hidden-md"></h3>
+<small id=location class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>Ontario, Canada</small>
+</div><div class=search id=search-form-wrap>
+<form class="search-form sidebar-form">
+<div class=input-group>
+<input type=text class="search-form-input form-control" placeholder=Search>
+<span class=input-group-btn>
+<button type=submit class="search-form-submit btn btn-flat" onclick=return!1><i class="icon icon-search"></i></button>
+</span>
+</div>
+<div class=ins-search>
+<div class=ins-search-mask></div>
+<div class=ins-search-container>
+<div class=ins-input-wrapper>
+<input type=text class=ins-search-input placeholder="Type something..." x-webkit-speech>
+<button type=button class="close ins-close ins-selectable" data-dismiss=modal aria-label=Close><span aria-hidden=true>×</span></button>
+</div>
+<div class=ins-section-wrapper>
+<div class=ins-section-container></div>
+</div>
+</div>
+</div>
+</form>
+</div>
+<button class="navbar-toggle collapsed" type=button data-toggle=collapse data-target=#main-navbar aria-controls=main-navbar aria-expanded=false>
+<span class=sr-only>Toggle navigation</span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+</button>
+</div>
+<nav id=main-navbar class="collapse navbar-collapse" itemscope itemtype=http://schema.org/SiteNavigationElement role=navigation>
+<ul class="nav navbar-nav main-nav">
+<li class="menu-item menu-item-home">
+<a href=/>
+<i class="icon icon-home-fill"></i>
+<span class=menu-title>Home</span>
+</a>
+</li>
+<li class="menu-item menu-item-repositories">
+<a href=/>
+<i class="icon icon-archives-fill"></i>
+<span class=menu-title>Repositories</span>
+</a>
+</li>
+<li class="menu-item menu-item-tags">
+<a href=/tags>
+<i class="icon icon-tags"></i>
+<span class=menu-title>Tags</span>
+</a>
+</li>
+<li class="menu-item menu-item-cardboardci">
+<a href=/cardboardci/readme>
+<i class="icon icon-project"></i>
+<span class=menu-title>CardboardCI</span>
+</a>
+</li>
+<li class="menu-item menu-item-infraprints">
+<a href=/infraprints/readme>
+<i class="icon icon-book-fill"></i>
+<span class=menu-title>Infraprints</span>
+</a>
+</li>
+<li class="menu-item menu-item-blockycraft">
+<a href=/blockycraft/readme>
+<i class="icon icon-cup-fill"></i>
+<span class=menu-title>Blockycraft</span>
+</a>
+</li>
+<li class="menu-item menu-item-friending">
+<a href=/friending/readme>
+<i class="icon icon-friendship"></i>
+<span class=menu-title>Friending</span>
+</a>
+</li>
+<li class="menu-item menu-item-wisevault">
+<a href=/wisevault/readme>
+<i class="icon icon-project"></i>
+<span class=menu-title>WiseVault</span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</header>
+<aside class=sidebar itemscope itemtype=http://schema.org/WPSideBar>
+<div class=slimContent>
+<div class=widget>
+<h3 class=widget-title>Board</h3>
+<div class=widget-body>
+<div id=board>
+<div class=content>Repository links
+</div>
+</div>
+</div>
+</div>
+<div class=widget>
+<h3 class=widget-title> Categories</h3>
+<div class=widget-body>
+<ul class=category-list>
+</ul>
+</div>
+</div>
+<div class=widget>
+<h3 class=widget-title> Tags</h3>
+<div class=widget-body>
+<ul class=tag-list>
+<li class=tag-list-item><a href=/tags/blockycraft/ class=tag-list-link>blockycraft</a><span class=tag-list-count>1</span></li>
+<li class=tag-list-item><a href=/tags/cloud-services/ class=tag-list-link>cloud-services</a><span class=tag-list-count>1</span></li>
+<li class=tag-list-item><a href=/tags/continuous-integration/ class=tag-list-link>continuous-integration</a><span class=tag-list-count>1</span></li>
+<li class=tag-list-item><a href=/tags/docker/ class=tag-list-link>docker</a><span class=tag-list-count>1</span></li>
+<li class=tag-list-item><a href=/tags/index/ class=tag-list-link>index</a><span class=tag-list-count>1</span></li>
+<li class=tag-list-item><a href=/tags/infrastructure-as-code/ class=tag-list-link>infrastructure-as-code</a><span class=tag-list-count>1</span></li>
+<li class=tag-list-item><a href=/tags/mobile-social-network/ class=tag-list-link>mobile-social-network</a><span class=tag-list-count>1</span></li>
+<li class=tag-list-item><a href=/tags/orgblockycraft/ class=tag-list-link>orgblockycraft</a><span class=tag-list-count>5</span></li>
+<li class=tag-list-item><a href=/tags/orgcardboardci/ class=tag-list-link>orgcardboardci</a><span class=tag-list-count>43</span></li>
+<li class=tag-list-item><a href=/tags/orgdevkitspaces/ class=tag-list-link>orgdevkitspaces</a><span class=tag-list-count>7</span></li>
+<li class=tag-list-item><a href=/tags/orginfraprints/ class=tag-list-link>orginfraprints</a><span class=tag-list-count>13</span></li>
+<li class=tag-list-item><a href=/tags/orgjrbeverly/ class=tag-list-link>orgjrbeverly</a><span class=tag-list-count>98</span></li>
+<li class=tag-list-item><a href=/tags/orgthefriending/ class=tag-list-link>orgthefriending</a><span class=tag-list-count>5</span></li>
+<li class=tag-list-item><a href=/tags/orgxplatformer/ class=tag-list-link>orgxplatformer</a><span class=tag-list-count>7</span></li>
+<li class=tag-list-item><a href=/tags/prototype/ class=tag-list-link>prototype</a><span class=tag-list-count>1</span></li>
+<li class=tag-list-item><a href=/tags/terraform/ class=tag-list-link>terraform</a><span class=tag-list-count>1</span></li>
+<li class=tag-list-item><a href=/tags/wisevault/ class=tag-list-link>wisevault</a><span class=tag-list-count>1</span></li>
+</ul>
+</div>
+</div>
+<div class=widget>
+<h3 class=widget-title>Recent Posts</h3>
+<div class=widget-body>
+<ul class="recent-post-list list-unstyled no-thumbnail">
+<li>
+<div class=item-inner>
+<p class=item-title>
+<a href=/2022/05/jrbeverly-swagger-golang-bazelgen-exp/ class=title>swagger-golang-bazelgen-exp</a>
+</p>
+<p class=item-date>
+<time datetime="2022-05-19 00:58:15 +0000 UTC" itemprop=datePublished>2022-05-19</time>
+</p>
+</div>
+</li>
+<li>
+<div class=item-inner>
+<p class=item-title>
+<a href=/2022/05/jrbeverly-graphql-golang-note-check/ class=title>graphql-golang-note-check</a>
+</p>
+<p class=item-date>
+<time datetime="2022-05-18 23:21:25 +0000 UTC" itemprop=datePublished>2022-05-18</time>
+</p>
+</div>
+</li>
+<li>
+<div class=item-inner>
+<p class=item-title>
+<a href=/2022/05/jrbeverly-react-xstate-machines/ class=title>react-xstate-machines</a>
+</p>
+<p class=item-date>
+<time datetime="2022-05-18 23:14:27 +0000 UTC" itemprop=datePublished>2022-05-18</time>
+</p>
+</div>
+</li>
+<li>
+<div class=item-inner>
+<p class=item-title>
+<a href=/2022/05/jrbeverly-exp-pulumi-lambda/ class=title>exp-pulumi-lambda</a>
+</p>
+<p class=item-date>
+<time datetime="2022-05-18 00:40:54 +0000 UTC" itemprop=datePublished>2022-05-18</time>
+</p>
+</div>
+</li>
+<li>
+<div class=item-inner>
+<p class=item-title>
+<a href=/2022/05/jrbeverly-golang-gin-gitpod/ class=title>golang-gin-gitpod</a>
+</p>
+<p class=item-date>
+<time datetime="2022-05-18 00:23:29 +0000 UTC" itemprop=datePublished>2022-05-18</time>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</aside>
+<aside class="sidebar sidebar-toc collapse" id=collapseToc itemscope itemtype=http://schema.org/WPSideBar>
+<div class=slimContent>
+<nav id=toc class=article-toc>
+<h3 class=toc-title>Catalogue</h3>
+<div class="toc-content always-active"><nav id=TableOfContents>
+<ul>
+<li><a href=#basic-rules>Basic Rules</a>
+<ul>
+<li><a href=#overview>Overview</a></li>
+</ul>
+</li>
+<li><a href=#language-rules>Language Rules</a></li>
+<li><a href=#docker-rules>Docker Rules</a>
+<ul>
+<li><a href=#overview-1>Overview</a></li>
+</ul>
+</li>
+<li><a href=#setup>Setup</a>
+<ul>
+<li><a href=#known-issues>Known Issues</a></li>
+</ul>
+</li>
+<li><a href=#using-with-docker-locally>Using with Docker locally.</a></li>
+<li><a href=#authentication>Authentication</a></li>
+<li><a href=#varying-image-names>Varying image names</a>
+<ul>
+<li><a href=#stamping>Stamping</a></li>
+<li><a href=#make-variables>Make variables</a></li>
+</ul>
+</li>
+<li><a href=#debugging-lang_image-rules>Debugging <code>lang_image</code> rules</a></li>
+<li><a href=#examples>Examples</a>
+<ul>
+<li><a href=#container_image>container_image</a></li>
+<li><a href=#cc_image>cc_image</a></li>
+<li><a href=#cc_image-external-binary>cc_image (external binary)</a></li>
+<li><a href=#py_image>py_image</a></li>
+<li><a href=#py_image-fine-layering>py_image (fine layering)</a></li>
+<li><a href=#py3_image>py3_image</a></li>
+<li><a href=#nodejs_image>nodejs_image</a></li>
+<li><a href=#go_image>go_image</a></li>
+<li><a href=#go_image-custom-base>go_image (custom base)</a></li>
+<li><a href=#java_image>java_image</a></li>
+<li><a href=#war_image>war_image</a></li>
+<li><a href=#scala_image>scala_image</a></li>
+<li><a href=#groovy_image>groovy_image</a></li>
+<li><a href=#rust_image>rust_image</a></li>
+<li><a href=#d_image>d_image</a></li>
+<li><a href=#container_bundle>container_bundle</a></li>
+<li><a href=#container_pull>container_pull</a></li>
+<li><a href=#container_push>container_push</a></li>
+<li><a href=#container_push-custom-client-configuration>container_push (Custom client configuration)</a></li>
+<li><a href=#container_pull-dockerhub>container_pull (DockerHub)</a></li>
+<li><a href=#container_pull-quayio>container_pull (Quay.io)</a></li>
+<li><a href=#container_pull-bintrayio>container_pull (Bintray.io)</a></li>
+<li><a href=#container_pull-gitlab>container_pull (Gitlab)</a></li>
+<li><a href=#container_pull-custom-client-configuration>container_pull (Custom client configuration)</a></li>
+</ul>
+</li>
+<li><a href=#python-tools>Python tools</a>
+<ul>
+<li><a href=#known-issues-1>Known issues</a></li>
+</ul>
+</li>
+<li><a href=#updating-the-distroless-base-images>Updating the <code>distroless</code> base images.</a></li>
+<li><a href=#container_pull-1>container_pull</a></li>
+<li><a href=#container_push-1>container_push</a></li>
+<li><a href=#container_layer>container_layer</a></li>
+<li><a href=#container_image-1>container_image</a></li>
+<li><a href=#container_bundle-1>container_bundle</a></li>
+<li><a href=#container_import>container_import</a></li>
+<li><a href=#container_load>container_load</a></li>
+<li><a href=#adopters>Adopters</a></li>
+</ul>
+</nav>
+</div>
+</nav>
+</div>
+</aside>
+<main class=main role=main><div class=content>
+<article id=- class="article article-type-" itemscope itemtype=http://schema.org/BlogPosting>
+<div class=article-header>
+<h1 itemprop=name>
+<a class=article-title href=/2022/01/jrbeverly-rules_docker/>rules_docker</a>
+</h1>
+<div class=article-meta>
+<span class=article-date>
+<i class="icon icon-calendar-check"></i>
+<a href=/2022/01/jrbeverly-rules_docker/ class=article-date>
+<time datetime="2022-01-12 01:24:06 +0000 UTC" itemprop=datePublished>2022-01-12</time>
+</a>
+</span>
+<span class=article-tag>
+<i class="icon icon-tags"></i>
+<a class=article-tag-link href=/tags/orgjrbeverly/> org:jrbeverly </a>
+</span>
+</div>
+</div>
+<div class="article-entry marked-body" itemprop=articleBody>
+<h1 id=bazel-container-image-rules>Bazel Container Image Rules</h1>
+<table>
+<thead>
+<tr>
+<th style=text-align:center>Bazel CI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=text-align:center><a href=https://buildkite.com/bazel/docker-rules-docker-postsubmit><img src="https://badge.buildkite.com/693d7892250cfd44beea3cd95573388200935906a28cd3146d.svg?branch=master" alt="Build status"></a></td>
+</tr>
+</tbody>
+</table>
+<p>Generated API documentation is in the docs folder, or you can browse it online at
+<a href=https://docs.aspect.dev/rules_docker>https://docs.aspect.dev/rules_docker</a></p>
+<h2 id=basic-rules>Basic Rules</h2>
+<ul>
+<li><a href=/docs/container.md#container_image>container_image</a> (<a href=#container_image>example</a>)</li>
+<li><a href=/docs/container.md#container_bundle>container_bundle</a> (<a href=#container_bundle>example</a>)</li>
+<li><a href=/docs/container.md#container_import>container_import</a></li>
+<li><a href=/docs/container.md#container_load>container_load</a></li>
+<li><a href=/docs/container.md#container_pull>container_pull</a> (<a href=#container_pull>example</a>)</li>
+<li><a href=/docs/container.md#container_push>container_push</a> (<a href=#container_push>example</a>)</li>
+</ul>
+<p>These rules used to be <code>docker_build</code>, <code>docker_push</code>, etc. and the aliases for
+these (mostly) legacy names still exist largely for backwards-compatibility. We
+also have <strong>early-stage</strong> <code>oci_image</code>, <code>oci_push</code>, etc. aliases for folks that
+enjoy the consistency of a consistent rule prefix. The only place the
+format-specific names currently do any more than alias things is in <code>foo_push</code>,
+where they also specify the appropriate format as which to publish the image.</p>
+<h3 id=overview>Overview</h3>
+<p>This repository contains a set of rules for pulling down base images, augmenting
+them with build artifacts and assets, and publishing those images.
+<strong>These rules do not require / use Docker for pulling, building, or pushing
+images.</strong> This means:</p>
+<ul>
+<li>They can be used to develop Docker containers on OSX without
+<code>boot2docker</code> or <code>docker-machine</code> installed. Note use of these rules on Windows
+is currently not supported.</li>
+<li>They do not require root access on your workstation.</li>
+</ul>
+<p>Also, unlike traditional container builds (e.g. Dockerfile), the Docker images
+produced by <code>container_image</code> are deterministic / reproducible.</p>
+<p>To get started with building Docker images, check out the
+<a href=https://github.com/bazelbuild/rules_docker/tree/master/testing/examples>examples</a>
+that build the same images using both rules_docker and a Dockerfile.</p>
+<p><strong>NOTE:</strong> <code>container_push</code> and <code>container_pull</code> make use of
+<a href=https://github.com/google/go-containerregistry>google/go-containerregistry</a> for
+registry interactions.</p>
+<h2 id=language-rules>Language Rules</h2>
+<ul>
+<li><a href=#py_image>py_image</a> (<a href=https://docs.bazel.build/versions/master/be/python.html#py_binary>signature</a>)</li>
+<li><a href=#py3_image>py3_image</a> (<a href=https://docs.bazel.build/versions/master/be/python.html#py_binary>signature</a>)</li>
+<li><a href=#nodejs_image>nodejs_image</a> (<a href=https://github.com/bazelbuild/rules_nodejs#usage>usage</a>)</li>
+<li><a href=#java_image>java_image</a> (<a href=https://docs.bazel.build/versions/master/be/java.html#java_binary>signature</a>)</li>
+<li><a href=#war_image>war_image</a> (<a href=https://docs.bazel.build/versions/master/be/java.html#java_library>signature</a>)</li>
+<li><a href=#scala_image>scala_image</a> (<a href=https://github.com/bazelbuild/rules_scala#scala_binary>signature</a>)</li>
+<li><a href=#groovy_image>groovy_image</a> (<a href=https://github.com/bazelbuild/rules_groovy#groovy_binary>signature</a>)</li>
+<li><a href=#cc_image>cc_image</a> (<a href=https://docs.bazel.build/versions/master/be/c-cpp.html#cc_binary>signature</a>)</li>
+<li><a href=#go_image>go_image</a> (<a href=https://github.com/bazelbuild/rules_go#go_binary>signature</a>)</li>
+<li><a href=#rust_image>rust_image</a> (<a href=https://github.com/bazelbuild/rules_rust#rust_binary>signature</a>)</li>
+<li><a href=#d_image>d_image</a> (<a href=https://github.com/bazelbuild/rules_d#d_binary>signature</a>)</li>
+</ul>
+<p>It is notable that: <code>cc_image</code>, <code>go_image</code>, <code>rust_image</code>, and <code>d_image</code>
+also allow you to specify an external binary target.</p>
+<h2 id=docker-rules>Docker Rules</h2>
+<p>This repo now includes rules that provide additional functionality
+to install packages and run commands inside docker containers. These
+rules, however, require a docker binary is present and properly
+configured. These rules include:</p>
+<ul>
+<li><a href=docker/package_managers/README.md>Package manager rules</a>: rules to install
+apt-get packages.</li>
+<li><a href=docker/util/README.md>Docker run rules</a>: rules to run commands inside docker
+containers.</li>
+</ul>
+<h3 id=overview-1>Overview</h3>
+<p>In addition to low-level rules for building containers, this repository
+provides a set of higher-level rules for containerizing applications. The idea
+behind these rules is to make containerizing an application built via a
+<code>lang_binary</code> rule as simple as changing it to <code>lang_image</code>.</p>
+<p>By default these higher level rules make use of the <a href=https://github.com/googlecloudplatform/distroless><code>distroless</code></a> language runtimes, but these
+can be overridden via the <code>base="..."</code> attribute (e.g. with a <code>container_pull</code>
+or <code>container_image</code> target).</p>
+<p>Note also that these rules do not expose any docker related attributes. If you
+need to add a custom <code>env</code> or <code>symlink</code> to a <code>lang_image</code>, you must use
+<code>container_image</code> targets for this purpose. Specifically, you can use as base for your
+<code>lang_image</code> target a <code>container_image</code> target that adds e.g., custom <code>env</code> or <code>symlink</code>.
+Please see go_image (custom base) for an example.</p>
+<h2 id=setup>Setup</h2>
+<p>Add the following to your <code>WORKSPACE</code> file to add the external repositories:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(<span style=color:#e6db74>&#34;@bazel_tools//tools/build_defs/repo:http.bzl&#34;</span>, <span style=color:#e6db74>&#34;http_archive&#34;</span>)
+
+http_archive(
+  <span style=color:#75715e># Get copy paste instructions for the http_archive attributes from the</span>
+  <span style=color:#75715e># release notes at https://github.com/bazelbuild/rules_docker/releases</span>
+)
+
+<span style=color:#75715e># OPTIONAL: Call this to override the default docker toolchain configuration.</span>
+<span style=color:#75715e># This call should be placed BEFORE the call to &#34;container_repositories&#34; below</span>
+<span style=color:#75715e># to actually override the default toolchain configuration.</span>
+<span style=color:#75715e># Note this is only required if you actually want to call</span>
+<span style=color:#75715e># docker_toolchain_configure with a custom attr; please read the toolchains</span>
+<span style=color:#75715e># docs in /toolchains/docker/ before blindly adding this to your WORKSPACE.</span>
+<span style=color:#75715e># BEGIN OPTIONAL segment:</span>
+load(<span style=color:#e6db74>&#34;@io_bazel_rules_docker//toolchains/docker:toolchain.bzl&#34;</span>,
+    docker_toolchain_configure<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;toolchain_configure&#34;</span>
+)
+docker_toolchain_configure(
+  name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;docker_config&#34;</span>,
+  <span style=color:#75715e># OPTIONAL: Bazel target for the build_tar tool, must be compatible with build_tar.py</span>
+  build_tar_target<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;&lt;enter absolute path (i.e., must start with repo name @...//:...) to an executable build_tar target&gt;&#34;</span>,
+  <span style=color:#75715e># OPTIONAL: Path to a directory which has a custom docker client config.json.</span>
+  <span style=color:#75715e># See https://docs.docker.com/engine/reference/commandline/cli/#configuration-files</span>
+  <span style=color:#75715e># for more details.</span>
+  client_config<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;&lt;enter absolute path to your docker config directory here&gt;&#34;</span>,
+  <span style=color:#75715e># OPTIONAL: Path to the docker binary.</span>
+  <span style=color:#75715e># Should be set explicitly for remote execution.</span>
+  docker_path<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;&lt;enter absolute path to the docker binary (in the remote exec env) here&gt;&#34;</span>,
+  <span style=color:#75715e># OPTIONAL: Path to the gzip binary.</span>
+  gzip_path<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;&lt;enter absolute path to the gzip binary (in the remote exec env) here&gt;&#34;</span>,
+  <span style=color:#75715e># OPTIONAL: Bazel target for the gzip tool.</span>
+  gzip_target<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;&lt;enter absolute path (i.e., must start with repo name @...//:...) to an executable gzip target&gt;&#34;</span>,
+  <span style=color:#75715e># OPTIONAL: Path to the xz binary.</span>
+  <span style=color:#75715e># Should be set explicitly for remote execution.</span>
+  xz_path<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;&lt;enter absolute path to the xz binary (in the remote exec env) here&gt;&#34;</span>,
+  <span style=color:#75715e># OPTIONAL: Bazel target for the xz tool.</span>
+  <span style=color:#75715e># Either xz_path or xz_target should be set explicitly for remote execution.</span>
+  xz_target<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;&lt;enter absolute path (i.e., must start with repo name @...//:...) to an executable xz target&gt;&#34;</span>,
+  <span style=color:#75715e># OPTIONAL: List of additional flags to pass to the docker command.</span>
+  docker_flags <span style=color:#f92672>=</span> [
+    <span style=color:#e6db74>&#34;--tls&#34;</span>,
+    <span style=color:#e6db74>&#34;--log-level=info&#34;</span>,
+  ],
+
+)
+<span style=color:#75715e># End of OPTIONAL segment.</span>
+
+load(
+    <span style=color:#e6db74>&#34;@io_bazel_rules_docker//repositories:repositories.bzl&#34;</span>,
+    container_repositories <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;repositories&#34;</span>,
+)
+container_repositories()
+
+load(<span style=color:#e6db74>&#34;@io_bazel_rules_docker//repositories:deps.bzl&#34;</span>, container_deps <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;deps&#34;</span>)
+
+container_deps()
+
+load(
+    <span style=color:#e6db74>&#34;@io_bazel_rules_docker//container:container.bzl&#34;</span>,
+    <span style=color:#e6db74>&#34;container_pull&#34;</span>,
+)
+
+container_pull(
+  name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;java_base&#34;</span>,
+  registry <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;gcr.io&#34;</span>,
+  repository <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;distroless/java&#34;</span>,
+  <span style=color:#75715e># &#39;tag&#39; is also supported, but digest is encouraged for reproducibility.</span>
+  digest <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;sha256:deadbeef&#34;</span>,
+)
+</code></pre></div><h3 id=known-issues>Known Issues</h3>
+<ul>
+<li>Bazel does not deal well with diamond dependencies.</li>
+</ul>
+<p>If the repositories that are imported by <code>container_repositories()</code> have already been
+imported (at a different version) by other rules you called in your <code>WORKSPACE</code>, which
+are placed above the call to <code>container_repositories()</code>, arbitrary errors might
+occur. If you get errors related to external repositories, you will likely
+not be able to use <code>container_repositories()</code> and will have to import
+directly in your <code>WORKSPACE</code> all the required dependencies (see the most up
+to date impl of <code>container_repositories()</code> for details).</p>
+<ul>
+<li>ImportError: No module named moves.urllib.parse</li>
+</ul>
+<p>This is an example of an error due to a diamond dependency. If you get this
+error, make sure to import rules_docker before other libraries, so that
+<em>six</em> can be patched properly.</p>
+<p>See <a href=https://github.com/bazelbuild/rules_docker/issues/1022>https://github.com/bazelbuild/rules_docker/issues/1022</a> for more details.</p>
+<ul>
+<li>Ensure your project has a <code>BUILD</code> or <code>BUILD.bazel</code> file at the top level. This
+can be a blank file if necessary. Otherwise you might see an error that looks
+like:</li>
+</ul>
+<pre tabindex=0><code>Unable to load package for //:WORKSPACE: BUILD file not found in any of the following directories.
+</code></pre><h2 id=using-with-docker-locally>Using with Docker locally.</h2>
+<p>Suppose you have a <code>container_image</code> target <code>//my/image:helloworld</code>:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>container_image(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;helloworld&#34;</span>,
+    <span style=color:#f92672>...</span>
+)
+</code></pre></div><p>You can load this into your local Docker client by running:
+<code>bazel run my/image:helloworld</code>.</p>
+<p>For the <code>lang_image</code> targets, this will also <strong>run</strong> the
+container using <code>docker run</code> to maximize compatibility with <code>lang_binary</code> rules.</p>
+<p>Arguments to this command are forwarded to docker, meaning the command</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>bazel run my/image:helloworld -- -p 8080:80 -- arg0
+</code></pre></div><p>performs the following steps:</p>
+<ul>
+<li>load the <code>my/image:helloworld</code> target into your local Docker client</li>
+<li>start a container using this image where <code>arg0</code> is passed to the image entrypoint</li>
+<li>port forward 8080 on the host to port 80 on the container, as per <code>docker run</code> documentation</li>
+</ul>
+<p>You can suppress this behavior by passing the single flag: <code>bazel run :foo -- --norun</code></p>
+<p>Alternatively, you can build a <code>docker load</code> compatible bundle with:
+<code>bazel build my/image:helloworld.tar</code>. This will produce the file:
+<code>bazel-bin/my/image/helloworld.tar</code>, which you can load into
+your local Docker client by running:
+<code>docker load -i bazel-bin/my/image/helloworld.tar</code>. Building
+this target can be expensive for large images.</p>
+<p>These work with both <code>container_image</code>, <code>container_bundle</code>, and the
+<code>lang_image</code> rules. For everything except
+<code>container_bundle</code>, the image name will be <code>bazel/my/image:helloworld</code>.
+For <code>container_bundle</code>, it will apply the tags you have specified.</p>
+<h2 id=authentication>Authentication</h2>
+<p>You can use these rules to access private images using standard Docker
+authentication methods. e.g. to utilize the <a href=https://gcr.io>Google Container Registry</a>. See
+<a href=https://cloud.google.com/container-registry/docs/advanced-authentication>here</a> for authentication methods.</p>
+<p>See also:</p>
+<ul>
+<li><a href=https://github.com/awslabs/amazon-ecr-credential-helper>Amazon ECR Docker Credential Helper</a></li>
+<li><a href=https://github.com/Azure/acr-docker-credential-helper>Azure Docker Credential Helper</a></li>
+</ul>
+<p>Once you&rsquo;ve setup your docker client configuration, see <a href=#container_pull-custom-client-configuration>here</a>
+for an example of how to use <code>container_pull</code> with custom docker authentication credentials
+and <a href=#container_push-custom-client-configuration>here</a> for an example of how
+to use <code>container_push</code> with custom docker authentication credentials.</p>
+<h2 id=varying-image-names>Varying image names</h2>
+<p>A common request from folks using
+<code>container_push</code>, <code>container_bundle</code>, or <code>container_image</code> is to
+be able to vary the tag that is pushed or embedded. There are two options
+at present for doing this.</p>
+<h3 id=stamping>Stamping</h3>
+<p>The first option is to use stamping.
+Stamping is enabled when bazel is run with <code>--stamp</code>.
+This enables replacements in stamp-aware attributes.
+A python format placeholder (e.g. <code>{BUILD_USER}</code>)
+is replaced by the value of the corresponding workspace-status variable.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=color:#75715e># A common pattern when users want to avoid trampling</span>
+<span style=color:#75715e># on each other&#39;s images during development.</span>
+container_push(
+  name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;publish&#34;</span>,
+  format <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;Docker&#34;</span>,
+
+  <span style=color:#75715e># Any of these components may have variables.</span>
+  registry <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;gcr.io&#34;</span>,
+  repository <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;my-project/my-image&#34;</span>,
+  <span style=color:#75715e># This will be replaced with the current user when built with --stamp</span>
+  tag <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>{BUILD_USER}</span><span style=color:#e6db74>&#34;</span>,
+)
+</code></pre></div><blockquote>
+<p>Rules that are sensitive to stamping can also be forced to stamp or non-stamp mode
+irrespective of the <code>--stamp</code> flag to Bazel. Use the <code>build_context_data</code> rule
+to make a target that provides <code>StampSettingInfo</code>, and pass this to the
+<code>build_context_data</code> attribute.</p>
+</blockquote>
+<p>The next natural question is: &ldquo;Well what variables can I use?&rdquo; This
+option consumes the workspace-status variables Bazel defines in
+<code>bazel-out/stable-status.txt</code> and <code>bazel-out/volatile-status.txt</code>.</p>
+<blockquote>
+<p>Note that changes to the stable-status file
+cause a rebuild of the action, while volatile-status does not.</p>
+</blockquote>
+<p>You can add more stamp variables via <code>--workspace_status_command</code>,
+see the <a href=https://docs.bazel.build/versions/master/user-manual.html#workspace_status>bazel docs</a>.
+A common example is to provide the current git SHA, with
+<code>--workspace_status_command="echo STABLE_GIT_SHA $(git rev-parse HEAD)"</code></p>
+<p>That flag is typically passed in the <code>.bazelrc</code> file, see for example <a href=https://github.com/kubernetes/kubernetes/blob/81ce94ae1d8f5d04058eeb214e9af498afe78ff2/build/root/.bazelrc#L6><code>.bazelrc</code> in kubernetes</a>.</p>
+<h3 id=make-variables>Make variables</h3>
+<p>The second option is to employ <code>Makefile</code>-style variables:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>container_bundle(
+  name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;bundle&#34;</span>,
+
+  images <span style=color:#f92672>=</span> {
+    <span style=color:#e6db74>&#34;gcr.io/$(project)/frontend:latest&#34;</span>: <span style=color:#e6db74>&#34;//frontend:image&#34;</span>,
+    <span style=color:#e6db74>&#34;gcr.io/$(project)/backend:latest&#34;</span>: <span style=color:#e6db74>&#34;//backend:image&#34;</span>,
+  }
+)
+</code></pre></div><p>These variables are specified on the CLI using:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>   bazel build --define project<span style=color:#f92672>=</span>blah //path/to:bundle
+</code></pre></div><h2 id=debugging-lang_image-rules>Debugging <code>lang_image</code> rules</h2>
+<p>By default the <code>lang_image</code> rules use the <code>distroless</code> base runtime images,
+which are optimized to be the minimal set of things your application needs
+at runtime. That can make debugging these containers difficult because they
+lack even a basic shell for exploring the filesystem.</p>
+<p>To address this, we publish variants of the <code>distroless</code> runtime images tagged
+<code>:debug</code>, which are the exact-same images, but with additions such as <code>busybox</code>
+to make debugging easier.</p>
+<p>For example (in this repo):</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ bazel run -c dbg testdata:go_image
+...
+INFO: Build completed successfully, <span style=color:#ae81ff>5</span> total actions
+
+INFO: Running command line: bazel-bin/testdata/go_image
+Loaded image ID: sha256:9c5c2167a1db080a64b5b401b43b3c5cdabb265b26cf7a60aabe04a20da79e24
+Tagging 9c5c2167a1db080a64b5b401b43b3c5cdabb265b26cf7a60aabe04a20da79e24 as bazel/testdata:go_image
+Hello, world!
+
+$ docker run -ti --rm --entrypoint<span style=color:#f92672>=</span>sh bazel/testdata:go_image -c <span style=color:#e6db74>&#34;echo Hello, busybox.&#34;</span>
+Hello, busybox.
+</code></pre></div><h2 id=examples>Examples</h2>
+<h3 id=container_image>container_image</h3>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>container_image(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;app&#34;</span>,
+    <span style=color:#75715e># References container_pull from WORKSPACE (above)</span>
+    base <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;@java_base//image&#34;</span>,
+    files <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;//java/com/example/app:Hello_deploy.jar&#34;</span>],
+    cmd <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;Hello_deploy.jar&#34;</span>]
+)
+</code></pre></div><p>Hint: if you want to put files in specific directories inside the image
+use <code>pkg_tar</code> rule
+to create the desired directory structure and pass that to <code>container_image</code> via
+<code>tars</code> attribute. Note you might need to set <code>strip_prefix = "."</code> or <code>strip_prefix = "{some directory}"</code>
+in your rule for the files to not be flattened.
+See Bazel upstream issue 2176 and
+rules_docker issue 317
+for more details.</p>
+<h3 id=cc_image>cc_image</h3>
+<p>To use <code>cc_image</code>, add the following to <code>WORKSPACE</code>:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(
+    <span style=color:#e6db74>&#34;@io_bazel_rules_docker//repositories:repositories.bzl&#34;</span>,
+    container_repositories <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;repositories&#34;</span>,
+)
+
+container_repositories()
+
+load(
+    <span style=color:#e6db74>&#34;@io_bazel_rules_docker//cc:image.bzl&#34;</span>,
+    _cc_image_repos <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;repositories&#34;</span>,
+)
+
+_cc_image_repos()
+</code></pre></div><p>Then in your <code>BUILD</code> file, simply rewrite <code>cc_binary</code> to <code>cc_image</code> with the
+following import:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(<span style=color:#e6db74>&#34;@io_bazel_rules_docker//cc:image.bzl&#34;</span>, <span style=color:#e6db74>&#34;cc_image&#34;</span>)
+
+cc_image(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;cc_image&#34;</span>,
+    srcs <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;cc_image.cc&#34;</span>],
+    deps <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;:cc_image_library&#34;</span>],
+)
+</code></pre></div><h3 id=cc_image-external-binary>cc_image (external binary)</h3>
+<p>To use <code>cc_image</code> (or <code>go_image</code>, <code>d_image</code>, <code>rust_image</code>) with an external
+<code>cc_binary</code> (or the like) target, then your <code>BUILD</code> file should instead look
+like:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(<span style=color:#e6db74>&#34;@io_bazel_rules_docker//cc:image.bzl&#34;</span>, <span style=color:#e6db74>&#34;cc_image&#34;</span>)
+
+cc_binary(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;cc_binary&#34;</span>,
+    srcs <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;cc_binary.cc&#34;</span>],
+    deps <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;:cc_library&#34;</span>],
+)
+
+cc_image(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;cc_image&#34;</span>,
+    binary <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;:cc_binary&#34;</span>,
+)
+</code></pre></div><p>If you need to modify somehow the container produced by
+<code>cc_image</code> (e.g., <code>env</code>, <code>symlink</code>), see note above in
+Language Rules Overview about how to do this
+and see go_image (custom base) example below.</p>
+<h3 id=py_image>py_image</h3>
+<p>To use <code>py_image</code>, add the following to <code>WORKSPACE</code>:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(
+    <span style=color:#e6db74>&#34;@io_bazel_rules_docker//repositories:repositories.bzl&#34;</span>,
+    container_repositories <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;repositories&#34;</span>,
+)
+
+container_repositories()
+
+load(
+    <span style=color:#e6db74>&#34;@io_bazel_rules_docker//python:image.bzl&#34;</span>,
+    _py_image_repos <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;repositories&#34;</span>,
+)
+
+_py_image_repos()
+</code></pre></div><p>Then in your <code>BUILD</code> file, simply rewrite <code>py_binary</code> to <code>py_image</code> with the
+following import:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(<span style=color:#e6db74>&#34;@io_bazel_rules_docker//python:image.bzl&#34;</span>, <span style=color:#e6db74>&#34;py_image&#34;</span>)
+
+py_image(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;py_image&#34;</span>,
+    srcs <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;py_image.py&#34;</span>],
+    deps <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;:py_image_library&#34;</span>],
+    main <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;py_image.py&#34;</span>,
+)
+</code></pre></div><p>If you need to modify somehow the container produced by
+<code>py_image</code> (e.g., <code>env</code>, <code>symlink</code>), see note above in
+Language Rules Overview about how to do this
+and see go_image (custom base) example below.</p>
+<p>If you are using <code>py_image</code> with a custom base that has python tools installed
+in a location different to the default base, please see
+Python tools.</p>
+<h3 id=py_image-fine-layering>py_image (fine layering)</h3>
+<p>For Python and Java&rsquo;s <code>lang_image</code> rules, you can factor
+dependencies that don&rsquo;t change into their own layers by overriding the
+<code>layers=[]</code> attribute. Consider this sample from the <code>rules_k8s</code> repository:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>py_image(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;server&#34;</span>,
+    srcs <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;server.py&#34;</span>],
+    <span style=color:#75715e># &#34;layers&#34; is just like &#34;deps&#34;, but it also moves the dependencies each into</span>
+    <span style=color:#75715e># their own layer, which can dramatically improve developer cycle time. For</span>
+    <span style=color:#75715e># example here, the grpcio layer is ~40MB, but the rest of the app is only</span>
+    <span style=color:#75715e># ~400KB.  By partitioning things this way, the large grpcio layer remains</span>
+    <span style=color:#75715e># unchanging and we can reduce the amount of image data we repush by ~99%!</span>
+    layers <span style=color:#f92672>=</span> [
+        requirement(<span style=color:#e6db74>&#34;grpcio&#34;</span>),
+        <span style=color:#e6db74>&#34;//examples/hellogrpc/proto:py&#34;</span>,
+    ],
+    main <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;server.py&#34;</span>,
+)
+</code></pre></div><p>You can also implement more complex fine layering strategies by using the
+<code>py_layer</code> rule and its <code>filter</code> attribute. For example:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=color:#75715e># Suppose that we are synthesizing an image that depends on a complex set</span>
+<span style=color:#75715e># of libraries that we want to break into layers.</span>
+LIBS <span style=color:#f92672>=</span> [
+    <span style=color:#e6db74>&#34;//pkg/complex_library&#34;</span>,
+    <span style=color:#75715e># ...</span>
+]
+<span style=color:#75715e># First, we extract all transitive dependencies of LIBS that are under //pkg/common.</span>
+py_layer(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;common_deps&#34;</span>,
+    deps <span style=color:#f92672>=</span> LIBS,
+    filter <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;//pkg/common&#34;</span>,
+)
+<span style=color:#75715e># Then, we further extract all external dependencies of the deps under //pkg/common.</span>
+py_layer(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;common_external_deps&#34;</span>,
+    deps <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;:common_deps&#34;</span>],
+    filter <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;@&#34;</span>,
+)
+<span style=color:#75715e># We also extract all external dependencies of LIBS, which is a superset of</span>
+<span style=color:#75715e># &#34;:common_external_deps&#34;.</span>
+py_layer(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;external_deps&#34;</span>,
+    deps <span style=color:#f92672>=</span> LIBS,
+    filter <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;@&#34;</span>,
+)
+<span style=color:#75715e># Finally, we create the image, stacking the above filtered layers on top of one</span>
+<span style=color:#75715e># another in the &#34;layers&#34; attribute.  The layers are applied in order, and any</span>
+<span style=color:#75715e># dependencies already added to the image will not be added again.  Therefore,</span>
+<span style=color:#75715e># &#34;:external_deps&#34; will only add the external dependencies not present in</span>
+<span style=color:#75715e># &#34;:common_external_deps&#34;.</span>
+py_image(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;image&#34;</span>,
+    deps <span style=color:#f92672>=</span> LIBS,
+    layers <span style=color:#f92672>=</span> [
+        <span style=color:#e6db74>&#34;:common_external_deps&#34;</span>,
+        <span style=color:#e6db74>&#34;:common_deps&#34;</span>,
+        <span style=color:#e6db74>&#34;:external_deps&#34;</span>,
+    ],
+    <span style=color:#75715e># ...</span>
+)
+</code></pre></div><h3 id=py3_image>py3_image</h3>
+<p>To use a Python 3 runtime instead of the default of Python 2, use <code>py3_image</code>,
+instead of <code>py_image</code>. The other semantics are identical.</p>
+<p>If you need to modify somehow the container produced by
+<code>py3_image</code> (e.g., <code>env</code>, <code>symlink</code>), see note above in
+Language Rules Overview about how to do this
+and see go_image (custom base) example below.</p>
+<p>If you are using <code>py3_image</code> with a custom base that has python tools installed
+in a location different to the default base, please see
+Python tools.</p>
+<h3 id=nodejs_image>nodejs_image</h3>
+<p><strong>It is notable that unlike the other image rules, <code>nodejs_image</code> is not
+currently using the <code>gcr.io/distroless/nodejs</code> image for a handful of reasons.</strong>
+This is a switch we plan to make, when we can manage it. We are currently
+utilizing the <code>gcr.io/google-appengine/debian9</code> image as our base.</p>
+<p>To use <code>nodejs_image</code>, add the following to <code>WORKSPACE</code>:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(<span style=color:#e6db74>&#34;@bazel_tools//tools/build_defs/repo:http.bzl&#34;</span>, <span style=color:#e6db74>&#34;http_archive&#34;</span>)
+
+http_archive(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;build_bazel_rules_nodejs&#34;</span>,
+    <span style=color:#75715e># Replace with a real SHA256 checksum</span>
+    sha256 <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>{SHA256}</span><span style=color:#e6db74>&#34;</span>
+    <span style=color:#75715e># Replace with a real release version</span>
+    urls <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;https://github.com/bazelbuild/rules_nodejs/releases/download/</span><span style=color:#e6db74>{VERSION}</span><span style=color:#e6db74>/rules_nodejs-</span><span style=color:#e6db74>{VERSION}</span><span style=color:#e6db74>.tar.gz&#34;</span>],
+)
+
+
+load(<span style=color:#e6db74>&#34;@build_bazel_rules_nodejs//:index.bzl&#34;</span>, <span style=color:#e6db74>&#34;npm_install&#34;</span>)
+
+<span style=color:#75715e># Install your declared Node.js dependencies</span>
+npm_install(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;npm&#34;</span>,
+    package_json <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;//:package.json&#34;</span>,
+    yarn_lock <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;//:yarn.lock&#34;</span>,
+)
+
+load(
+    <span style=color:#e6db74>&#34;@io_bazel_rules_docker//repositories:repositories.bzl&#34;</span>,
+    container_repositories <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;repositories&#34;</span>,
+)
+
+container_repositories()
+
+load(
+    <span style=color:#e6db74>&#34;@io_bazel_rules_docker//nodejs:image.bzl&#34;</span>,
+    _nodejs_image_repos <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;repositories&#34;</span>,
+)
+
+_nodejs_image_repos()
+</code></pre></div><p>Note: See note about diamond dependencies in setup
+if you run into issues related to external repos after adding these
+lines to your <code>WORKSPACE</code>.</p>
+<p>Then in your <code>BUILD</code> file, simply rewrite <code>nodejs_binary</code> to <code>nodejs_image</code> with
+the following import:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(<span style=color:#e6db74>&#34;@io_bazel_rules_docker//nodejs:image.bzl&#34;</span>, <span style=color:#e6db74>&#34;nodejs_image&#34;</span>)
+
+nodejs_image(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;nodejs_image&#34;</span>,
+    entry_point <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;@your_workspace//path/to:file.js&#34;</span>,
+    <span style=color:#75715e># npm deps will be put into their own layer</span>
+    data <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;:file.js&#34;</span>, <span style=color:#e6db74>&#34;@npm//some-npm-dep&#34;</span>],    
+    <span style=color:#f92672>...</span>
+)
+</code></pre></div><p><code>nodejs_image</code> also supports the <code>launcher</code> and <code>launcher_args</code> attributes which are passed to <code>container_image</code> and used to prefix the image&rsquo;s <code>entry_point</code>.</p>
+<p>If you need to modify somehow the container produced by
+<code>nodejs_image</code> (e.g., <code>env</code>, <code>symlink</code>), see note above in
+Language Rules Overview about how to do this
+and see go_image (custom base) example below.</p>
+<h3 id=go_image>go_image</h3>
+<p>To use <code>go_image</code>, add the following to <code>WORKSPACE</code>:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(<span style=color:#e6db74>&#34;@bazel_tools//tools/build_defs/repo:http.bzl&#34;</span>, <span style=color:#e6db74>&#34;http_archive&#34;</span>)
+
+load(
+    <span style=color:#e6db74>&#34;@io_bazel_rules_docker//repositories:repositories.bzl&#34;</span>,
+    container_repositories <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;repositories&#34;</span>,
+)
+
+container_repositories()
+
+load(
+    <span style=color:#e6db74>&#34;@io_bazel_rules_docker//go:image.bzl&#34;</span>,
+    _go_image_repos <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;repositories&#34;</span>,
+)
+
+_go_image_repos()
+</code></pre></div><p>Note: See note about diamond dependencies in setup
+if you run into issues related to external repos after adding these
+lines to your <code>WORKSPACE</code>.</p>
+<p>Then in your <code>BUILD</code> file, simply rewrite <code>go_binary</code> to <code>go_image</code> with the
+following import:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(<span style=color:#e6db74>&#34;@io_bazel_rules_docker//go:image.bzl&#34;</span>, <span style=color:#e6db74>&#34;go_image&#34;</span>)
+
+go_image(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;go_image&#34;</span>,
+    srcs <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;main.go&#34;</span>],
+    importpath <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;github.com/your/path/here&#34;</span>,
+)
+</code></pre></div><p>Notice that it is important to explicitly build this target with the
+<code>--platforms=@io_bazel_rules_go//go/toolchain:linux_amd64</code> flag
+as the binary should be built for Linux since it will run in a Linux container.</p>
+<p>If you need to modify somehow the container produced by
+<code>go_image</code> (e.g., <code>env</code>, <code>symlink</code>), see note above in
+Language Rules Overview about how to do this and
+see example below.</p>
+<h3 id=go_image-custom-base>go_image (custom base)</h3>
+<p>To use a custom base image, with any of the <code>lang_image</code>
+rules, you can override the default <code>base="..."</code> attribute. Consider this
+modified sample from the <code>distroless</code> repository:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(<span style=color:#e6db74>&#34;@rules_pkg//:pkg.bzl&#34;</span>, <span style=color:#e6db74>&#34;pkg_tar&#34;</span>)
+
+<span style=color:#75715e># Create a passwd file with a root and nonroot user and uid.</span>
+passwd_entry(
+    username <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;root&#34;</span>,
+    uid <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>,
+    gid <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>,
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;root_user&#34;</span>,
+)
+
+passwd_entry(
+    username <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;nonroot&#34;</span>,
+    info <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;nonroot&#34;</span>,
+    uid <span style=color:#f92672>=</span> <span style=color:#ae81ff>1002</span>,
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;nonroot_user&#34;</span>,
+)
+
+passwd_file(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;passwd&#34;</span>,
+    entries <span style=color:#f92672>=</span> [
+        <span style=color:#e6db74>&#34;:root_user&#34;</span>,
+        <span style=color:#e6db74>&#34;:nonroot_user&#34;</span>,
+    ],
+)
+
+<span style=color:#75715e># Create a tar file containing the created passwd file</span>
+pkg_tar(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;passwd_tar&#34;</span>,
+    srcs <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;:passwd&#34;</span>],
+    mode <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;0o644&#34;</span>,
+    package_dir <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;etc&#34;</span>,
+)
+
+<span style=color:#75715e># Include it in our base image as a tar.</span>
+container_image(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;passwd_image&#34;</span>,
+    base <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;@go_image_base//image&#34;</span>,
+    tars <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;:passwd_tar&#34;</span>],
+    user <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;nonroot&#34;</span>,
+)
+
+<span style=color:#75715e># Simple go program to print out the username and uid.</span>
+go_image(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;user&#34;</span>,
+    srcs <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;user.go&#34;</span>],
+    <span style=color:#75715e># Override the base image.</span>
+    base <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;:passwd_image&#34;</span>,
+)
+</code></pre></div><h3 id=java_image>java_image</h3>
+<p>To use <code>java_image</code>, add the following to <code>WORKSPACE</code>:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(
+    <span style=color:#e6db74>&#34;@io_bazel_rules_docker//repositories:repositories.bzl&#34;</span>,
+    container_repositories <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;repositories&#34;</span>,
+)
+
+container_repositories()
+
+load(
+    <span style=color:#e6db74>&#34;@io_bazel_rules_docker//java:image.bzl&#34;</span>,
+    _java_image_repos <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;repositories&#34;</span>,
+)
+
+_java_image_repos()
+</code></pre></div><p>Then in your <code>BUILD</code> file, simply rewrite <code>java_binary</code> to <code>java_image</code> with the
+following import:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(<span style=color:#e6db74>&#34;@io_bazel_rules_docker//java:image.bzl&#34;</span>, <span style=color:#e6db74>&#34;java_image&#34;</span>)
+
+java_image(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;java_image&#34;</span>,
+    srcs <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;Binary.java&#34;</span>],
+    <span style=color:#75715e># Put these runfiles into their own layer.</span>
+    layers <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;:java_image_library&#34;</span>],
+    main_class <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;examples.images.Binary&#34;</span>,
+)
+</code></pre></div><p>If you need to modify somehow the container produced by
+<code>java_image</code> (e.g., <code>env</code>, <code>symlink</code>), see note above in
+Language Rules Overview about how to do this
+and see go_image (custom base) example.</p>
+<h3 id=war_image>war_image</h3>
+<p>To use <code>war_image</code>, add the following to <code>WORKSPACE</code>:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(
+    <span style=color:#e6db74>&#34;@io_bazel_rules_docker//repositories:repositories.bzl&#34;</span>,
+    container_repositories <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;repositories&#34;</span>,
+)
+
+container_repositories()
+
+load(
+    <span style=color:#e6db74>&#34;@io_bazel_rules_docker//java:image.bzl&#34;</span>,
+    _java_image_repos <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;repositories&#34;</span>,
+)
+
+_java_image_repos()
+</code></pre></div><p>Note: See note about diamond dependencies in setup
+if you run into issues related to external repos after adding these
+lines to your <code>WORKSPACE</code>.</p>
+<p>Then in your <code>BUILD</code> file, simply rewrite <code>java_war</code> to <code>war_image</code> with the
+following import:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(<span style=color:#e6db74>&#34;@io_bazel_rules_docker//java:image.bzl&#34;</span>, <span style=color:#e6db74>&#34;war_image&#34;</span>)
+
+war_image(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;war_image&#34;</span>,
+    srcs <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;Servlet.java&#34;</span>],
+    <span style=color:#75715e># Put these JARs into their own layers.</span>
+    layers <span style=color:#f92672>=</span> [
+        <span style=color:#e6db74>&#34;:java_image_library&#34;</span>,
+        <span style=color:#e6db74>&#34;@javax_servlet_api//jar:jar&#34;</span>,
+    ],
+)
+</code></pre></div><p>The produced image uses Jetty 9.x to serve the web application. Servlets included in the web application need to follow the API specification 3.0. For best compatibility, use a <a href="https://search.maven.org/search?q=g:org.mortbay.jetty%20AND%20a:servlet-api&core=gav">Servlet dependency provided by the Jetty project</a>.</p>
+<p>A Servlet implementation needs to declare the <code>@WebServlet</code> annotation to be auto-discovered. The use of a <code>web.xml</code> to declare the Servlet URL mapping is not supported.</p>
+<p>If you need to modify somehow the container produced by
+<code>war_image</code> (e.g., <code>env</code>, <code>symlink</code>), see note above in
+Language Rules Overview about how to do this
+and see go_image (custom base) example.</p>
+<h3 id=scala_image>scala_image</h3>
+<p>To use <code>scala_image</code>, add the following to <code>WORKSPACE</code>:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(<span style=color:#e6db74>&#34;@bazel_tools//tools/build_defs/repo:http.bzl&#34;</span>, <span style=color:#e6db74>&#34;http_archive&#34;</span>)
+
+<span style=color:#75715e># You *must* import the Scala rules before setting up the scala_image rules.</span>
+http_archive(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;io_bazel_rules_scala&#34;</span>,
+    <span style=color:#75715e># Replace with a real SHA256 checksum</span>
+    sha256 <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>{SHA256}</span><span style=color:#e6db74>&#34;</span>
+    <span style=color:#75715e># Replace with a real commit SHA</span>
+    strip_prefix <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;rules_scala-</span><span style=color:#e6db74>{HEAD}</span><span style=color:#e6db74>&#34;</span>,
+    urls <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;https://github.com/bazelbuild/rules_scala/archive/</span><span style=color:#e6db74>{HEAD}</span><span style=color:#e6db74>.tar.gz&#34;</span>],
+)
+
+load(<span style=color:#e6db74>&#34;@io_bazel_rules_scala//scala:scala.bzl&#34;</span>, <span style=color:#e6db74>&#34;scala_repositories&#34;</span>)
+
+scala_repositories()
+
+load(
+    <span style=color:#e6db74>&#34;@io_bazel_rules_docker//repositories:repositories.bzl&#34;</span>,
+    container_repositories <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;repositories&#34;</span>,
+)
+
+container_repositories()
+
+load(
+    <span style=color:#e6db74>&#34;@io_bazel_rules_docker//scala:image.bzl&#34;</span>,
+    _scala_image_repos <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;repositories&#34;</span>,
+)
+
+_scala_image_repos()
+</code></pre></div><p>Note: See note about diamond dependencies in setup
+if you run into issues related to external repos after adding these
+lines to your <code>WORKSPACE</code>.</p>
+<p>Then in your <code>BUILD</code> file, simply rewrite <code>scala_binary</code> to <code>scala_image</code> with the
+following import:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(<span style=color:#e6db74>&#34;@io_bazel_rules_docker//scala:image.bzl&#34;</span>, <span style=color:#e6db74>&#34;scala_image&#34;</span>)
+
+scala_image(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;scala_image&#34;</span>,
+    srcs <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;Binary.scala&#34;</span>],
+    main_class <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;examples.images.Binary&#34;</span>,
+)
+</code></pre></div><p>If you need to modify somehow the container produced by
+<code>scala_image</code> (e.g., <code>env</code>, <code>symlink</code>), see note above in
+Language Rules Overview about how to do this
+and see go_image (custom base) example.</p>
+<h3 id=groovy_image>groovy_image</h3>
+<p>To use <code>groovy_image</code>, add the following to <code>WORKSPACE</code>:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(<span style=color:#e6db74>&#34;@bazel_tools//tools/build_defs/repo:http.bzl&#34;</span>, <span style=color:#e6db74>&#34;http_archive&#34;</span>)
+
+<span style=color:#75715e># You *must* import the Groovy rules before setting up the groovy_image rules.</span>
+http_archive(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;io_bazel_rules_groovy&#34;</span>,
+    <span style=color:#75715e># Replace with a real SHA256 checksum</span>
+    sha256 <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>{SHA256}</span><span style=color:#e6db74>&#34;</span>
+    <span style=color:#75715e># Replace with a real commit SHA</span>
+    strip_prefix <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;rules_groovy-</span><span style=color:#e6db74>{HEAD}</span><span style=color:#e6db74>&#34;</span>,
+    urls <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;https://github.com/bazelbuild/rules_groovy/archive/</span><span style=color:#e6db74>{HEAD}</span><span style=color:#e6db74>.tar.gz&#34;</span>],
+)
+
+load(<span style=color:#e6db74>&#34;@io_bazel_rules_groovy//groovy:groovy.bzl&#34;</span>, <span style=color:#e6db74>&#34;groovy_repositories&#34;</span>)
+
+groovy_repositories()
+
+load(
+    <span style=color:#e6db74>&#34;@io_bazel_rules_docker//repositories:repositories.bzl&#34;</span>,
+    container_repositories <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;repositories&#34;</span>,
+)
+
+container_repositories()
+
+load(
+    <span style=color:#e6db74>&#34;@io_bazel_rules_docker//groovy:image.bzl&#34;</span>,
+    _groovy_image_repos <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;repositories&#34;</span>,
+)
+
+_groovy_image_repos()
+</code></pre></div><p>Note: See note about diamond dependencies in setup
+if you run into issues related to external repos after adding these
+lines to your <code>WORKSPACE</code>.</p>
+<p>Then in your <code>BUILD</code> file, simply rewrite <code>groovy_binary</code> to <code>groovy_image</code> with the
+following import:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(<span style=color:#e6db74>&#34;@io_bazel_rules_docker//groovy:image.bzl&#34;</span>, <span style=color:#e6db74>&#34;groovy_image&#34;</span>)
+
+groovy_image(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;groovy_image&#34;</span>,
+    srcs <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;Binary.groovy&#34;</span>],
+    main_class <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;examples.images.Binary&#34;</span>,
+)
+</code></pre></div><p>If you need to modify somehow the container produced by
+<code>groovy_image</code> (e.g., <code>env</code>, <code>symlink</code>), see note above in
+Language Rules Overview about how to do this
+and see go_image (custom base) example.</p>
+<h3 id=rust_image>rust_image</h3>
+<p>To use <code>rust_image</code>, add the following to <code>WORKSPACE</code>:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(<span style=color:#e6db74>&#34;@bazel_tools//tools/build_defs/repo:http.bzl&#34;</span>, <span style=color:#e6db74>&#34;http_archive&#34;</span>)
+
+<span style=color:#75715e># You *must* import the Rust rules before setting up the rust_image rules.</span>
+http_archive(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;rules_rust&#34;</span>,
+    <span style=color:#75715e># Replace with a real SHA256 checksum</span>
+    sha256 <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>{SHA256}</span><span style=color:#e6db74>&#34;</span>
+    <span style=color:#75715e># Replace with a real commit SHA</span>
+    strip_prefix <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;rules_rust-</span><span style=color:#e6db74>{HEAD}</span><span style=color:#e6db74>&#34;</span>,
+    urls <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;https://github.com/bazelbuild/rules_rust/archive/</span><span style=color:#e6db74>{HEAD}</span><span style=color:#e6db74>.tar.gz&#34;</span>],
+)
+
+load(<span style=color:#e6db74>&#34;@rules_rust//rust:repositories.bzl&#34;</span>, <span style=color:#e6db74>&#34;rust_repositories&#34;</span>)
+
+rust_repositories()
+
+load(
+    <span style=color:#e6db74>&#34;@io_bazel_rules_docker//repositories:repositories.bzl&#34;</span>,
+    container_repositories <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;repositories&#34;</span>,
+)
+
+container_repositories()
+
+load(
+    <span style=color:#e6db74>&#34;@io_bazel_rules_docker//rust:image.bzl&#34;</span>,
+    _rust_image_repos <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;repositories&#34;</span>,
+)
+
+_rust_image_repos()
+</code></pre></div><p>Note: See note about diamond dependencies in setup
+if you run into issues related to external repos after adding these
+lines to your <code>WORKSPACE</code>.</p>
+<p>Then in your <code>BUILD</code> file, simply rewrite <code>rust_binary</code> to <code>rust_image</code> with the
+following import:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(<span style=color:#e6db74>&#34;@io_bazel_rules_docker//rust:image.bzl&#34;</span>, <span style=color:#e6db74>&#34;rust_image&#34;</span>)
+
+rust_image(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;rust_image&#34;</span>,
+    srcs <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;main.rs&#34;</span>],
+)
+</code></pre></div><p>If you need to modify somehow the container produced by
+<code>rust_image</code> (e.g., <code>env</code>, <code>symlink</code>), see note above in
+Language Rules Overview about how to do this
+and see go_image (custom base) example.</p>
+<h3 id=d_image>d_image</h3>
+<p>To use <code>d_image</code>, add the following to <code>WORKSPACE</code>:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(<span style=color:#e6db74>&#34;@bazel_tools//tools/build_defs/repo:http.bzl&#34;</span>, <span style=color:#e6db74>&#34;http_archive&#34;</span>)
+
+<span style=color:#75715e># You *must* import the D rules before setting up the d_image rules.</span>
+http_archive(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;io_bazel_rules_d&#34;</span>,
+    <span style=color:#75715e># Replace with a real SHA256 checksum</span>
+    sha256 <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>{SHA256}</span><span style=color:#e6db74>&#34;</span>
+    <span style=color:#75715e># Replace with a real commit SHA</span>
+    strip_prefix <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;rules_d-</span><span style=color:#e6db74>{HEAD}</span><span style=color:#e6db74>&#34;</span>,
+    urls <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;https://github.com/bazelbuild/rules_d/archive/</span><span style=color:#e6db74>{HEAD}</span><span style=color:#e6db74>.tar.gz&#34;</span>],
+)
+
+load(<span style=color:#e6db74>&#34;@io_bazel_rules_d//d:d.bzl&#34;</span>, <span style=color:#e6db74>&#34;d_repositories&#34;</span>)
+
+d_repositories()
+
+load(
+    <span style=color:#e6db74>&#34;@io_bazel_rules_docker//repositories:repositories.bzl&#34;</span>,
+    container_repositories <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;repositories&#34;</span>,
+)
+
+container_repositories()
+
+load(
+    <span style=color:#e6db74>&#34;@io_bazel_rules_docker//d:image.bzl&#34;</span>,
+    _d_image_repos <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;repositories&#34;</span>,
+)
+
+_d_image_repos()
+</code></pre></div><p>Note: See note about diamond dependencies in setup
+if you run into issues related to external repos after adding these
+lines to your <code>WORKSPACE</code>.</p>
+<p>Then in your <code>BUILD</code> file, simply rewrite <code>d_binary</code> to <code>d_image</code> with the
+following import:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(<span style=color:#e6db74>&#34;@io_bazel_rules_docker//d:image.bzl&#34;</span>, <span style=color:#e6db74>&#34;d_image&#34;</span>)
+
+d_image(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;d_image&#34;</span>,
+    srcs <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#34;main.d&#34;</span>],
+)
+</code></pre></div><p>If you need to modify somehow the container produced by
+<code>d_image</code> (e.g., <code>env</code>, <code>symlink</code>), see note above in
+Language Rules Overview about how to do this
+and see go_image (custom base) example.</p>
+<blockquote>
+<p>NOTE: all application image rules support the <code>args</code> string_list
+attribute. If specified, they will be appended directly after the
+container ENTRYPOINT binary name.</p>
+</blockquote>
+<h3 id=container_bundle>container_bundle</h3>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>container_bundle(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;bundle&#34;</span>,
+    images <span style=color:#f92672>=</span> {
+        <span style=color:#75715e># A set of images to bundle up into a single tarball.</span>
+        <span style=color:#e6db74>&#34;gcr.io/foo/bar:bazz&#34;</span>: <span style=color:#e6db74>&#34;:app&#34;</span>,
+        <span style=color:#e6db74>&#34;gcr.io/foo/bar:blah&#34;</span>: <span style=color:#e6db74>&#34;//my:sidecar&#34;</span>,
+        <span style=color:#e6db74>&#34;gcr.io/foo/bar:booo&#34;</span>: <span style=color:#e6db74>&#34;@your//random:image&#34;</span>,
+    }
+)
+</code></pre></div><h3 id=container_pull>container_pull</h3>
+<p>In <code>WORKSPACE</code>:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>container_pull(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;base&#34;</span>,
+    registry <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;gcr.io&#34;</span>,
+    repository <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;my-project/my-base&#34;</span>,
+    <span style=color:#75715e># &#39;tag&#39; is also supported, but digest is encouraged for reproducibility.</span>
+    digest <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;sha256:deadbeef&#34;</span>,
+)
+</code></pre></div><p>This can then be referenced in <code>BUILD</code> files as <code>@base//image</code>.</p>
+<p>To get the correct digest one can run <code>docker manifest inspect gcr.io/my-project/my-base:tag</code> once <a href=https://docs.docker.com/engine/reference/commandline/manifest_inspect>experimental docker cli features are enabled</a>.</p>
+<p>See <a href=#container_pull-custom-client-configuration>here</a> for an example of how
+to use container_pull with custom docker authentication credentials.</p>
+<h3 id=container_push>container_push</h3>
+<p>This target pushes on <code>bazel run :push_foo</code>:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>container_push(
+   name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;push_foo&#34;</span>,
+   image <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;:foo&#34;</span>,
+   format <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;Docker&#34;</span>,
+   registry <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;gcr.io&#34;</span>,
+   repository <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;my-project/my-image&#34;</span>,
+   tag <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;dev&#34;</span>,
+)
+</code></pre></div><p>We also support the <code>docker_push</code> (from <code>docker/docker.bzl</code>) and <code>oci_push</code>
+(from <code>oci/oci.bzl</code>) aliases, which bake in the <code>format = "..."</code> attribute.</p>
+<p>See <a href=#container_push-custom-client-configuration>here</a> for an example of how
+to use container_push with custom docker authentication credentials.</p>
+<h3 id=container_push-custom-client-configuration>container_push (Custom client configuration)</h3>
+<p>If you wish to use container_push using custom docker authentication credentials,
+in <code>WORKSPACE</code>:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=color:#75715e># Download the rules_docker repository</span>
+http_archive(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;io_bazel_rules_docker&#34;</span>,
+    <span style=color:#f92672>...</span>
+)
+
+<span style=color:#75715e># Load the macro that allows you to customize the docker toolchain configuration.</span>
+load(<span style=color:#e6db74>&#34;@io_bazel_rules_docker//toolchains/docker:toolchain.bzl&#34;</span>,
+    docker_toolchain_configure<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;toolchain_configure&#34;</span>
+)
+
+docker_toolchain_configure(
+  name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;docker_config&#34;</span>,
+  <span style=color:#75715e># Replace this with an absolute path to a directory which has a custom docker</span>
+  <span style=color:#75715e># client config.json. Note relative paths are not supported.</span>
+  <span style=color:#75715e># Docker allows you to specify custom authentication credentials</span>
+  <span style=color:#75715e># in the client configuration JSON file.</span>
+  <span style=color:#75715e># See https://docs.docker.com/engine/reference/commandline/cli/#configuration-files</span>
+  <span style=color:#75715e># for more details.</span>
+  client_config<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;/path/to/docker/client/config-dir&#34;</span>,
+)
+</code></pre></div><p>In <code>BUILD</code> file:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(<span style=color:#e6db74>&#34;@io_bazel_rules_docker//container:container.bzl&#34;</span>, <span style=color:#e6db74>&#34;container_push&#34;</span>)
+
+container_push(
+   name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;push_foo&#34;</span>,
+   image <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;:foo&#34;</span>,
+   format <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;Docker&#34;</span>,
+   registry <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;gcr.io&#34;</span>,
+   repository <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;my-project/my-image&#34;</span>,
+   tag <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;dev&#34;</span>,
+)
+</code></pre></div><h3 id=container_pull-dockerhub>container_pull (DockerHub)</h3>
+<p>In <code>WORKSPACE</code>:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>container_pull(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;official_ubuntu&#34;</span>,
+    registry <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;index.docker.io&#34;</span>,
+    repository <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;library/ubuntu&#34;</span>,
+    tag <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;14.04&#34;</span>,
+)
+</code></pre></div><p>This can then be referenced in <code>BUILD</code> files as <code>@official_ubuntu//image</code>.</p>
+<h3 id=container_pull-quayio>container_pull (Quay.io)</h3>
+<p>In <code>WORKSPACE</code>:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>container_pull(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;etcd&#34;</span>,
+    registry <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;quay.io&#34;</span>,
+    repository <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;coreos/etcd&#34;</span>,
+    tag <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;latest&#34;</span>,
+)
+</code></pre></div><p>This can then be referenced in <code>BUILD</code> files as <code>@etcd//image</code>.</p>
+<h3 id=container_pull-bintrayio>container_pull (Bintray.io)</h3>
+<p>In <code>WORKSPACE</code>:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>container_pull(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;artifactory&#34;</span>,
+    registry <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;docker.bintray.io&#34;</span>,
+    repository <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;jfrog/artifactory-pro&#34;</span>,
+)
+</code></pre></div><p>This can then be referenced in <code>BUILD</code> files as <code>@artifactory//image</code>.</p>
+<h3 id=container_pull-gitlab>container_pull (Gitlab)</h3>
+<p>In <code>WORKSPACE</code>:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>container_pull(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;gitlab&#34;</span>,
+    registry <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;registry.gitlab.com&#34;</span>,
+    repository <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;username/project/image&#34;</span>,
+    tag <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;tag&#34;</span>,
+)
+</code></pre></div><p>This can then be referenced in <code>BUILD</code> files as <code>@gitlab//image</code>.</p>
+<h3 id=container_pull-custom-client-configuration>container_pull (Custom client configuration)</h3>
+<p>If you specified a docker client directory using the <code>client_config</code> attribute
+to the docker toolchain configuration described here, you
+can use a container_pull that uses the authentication credentials from the
+specified docker client directory as follows:</p>
+<p>In <code>WORKSPACE</code>:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>load(<span style=color:#e6db74>&#34;@io_bazel_rules_docker//toolchains/docker:toolchain.bzl&#34;</span>,
+    docker_toolchain_configure<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;toolchain_configure&#34;</span>
+)
+
+<span style=color:#75715e># Configure the docker toolchain.</span>
+docker_toolchain_configure(
+  name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;docker_config&#34;</span>,
+  <span style=color:#75715e># Path to the directory which has a custom docker client config.json with</span>
+  <span style=color:#75715e># authentication credentials for registry.gitlab.com (used in this example).</span>
+  client_config<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;/path/to/docker/client/config&#34;</span>,
+)
+
+<span style=color:#75715e># Load the custom version of container_pull created by the docker toolchain</span>
+<span style=color:#75715e># configuration.</span>
+load(<span style=color:#e6db74>&#34;@docker_config//:pull.bzl&#34;</span>, authenticated_container_pull<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;container_pull&#34;</span>)
+
+authenticated_container_pull(
+    name <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;gitlab&#34;</span>,
+    registry <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;registry.gitlab.com&#34;</span>,
+    repository <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;username/project/image&#34;</span>,
+    tag <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;tag&#34;</span>,
+)
+</code></pre></div><p>This can then be referenced in <code>BUILD</code> files as <code>@gitlab//image</code>.</p>
+<p><strong>NOTE:</strong> This should only be used if a custom <code>client_config</code> was set. If you want
+to use the DOCKER_CONFIG env variable or the default home directory
+use the standard <code>container_pull</code> rule.</p>
+<p><strong>NOTE:</strong> This will only work on systems with Python >2.7.6</p>
+<h2 id=python-tools>Python tools</h2>
+<p>Starting with Bazel 0.25.0 it&rsquo;s possible to configure python toolchains
+for <code>rules_docker</code>.</p>
+<p>To use these features you need to enable the flags in the <code>.bazelrc</code>
+file at the root of this project.</p>
+<p>Use of these features require a python toolchain to be registered.
+<code>//py_images/image.bzl:deps</code> and <code>//py3_images/image.bzl:deps</code> register a
+default python toolchain (<code>//toolchains:container_py_toolchain</code>)
+that defines the path to python tools inside the default container used
+for these rules.</p>
+<h3 id=known-issues-1>Known issues</h3>
+<p>If you are using a custom base for <code>py_image</code> or <code>py3_image</code> builds that has
+python tools installed in a different location to those defined in
+<code>//toolchains:container_py_toolchain</code>, you will need to create a
+toolchain that points to these paths and register it <em>before</em> the call to
+<code>py*_images/image.bzl:deps</code> in your <code>WORKSPACE</code>.</p>
+<p>Use of python toolchain features, currently, only supports picking one
+version of python for execution of host tools. <code>rules_docker</code> heavily depends
+on execution of python host tools that are only compatible with python 2.
+Flags in the recommended <code>.bazelrc</code> file force all host tools to use python 2.
+If your project requires using host tools that are only compatible with
+python 3 you will not be able to use these features at the moment. We
+expect this issue to be resolved before use of python toolchain features
+becomes the default.</p>
+<h2 id=updating-the-distroless-base-images>Updating the <code>distroless</code> base images.</h2>
+<p>The digest references to the <code>distroless</code> base images must be updated over time
+to pick up bug fixes and security patches. To facilitate this, the files
+containing the digest references are generated by <code>tools/update_deps.py</code>. To
+update all of the dependencies, please run (from the root of the repository):</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>./update_deps.sh
+</code></pre></div><p>Image references should not be updated individually because these images have
+shared layers and letting them diverge could result in sub-optimal push and pull
+performance.</p>
+<p></p>
+<h2 id=container_pull-1>container_pull</h2>
+<p><strong>MOVED</strong>: See <a href=/docs/container.md#container_pull>docs/container.md</a></p>
+<p></p>
+<h2 id=container_push-1>container_push</h2>
+<p><strong>MOVED</strong>: See <a href=/docs/container.md#container_push>docs/container.md</a></p>
+<p></p>
+<h2 id=container_layer>container_layer</h2>
+<p><strong>MOVED</strong>: See <a href=/docs/container.md#container_layer>docs/container.md</a></p>
+<p></p>
+<h2 id=container_image-1>container_image</h2>
+<p><strong>MOVED</strong>: See <a href=/docs/container.md#container_image>docs/container.md</a></p>
+<p></p>
+<h2 id=container_bundle-1>container_bundle</h2>
+<p><strong>MOVED</strong>: See <a href=/docs/container.md#container_bundle>docs/container.md</a></p>
+<p></p>
+<h2 id=container_import>container_import</h2>
+<p><strong>MOVED</strong>: See <a href=/docs/container.md#container_import>docs/container.md</a></p>
+<p></p>
+<h2 id=container_load>container_load</h2>
+<p><strong>MOVED</strong>: See <a href=/docs/container.md#container_load>docs/container.md</a></p>
+<h2 id=adopters>Adopters</h2>
+<p>Here&rsquo;s a (non-exhaustive) list of companies that use <code>rules_docker</code> in production. Don&rsquo;t see yours? <a href=https://github.com/bazelbuild/rules_docker/edit/master/README.md>You can add it in a PR!</a></p>
+<ul>
+<li><a href=https://github.com/amaizfinance>Amaiz</a></li>
+<li><a href=https://auradevices.io/>Aura Devices</a></li>
+<li><a href=https://usebutton.com>Button</a></li>
+<li><a href=https://www.dominodatalab.com/>Domino Data Lab</a></li>
+<li><a href=https://canva.com>Canva</a></li>
+<li><a href=https://www.etsy.com>Etsy</a></li>
+<li><a href=https://evertz.com/>Evertz</a></li>
+<li><a href=https://www.jetstack.io/>Jetstack</a></li>
+<li><a href=https://github.com/kubernetes-sigs/k8s-container-image-promoter>Kubernetes Container Image Promoter</a></li>
+<li><a href=https://nordstrom.com>Nordstrom</a></li>
+<li><a href=https://github.com/kubernetes/test-infra/tree/master/prow>Prow</a></li>
+<li><a href=https://www.tink.com>Tink</a></li>
+<li><a href=https://www.wix.com>Wix</a></li>
+</ul>
+</div>
+</article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+<div class=bar-inner>
+<ul class="pager pull-left">
+<li class=prev>
+<a href=/2021/10/jrbeverly-dapper-with-entity-model/ title=dapper-with-entity-model><i class="icon icon-angle-left" aria-hidden=true></i><span>&nbsp;&nbsp;Newer</span></a>
+</li>
+<li class=next>
+<a href=/2022/01/jrbeverly-cloudfront-cognito-private-auth/ title=cloudfront-cognito-private-auth><span>Older&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden=true></i></a>
+</li>
+<li class=toggle-toc>
+<a class="toggle-btn collapsed" data-toggle=collapse href=#collapseToc aria-expanded=false title=Catalogue role=button>
+<span>[&nbsp;</span><span>Catalogue</span>
+<i class="text-collapsed icon icon-anchor"></i>
+<i class="text-in icon icon-close"></i>
+<span>]</span>
+</a>
+</li>
+</ul>
+<div class=bar-right>
+</div>
+</div>
+</nav>
+</main><footer class=footer itemscope itemtype=http://schema.org/WPFooter>
+<ul class=social-links>
+<li><a href=https://github.com/jrbeverly target=_blank title=github data-toggle=tooltip data-placement=top>
+<i class="icon icon-github"></i></a></li>
+<li><a href=/index.xml target=_blank title=rss data-toggle=tooltip data-placement=top>
+<i class="icon icon-rss"></i></a></li>
+</ul>
+<div class=copyright>
+&copy;2017 -
+2023
+<div class=publishby>
+Theme by <a href=https://github.com/xiaoheiAh target=_blank> xiaoheiAh </a>base on<a href=https://github.com/xiaoheiAh/hugo-theme-pure target=_blank> pure</a>.
+</div>
+</div>
+</footer>
+<script type=text/javascript src=/js/jquery.min.js></script>
+<script>window.jQuery||document.write('<script src="js/jquery.min.js"><\/script>')</script>
+<script type=text/javascript src=/js/highlight.min.js></script>
+<script type=text/javascript src=/js/rust.min.js></script>
+<script type=text/javascript src=/js/dockerfile.min.js></script>
+<script>hljs.configure({tabReplace:'    ',classPrefix:''}),hljs.initHighlightingOnLoad()</script>
+<script type=text/javascript src=/js/application.js></script>
+<script type=text/javascript src=/js/plugin.js></script>
+<script>(function(a){var b={TRANSLATION:{POSTS:'Posts',PAGES:'Pages',CATEGORIES:'Categories',TAGS:'Tags',UNTITLED:'(Untitled)'},ROOT_URL:'/',CONTENT_URL:'//searchindex.json '};a.INSIGHT_CONFIG=b})(window)</script>
+<script type=text/javascript src=/js/insight.js></script>
+</body>
+</html>
