@@ -1,0 +1,87 @@
+# Primary
+[[redirects]]
+  from = "/g/dev"
+  to = "https://jrbeverly.dev"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/g/me"
+  to = "https://jrbeverly.me"
+  status = 301
+  force = true
+
+# Socials
+[[redirects]]
+  from = "/g/github"
+  to = "https://github.com/jrbeverly"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/gitlab"
+  to = "https://gitlab.com/jrbeverly"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/g/stackoverflow"
+  to = "https://stackoverflow.com/users/2127492/jrbeverly"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/g/linkedin"
+  to = "https://ca.linkedin.com/in/jrbeverly"
+  status = 301
+  force = true
+
+# Projects
+[[redirects]]
+  from = "/g/udacity"
+  to = "https://udacity.jrbeverly.me"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/g/pluralsight"
+  to = "https://pluralsight.jrbeverly.me"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/g/repos"
+  to = "https://workbench.jrbeverly.me"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/g/workbench"
+  to = "https://workbench.jrbeverly.me"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/g/friending"
+  to = "https://friending.jrbeverly.me/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/g/cardboardci"
+  to = "https://cardboardci.jrbeverly.me/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/g/xplatformer"
+  to = "https://xplatformer.jrbeverly.me/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/g/blockycraft"
+  to = "https://blockycraft.jrbeverly.me/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/g/devkitspaces"
+  to = "https://github.com/devkitspaces"
+  status = 301
+  force = true
+
+# Repositories
+[[redirects]]
+  from = "/g/repositories"
+  to = "https://github.com/jrbeverly?tab=repositories"
+  status = 301
+  force = true
