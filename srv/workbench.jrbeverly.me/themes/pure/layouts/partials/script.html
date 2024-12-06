@@ -26,7 +26,7 @@ hljs.initHighlightingOnLoad();
                   UNTITLED: '{{ T "insight_untitled"}}',
               },
               ROOT_URL: '{{ .Site.BaseURL }}',
-              CONTENT_URL: '{{ print .Site.BaseURL "/searchindex.json" | safeURL }} ',
+              CONTENT_URL: '{{ print "/searchindex.json" | safeURL }} ',
           };
           window.INSIGHT_CONFIG = INSIGHT_CONFIG;
       })(window);
