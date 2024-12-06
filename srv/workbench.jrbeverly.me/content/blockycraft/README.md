@@ -9,8 +9,7 @@ tags=["blockycraft"]
 |  Blockycraft is a Minecraft inspired Block Engine. | [![GitHub](https://img.shields.io/badge/repository-github-blue.svg)](https://github.com/jrbeverly/blockycraft) |
 | :-------- | -------: |
 
-
-# Summary 
+## Summary
 
 Blockycraft is an interactive demo that uses standard first person controls to navigate through a block world. The game world is composed of rough cubes arranged in a fixed grid pattern and representing different materials, such as dirt, stone, and snow. The techniques used in the demo can be toggled using keyboard commands. The Blockycraft project is written using C++, OpenGL and SDL.
 

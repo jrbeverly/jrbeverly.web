@@ -7,7 +7,7 @@ tags=["infraprints"]
 |  Terraform modules that defined very opinionated architecture. | [![GitHub](https://img.shields.io/badge/repository-github-blue.svg)](https://github.com/infraprints) |
 | :-------- | -------: |
 
-# Infraprints
+## Summary
 
 Opinionated Cloud Architecture.
 
