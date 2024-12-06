@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="ci-baseimage"
-date="2017-05-31T23:01:25Z"
-description="[DEPRECATED] A super small image to act as a baseimage for continuous integration images."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "ci-baseimage"
+date: "2017-05-31T23:01:25Z"
+description: "[DEPRECATED] A super small image to act as a baseimage for continuous integration images."
+tags: ["cardboardci"]
+summary: |
+  
+---
+
+| [DEPRECATED] A super small image to act as a baseimage for continuous integration images. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/ci-baseimage) |
+| :-------- | -------: |
+
 
 # Docker Baseimage
 

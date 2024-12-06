@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="gitlab-ci-yml"
-date="2018-11-02T00:52:10Z"
-description="A collection of GitLab CI configuration files that are used by my projects."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "gitlab-ci-yml"
+date: "2018-11-02T00:52:10Z"
+description: "A collection of GitLab CI configuration files that are used by my projects."
+tags: ["jrbeverly"]
+summary: |
+ A collection of GitLab CI configuration files that are used by my projects. Stored here as the process of docker projects are polished and standardized.
+---
+
+| A collection of GitLab CI configuration files that are used by my projects. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/gitlab-ci-yml) |
+| :-------- | -------: |
+
 
 # gitlab-ci.yml
 

@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-bats"
-date="2019-03-02T17:59:39Z"
-description="Bats is most useful when testing software written in Bash, but you can use it to test any UNIX program."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-bats"
+date: "2019-03-02T17:59:39Z"
+description: "Bats is most useful when testing software written in Bash, but you can use it to test any UNIX program."
+tags: ["cardboardci"]
+summary: |
+  Bats is a TAP-compliant testing framework for Bash. It provides a simple way to verify that the UNIX programs you write behave as expected. A Bats test file is a Bash script with special syntax for defining test cases. Under the hood, each test case is just a function with a description. ```bash
+---
+
+| Bats is most useful when testing software written in Bash, but you can use it to test any UNIX program. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-bats) |
+| :-------- | -------: |
+
 
 # Docker image for Bats (Bash Automated Testing System)
 

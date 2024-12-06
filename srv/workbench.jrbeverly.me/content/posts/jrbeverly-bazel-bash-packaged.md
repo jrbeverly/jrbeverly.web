@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="bazel-bash-packaged"
-date="2021-10-05T23:00:41Z"
-description="Experimenting with using bazel to package+test glue shell scripts"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "bazel-bash-packaged"
+date: "2021-10-05T23:00:41Z"
+description: "Experimenting with using bazel to package+test glue shell scripts"
+tags: ["jrbeverly"]
+summary: |
+  Experimenting with using Bazel & Bats in container images for writing up tests for shell scripts.
+---
+
+| Experimenting with using bazel to package+test glue shell scripts | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/bazel-bash-packaged) |
+| :-------- | -------: |
+
 
 # Bazel Bash Packaged
 

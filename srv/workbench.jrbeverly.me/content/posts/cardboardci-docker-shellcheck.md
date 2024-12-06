@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-shellcheck"
-date="2019-03-02T17:59:54Z"
-description="ShellCheck is a static anaylsis tool that automatically finds bugs in your shell scripts."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-shellcheck"
+date: "2019-03-02T17:59:54Z"
+description: "ShellCheck is a static anaylsis tool that automatically finds bugs in your shell scripts."
+tags: ["cardboardci"]
+summary: |
+  ShellCheck is a GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts: The goals of ShellCheck are: bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE To point out and clarify typical beginner's syntax issues that cause a shell to give cryptic error messages. bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE To point out and clarify typical intermediate level semantic problems that cause a shell to behave strangely and counter-intuitively. bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE To point out subtle caveats, corner cases and pitfalls that may cause an advanced user's otherwise working script to fail under future circumstances. You can see the cli reference [here](https://github.com/koalaman/shellcheck).
+---
+
+| ShellCheck is a static anaylsis tool that automatically finds bugs in your shell scripts. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-shellcheck) |
+| :-------- | -------: |
+
 
 # Docker image for Shellcheck
 

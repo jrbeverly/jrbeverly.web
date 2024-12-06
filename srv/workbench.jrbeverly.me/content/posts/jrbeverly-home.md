@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="home"
-date="2020-11-28T02:46:39Z"
-description="Ansible descriptions of internal home network"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "home"
+date: "2020-11-28T02:46:39Z"
+description: "Ansible descriptions of internal home network"
+tags: ["jrbeverly"]
+summary: |
+  Ansible playbooks for configuring services running within my internal home cloud.
+---
+
+| Ansible descriptions of internal home network | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/home) |
+| :-------- | -------: |
+
 
 # HomeLab - Internal Tooling
 

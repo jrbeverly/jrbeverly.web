@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-ecr"
-date="2019-03-02T17:59:40Z"
-description="A unified tool to deploy Docker images to Amazon Elastic Container Registry (ECR)."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-ecr"
+date: "2019-03-02T17:59:40Z"
+description: "A unified tool to deploy Docker images to Amazon Elastic Container Registry (ECR)."
+tags: ["cardboardci"]
+summary: |
+  The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts. This container includes docker, allowing deployments to Amazon Elastic Container Registry (ECR), a fully-managed Docker container registry. You can see the cli reference [here](https://docs.aws.amazon.com/cli/latest/reference/ecr/index.html).
+---
+
+| A unified tool to deploy Docker images to Amazon Elastic Container Registry (ECR). | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-ecr) |
+| :-------- | -------: |
+
 
 # Docker image for AWS CLI & Docker
 

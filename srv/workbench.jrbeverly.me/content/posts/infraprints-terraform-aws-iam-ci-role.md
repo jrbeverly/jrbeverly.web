@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="terraform-aws-iam-ci-role"
-date="2019-11-04T00:24:25Z"
-description="Describes IAM resources for delegating access to external services."
-tags=["org:infraprints"]
-+++
+---
+author: "jrbeverly"
+title: "terraform-aws-iam-ci-role"
+date: "2019-11-04T00:24:25Z"
+description: "Describes IAM resources for delegating access to external services."
+tags: ["infraprints"]
+summary: |
+  Terraform module for a continuous integration user-role pairing. These types of resources are supported: - [IAM Role](https://www.terraform.io/docs/providers/aws/r/iam_role.html)
+---
+
+| Describes IAM resources for delegating access to external services. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/infraprints/terraform-aws-iam-ci-role) |
+| :-------- | -------: |
+
 
 # AWS IAM External Role
 

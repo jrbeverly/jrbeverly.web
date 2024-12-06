@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="ci-rsvg"
-date="2017-05-31T23:01:15Z"
-description="[DEPRECATED] A super small image with librsvg installed."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "ci-rsvg"
+date: "2017-05-31T23:01:15Z"
+description: "[DEPRECATED] A super small image with librsvg installed."
+tags: ["cardboardci"]
+summary: |
+  A super small image with [librsvg](http://manpages.ubuntu.com/manpages/zesty/man1/rsvg-convert.1.html) installed. The project icon is from [cre.ativo mustard, HK from the Noun Project](docs/icon/icon.json) **NOTE: This image is marked EOL, and use is discouraged.**
+---
+
+| [DEPRECATED] A super small image with librsvg installed. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/ci-rsvg) |
+| :-------- | -------: |
+
 
 # Dockerized RSvg
 

@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="github-app-for-code-change"
-date="2022-02-23T00:11:59Z"
-description="Fiddling with GitHub Applications for automated commits"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "github-app-for-code-change"
+date: "2022-02-23T00:11:59Z"
+description: "Fiddling with GitHub Applications for automated commits"
+tags: ["jrbeverly"]
+summary: |
+  Running through a bunch of things to be done with this
+---
+
+| Fiddling with GitHub Applications for automated commits | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/github-app-for-code-change) |
+| :-------- | -------: |
+
 
 # GitHub App for Generated Commits
 

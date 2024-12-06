@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="friending"
-date="2017-05-31T22:07:30Z"
-description="Friending is an imaginary online dating, friendship, and social networking mobile application that features user-created questionnaires. "
-tags=["org:thefriending"]
-+++
+---
+author: "jrbeverly"
+title: "friending"
+date: "2017-05-31T22:07:30Z"
+description: "Friending is an imaginary online dating, friendship, and social networking mobile application that features user-created questionnaires. "
+tags: ["thefriending"]
+summary: |
+  Friending is an online dating, friendship, and social networking mobile application that features user-created questionnaires. Friending has two primary features: joining groups to find people similar to you or signing up for events happening in your local area. Friending is a prototype built with the Proto.io application prototyping tool. The Friending prototype was built as part of a requirements specification project. The project focused on the development of a user manual around a fictional matchmaking application called Friending. The application centered around user-created questionnaires that could be used to find relationship matches. The user manual was designed with the goal of _deceiving_ the reader into believing that the application existed. A project vision document and set of user requirements guided the development of scenarios and use cases for the application. The fully-interactive high-fidelity prototype created for the requirements specification project is provided in this repository, available as a standalone HTML page.
+---
+
+| Friending is an imaginary online dating, friendship, and social networking mobile application that features user-created questionnaires.  | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/thefriending/friending) |
+| :-------- | -------: |
+
 
 # Friending
 

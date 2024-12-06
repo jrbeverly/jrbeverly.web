@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="manual-classic"
-date="2017-05-31T22:51:29Z"
-description="Blockycraft is an interactive graphics demo to create a Minecraft inspired demo. "
-tags=["org:blockycraft"]
-+++
+---
+author: "jrbeverly"
+title: "manual-classic"
+date: "2017-05-31T22:51:29Z"
+description: "Blockycraft is an interactive graphics demo to create a Minecraft inspired demo. "
+tags: ["blockycraft"]
+summary: |
+  Blockycraft is an interactive graphics demo to create a Minecraft inspired demo. Blockycraft is focused on a series of graphics techniques create the graphical aethestics of a Minecraft world. This involves the usage of Perlin Noise for a dynamic world, lighting and shadows based on the positions of blocks in the world, and the aesthetic of the block world. The Blockycraft Manual explains the Blockycraft project in terms of interactive, compilation and technical components.
+---
+
+| Blockycraft is an interactive graphics demo to create a Minecraft inspired demo.  | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/blockycraft/manual-classic) |
+| :-------- | -------: |
+
 
 # Blockycraft Manual
 

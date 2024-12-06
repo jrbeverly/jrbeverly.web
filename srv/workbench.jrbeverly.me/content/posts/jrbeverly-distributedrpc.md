@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="distributedrpc"
-date="2018-11-02T00:41:09Z"
-description="A multi-client, multi-server environment that relies on a binder to facilitate an RPC system."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "distributedrpc"
+date: "2018-11-02T00:41:09Z"
+description: "A multi-client, multi-server environment that relies on a binder to facilitate an RPC system."
+tags: ["jrbeverly"]
+summary: |
+  A multi-client, multi-server environment that relies on a binder to facilitate an RPC system.
+---
+
+| A multi-client, multi-server environment that relies on a binder to facilitate an RPC system. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/distributedrpc) |
+| :-------- | -------: |
+
 
 # DistributedRPC
 

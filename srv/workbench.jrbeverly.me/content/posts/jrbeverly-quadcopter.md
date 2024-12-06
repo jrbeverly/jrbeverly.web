@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="quadcopter"
-date="2020-01-10T02:31:05Z"
-description="A quadcopter flying agent that learns to take off using reinforcement learning."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "quadcopter"
+date: "2020-01-10T02:31:05Z"
+description: "A quadcopter flying agent that learns to take off using reinforcement learning."
+tags: ["jrbeverly"]
+summary: |
+  My implementation of the DDPG reinforcement learning algorithm to solve the problem of a quadcopter taking flight. I have included a reference to the DDPG paper used in the development of the flying agent: > Continuous control with deep reinforcement learning > Timothy P. Lillicrap, Jonathan J. Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, Daan Wierstra > > We adapt the ideas underlying the success of Deep Q-Learning to the continuous action domain. We present an actor-critic, model-free algorithm based on the deterministic policy gradient that can operate over continuous action spaces. Using the same learning algorithm, network architecture and hyper-parameters, our algorithm robustly solves more than 20 simulated physics tasks, including classic problems such as cartpole swing-up, dexterous manipulation, legged locomotion and car driving. Our algorithm is able to find policies whose performance is competitive with those found by a planning algorithm with full access to the dynamics of the domain and its derivatives. We further demonstrate that for many of the tasks the algorithm can learn policies end-to-end: directly from raw pixel inputs.
+---
+
+| A quadcopter flying agent that learns to take off using reinforcement learning. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/quadcopter) |
+| :-------- | -------: |
+
 
 # Quadcopter using Reinforcement Learning
 

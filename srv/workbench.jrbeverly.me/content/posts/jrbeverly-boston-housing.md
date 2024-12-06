@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="boston-housing"
-date="2020-02-24T17:50:55Z"
-description="Leverage a few basic machine learning concepts to assist you and a client with finding the best selling price for their home."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "boston-housing"
+date: "2020-02-24T17:50:55Z"
+description: "Leverage a few basic machine learning concepts to assist you and a client with finding the best selling price for their home."
+tags: ["jrbeverly"]
+summary: |
+  Evaluate the performance and predictive power of a model that has been trained and tested on data collected from homes in suburbs of Boston, Massachusetts. A model trained on this data that is seen as a good fit could then be used to make certain predictions about a home — in particular, its monetary value. This model would prove to be invaluable for someone like a real estate agent who could make use of such information on a daily basis.
+---
+
+| Leverage a few basic machine learning concepts to assist you and a client with finding the best selling price for their home. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/boston-housing) |
+| :-------- | -------: |
+
 
 # Predicting Boston Housing Prices
 

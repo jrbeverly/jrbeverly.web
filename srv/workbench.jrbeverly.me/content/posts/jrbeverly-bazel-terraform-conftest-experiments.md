@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="bazel-terraform-conftest-experiments"
-date="2022-05-11T02:21:49Z"
-description="Experiments with conftest, terraform workflow"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "bazel-terraform-conftest-experiments"
+date: "2022-05-11T02:21:49Z"
+description: "Experiments with conftest, terraform workflow"
+tags: ["jrbeverly"]
+summary: |
+  Experimenting with using Bazel to handle the build & execution of Terraform files, while providing means of writing tests against the terraform with conftest. Fiddling with the idea of having local tests against the configuration, as well as tests against the terraform plan. The intention is that Bazel would be responsible for constructing Terraform deployable tarballs, which contains all resolved modules & providers. These would be executed to perform `apply`, `plan` and other commands.
+---
+
+| Experiments with conftest, terraform workflow | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/bazel-terraform-conftest-experiments) |
+| :-------- | -------: |
+
 
 # Experimenting with ConfTest, Terraform & Bazel
 

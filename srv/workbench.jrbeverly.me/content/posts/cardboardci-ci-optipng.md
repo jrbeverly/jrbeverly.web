@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="ci-optipng"
-date="2018-11-02T00:52:03Z"
-description="[DEPRECATED] A super small Alpine image with OptiPNG installed."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "ci-optipng"
+date: "2018-11-02T00:52:03Z"
+description: "[DEPRECATED] A super small Alpine image with OptiPNG installed."
+tags: ["cardboardci"]
+summary: |
+  A super small Alpine image with OptiPNG installed. The project icon is from [cre.ativo mustard, HK from the Noun Project](docs/icon/icon.json) **NOTE: This image is marked EOL, and use is discouraged.**
+---
+
+| [DEPRECATED] A super small Alpine image with OptiPNG installed. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/ci-optipng) |
+| :-------- | -------: |
+
 
 # Dockerized Optipng
 

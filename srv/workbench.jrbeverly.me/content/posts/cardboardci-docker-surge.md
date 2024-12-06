@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-surge"
-date="2019-03-02T17:59:56Z"
-description="Surge is static web publishing for Front-End Developers, right from the CLI."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-surge"
+date: "2019-03-02T17:59:56Z"
+description: "Surge is static web publishing for Front-End Developers, right from the CLI."
+tags: ["cardboardci"]
+summary: |
+  This is the CLI client for the surge.sh hosted service. It’s what gets installed when you run `npm install -g surge`. This CLI library manages access tokens locally and handles the upload and subsequent reporting when you publish a project using surge. You can see the cli reference [here](https://github.com/sintaxi/surge).
+---
+
+| Surge is static web publishing for Front-End Developers, right from the CLI. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-surge) |
+| :-------- | -------: |
+
 
 # Docker image for Surge
 

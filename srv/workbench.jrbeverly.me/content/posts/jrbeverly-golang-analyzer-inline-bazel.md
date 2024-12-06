@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="golang-analyzer-inline-bazel"
-date="2021-08-18T01:16:50Z"
-description="Experimenting with Golang Analyzers with Bazel"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "golang-analyzer-inline-bazel"
+date: "2021-08-18T01:16:50Z"
+description: "Experimenting with Golang Analyzers with Bazel"
+tags: ["jrbeverly"]
+summary: |
+  Experimenting with having analyzers locally defined to a repository, rather than externally defined.
+---
+
+| Experimenting with Golang Analyzers with Bazel | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/golang-analyzer-inline-bazel) |
+| :-------- | -------: |
+
 
 # Bazel Golang Inline Analyzer
 

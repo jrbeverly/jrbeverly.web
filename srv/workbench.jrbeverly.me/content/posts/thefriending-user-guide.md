@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="user-guide"
-date="2017-05-31T22:07:15Z"
-description="The Friending user manual provided as a web resource generated from the user manual."
-tags=["org:thefriending"]
-+++
+---
+author: "jrbeverly"
+title: "user-guide"
+date: "2017-05-31T22:07:15Z"
+description: "The Friending user manual provided as a web resource generated from the user manual."
+tags: ["thefriending"]
+summary: |
+  The Friending user manual provided as a web resource generated from the user manual. The user guide provides info and tips to help you understand the mobile application as a web resource, instead of the standard PDF representation of the user manual. The method used to convert the user manual can be viewed in the `build/` directory.
+---
+
+| The Friending user manual provided as a web resource generated from the user manual. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/thefriending/user-guide) |
+| :-------- | -------: |
+
 
 # Friending User Guide
 

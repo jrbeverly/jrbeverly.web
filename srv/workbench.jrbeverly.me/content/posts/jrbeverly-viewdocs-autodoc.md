@@ -1,10 +1,18 @@
-+++
-author="jrbeverly"
-title="viewdocs-autodoc"
-date="2019-10-05T20:47:31Z"
-description="Viewdocs is simple project documentation. It renders Markdown as simple static pages."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "viewdocs-autodoc"
+date: "2019-10-05T20:47:31Z"
+description: "Viewdocs is simple project documentation. It renders Markdown as simple static pages."
+tags: ["jrbeverly"]
+summary: |
+ This was an early concept I was working with for converting metadata files (json/yml) into standard README markdown files using simple bash and templates. Ultimately I did not go in this direction, as I found that I was not making the best use of the customization yielded from using with bash + templates. A simple templating engine provided all the basics that I was ultimately after.
+ 
+ Below I have described some of the template concepts I was exploring at the time:
+---
+
+| Viewdocs is simple project documentation. It renders Markdown as simple static pages. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/viewdocs-autodoc) |
+| :-------- | -------: |
+
 
 # Viewdocs Autodoc
 

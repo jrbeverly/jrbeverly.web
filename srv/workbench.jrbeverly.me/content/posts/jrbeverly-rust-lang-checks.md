@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="rust-lang-checks"
-date="2021-07-12T15:05:14Z"
-description="Experimenting with some aspects of the Rust language"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "rust-lang-checks"
+date: "2021-07-12T15:05:14Z"
+description: "Experimenting with some aspects of the Rust language"
+tags: ["jrbeverly"]
+summary: |
+  Experimenting with aspects of Rustlang for working with database, and immutable data structures.
+---
+
+| Experimenting with some aspects of the Rust language | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/rust-lang-checks) |
+| :-------- | -------: |
+
 
 # Rust Language Checks
 

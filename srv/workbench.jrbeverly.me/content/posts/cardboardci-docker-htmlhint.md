@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-htmlhint"
-date="2019-10-27T02:25:50Z"
-description="The static code analysis tool you need for your HTML."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-htmlhint"
+date: "2019-10-27T02:25:50Z"
+description: "The static code analysis tool you need for your HTML."
+tags: ["cardboardci"]
+summary: |
+  The static code analysis tool you need for your HTML. You can see the source repository [here](https://github.com/htmlhint/HTMLHint).
+---
+
+| The static code analysis tool you need for your HTML. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-htmlhint) |
+| :-------- | -------: |
+
 
 # Docker image for HTMLHint
 

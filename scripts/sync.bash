@@ -31,12 +31,18 @@ for dataset in "${DIR}/repositories"/* ; do
 
         # topics="$(jq -r '.topics' "${resp}")"
         # topics="$(jq -r ". |= . + [/\"org:${dataset_name}\"]" <<< "$topics")"
-        topics="[\"org:${dataset_name}\"]"
+        topics="[\"${dataset_name}\"]"
         name="$(jq -r '.name' "${resp}")"
         ssh_url="$(jq -r '.ssh_url' "${resp}")"
         created_at="$(jq -r '.created_at' "${resp}")"
         html_url="$(jq -r '.html_url' "${resp}")"
         description="$(jq -r '.description' "${resp}")"
+        is_fork="$(jq -r '.fork' "${resp}")"
+
+        if [[ "${is_fork}" == "true" ]]; then
+            echo "Skipping $name as it is a fork"
+            continue
+        fi
 
         readme_resp="$(mktemp -t github-XXXXXXXXXXXXXXXXX.json)"
         readme_file="$(mktemp -t github-XXXXXXXXXXXXXXXXX.md)"
@@ -48,16 +54,31 @@ for dataset in "${DIR}/repositories"/* ; do
         fi
         curl -sSL "${download_url}" -o "${readme_file}"
 
+        summary="$(awk '/^#/ {if (found) exit; found=1; next} found {print}' "$readme_file" | sed '/./,$!d' | tac | sed '/./,$!d' | tac)"
+        if [[ "$summary" == "" ]]; then
+          echo "The repository $name has nothing in the text"
+          restoffile=$(awk '/^#/ {count++; if (count == 2) {print NR; exit}}' "$readme_file" | xargs -I {} tail -n +{} "$readme_file")
+          summary="$(echo "$restoffile" | awk '/^#/ {if (found) exit; found=1; next} found {print}' | sed '/./,$!d' | tac | sed '/./,$!d' | tac)"
+        fi
+
         result_file="${DIR_OUTPUT}/${dataset_name}-${name}.md"
         touch "${result_file}"
-        echo """+++
-author=\"jrbeverly\"
-title=\"${name}\"
-date=\"${created_at}\"
-description=\"${description}\"
-tags=${topics}
-+++
+        echo """---
+author: \"jrbeverly\"
+title: \"${name}\"
+date: \"${created_at}\"
+description: \"${description}\"
+tags: ${topics}
+summary: |
+$(echo ${summary} | sed 's/^/  /')
+---
+
+| ${description} | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](${html_url}) |
+| :-------- | -------: |
+
 """ > "${result_file}" 
         cat "${readme_file}" >> "${result_file}" 
     done <"${dataset}"
 done
+
+mv "$DIR_OUTPUT"/* "$DIR_ROOT/srv/workbench.jrbeverly.me/content/posts"

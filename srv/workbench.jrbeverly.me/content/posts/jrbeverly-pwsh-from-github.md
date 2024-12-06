@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="pwsh-from-github"
-date="2019-11-17T15:13:06Z"
-description="Experimenting with using GitHub to host a powershell library"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "pwsh-from-github"
+date: "2019-11-17T15:13:06Z"
+description: "Experimenting with using GitHub to host a powershell library"
+tags: ["jrbeverly"]
+summary: |
+  A powershell library that is installed from GitHub, rather than from Powershellgallery.
+---
+
+| Experimenting with using GitHub to host a powershell library | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/pwsh-from-github) |
+| :-------- | -------: |
+
 
 # Powershell Library on GitHub
 

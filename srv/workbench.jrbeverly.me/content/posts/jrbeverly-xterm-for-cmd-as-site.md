@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="xterm-for-cmd-as-site"
-date="2022-01-26T04:07:04Z"
-description="Experiment using Golang WebAssembly for a terminal in-browser"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "xterm-for-cmd-as-site"
+date: "2022-01-26T04:07:04Z"
+description: "Experiment using Golang WebAssembly for a terminal in-browser"
+tags: ["jrbeverly"]
+summary: |
+  Experimenting with the idea of a minimum environment for running terminal applications in browser. In essence, allowing a user to navigate to `example.com/terminal` to view a terminal version of the sites API. With the appropriate token & other bits provided from the browser session tokens.
+---
+
+| Experiment using Golang WebAssembly for a terminal in-browser | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/xterm-for-cmd-as-site) |
+| :-------- | -------: |
+
 
 # XTerm for Terminal as Browser
 

@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-luacheck"
-date="2019-10-27T02:25:40Z"
-description="Luacheck is a static analyzer and a linter for Lua."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-luacheck"
+date: "2019-10-27T02:25:40Z"
+description: "Luacheck is a static analyzer and a linter for Lua."
+tags: ["cardboardci"]
+summary: |
+  Luacheck is a static analyzer and a linter for Lua. Luacheck detects various issues such as usage of undefined global variables, unused variables and values, accessing uninitialized variables, unreachable code and more. Most aspects of checking are configurable: there are options for defining custom project-related globals, for selecting set of standard globals (version of Lua standard library), for filtering warnings by type and name of related variable, etc. The options can be used on the command line, put into a config or directly into checked files as Lua comments. You can see the cli reference [here](https://github.com/mpeterv/luacheck).
+---
+
+| Luacheck is a static analyzer and a linter for Lua. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-luacheck) |
+| :-------- | -------: |
+
 
 # Docker image for LuaCheck
 

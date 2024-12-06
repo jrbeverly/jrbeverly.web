@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="homelab"
-date="2017-05-31T22:54:15Z"
-description="A collection of templates and utility scripts used in my homelab."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "homelab"
+date: "2017-05-31T22:54:15Z"
+description: "A collection of templates and utility scripts used in my homelab."
+tags: ["jrbeverly"]
+summary: |
+  
+---
+
+| A collection of templates and utility scripts used in my homelab. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/homelab) |
+| :-------- | -------: |
+
 
 # Homelab
 

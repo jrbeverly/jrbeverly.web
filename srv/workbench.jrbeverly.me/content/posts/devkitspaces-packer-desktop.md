@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="packer-desktop"
-date="2018-11-02T00:52:23Z"
-description="This build configuration installs the vagrant-desktop environments onto minimal ubuntu images that can be used with Virtualbox."
-tags=["org:devkitspaces"]
-+++
+---
+author: "jrbeverly"
+title: "packer-desktop"
+date: "2018-11-02T00:52:23Z"
+description: "This build configuration installs the vagrant-desktop environments onto minimal ubuntu images that can be used with Virtualbox."
+tags: ["devkitspaces"]
+summary: |
+  
+---
+
+| This build configuration installs the vagrant-desktop environments onto minimal ubuntu images that can be used with Virtualbox. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/devkitspaces/packer-desktop) |
+| :-------- | -------: |
+
 
 # Packer Desktop
 

@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="bazel-jsonnett-templates"
-date="2021-09-12T17:15:18Z"
-description="Experimenting with using bazel & jsonett to generate data from configuration files"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "bazel-jsonnett-templates"
+date: "2021-09-12T17:15:18Z"
+description: "Experimenting with using bazel & jsonett to generate data from configuration files"
+tags: ["jrbeverly"]
+summary: |
+  Generating files from base configuration files using Jsonnet.
+---
+
+| Experimenting with using bazel & jsonett to generate data from configuration files | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/bazel-jsonnett-templates) |
+| :-------- | -------: |
+
 
 # Bazel & Jsonnet Templates
 

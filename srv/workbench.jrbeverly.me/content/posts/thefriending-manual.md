@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="manual"
-date="2017-05-31T22:07:04Z"
-description="The Friending user manual provides info and tips to help you understand the mobile application."
-tags=["org:thefriending"]
-+++
+---
+author: "jrbeverly"
+title: "manual"
+date: "2017-05-31T22:07:04Z"
+description: "The Friending user manual provides info and tips to help you understand the mobile application."
+tags: ["thefriending"]
+summary: |
+  The Friending user manual provides info and tips to help you understand the mobile application. The project is the actualization of a user vision and set of requirements to construct a matchmaking application. The User Manual encodes these requirements as scenarios and use cases, while the Friending prototype presents a high-fidelity vision of the matchmaking application.
+---
+
+| The Friending user manual provides info and tips to help you understand the mobile application. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/thefriending/manual) |
+| :-------- | -------: |
+
 
 # Friending Manual
 

@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-pylint"
-date="2019-10-27T02:25:18Z"
-description="Pylint is a Python static code analysis tool which looks for programming errors."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-pylint"
+date: "2019-10-27T02:25:18Z"
+description: "Pylint is a Python static code analysis tool which looks for programming errors."
+tags: ["cardboardci"]
+summary: |
+  Pylint is a Python static code analysis tool which looks for programming errors, helps enforcing a coding standard, sniffs for code smells and offers simple refactoring suggestions. It's highly configurable, having special pragmas to control its errors and warnings from within your code, as well as from an extensive configuration file. It is also possible to write your own plugins for adding your own checks or for extending pylint in one way or another. You can see the cli reference [here](https://github.com/PyCQA/pylint/).
+---
+
+| Pylint is a Python static code analysis tool which looks for programming errors. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-pylint) |
+| :-------- | -------: |
+
 
 # Docker image for PyLint
 

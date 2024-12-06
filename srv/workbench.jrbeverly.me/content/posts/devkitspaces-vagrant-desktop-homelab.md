@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="vagrant-desktop-homelab"
-date="2017-09-23T17:15:23Z"
-description="This repository provides a base Homelab Desktop environment, sandboxed on your local computer."
-tags=["org:devkitspaces"]
-+++
+---
+author: "jrbeverly"
+title: "vagrant-desktop-homelab"
+date: "2017-09-23T17:15:23Z"
+description: "This repository provides a base Homelab Desktop environment, sandboxed on your local computer."
+tags: ["devkitspaces"]
+summary: |
+  Provide a method of reproducible graphical development environments based on Linux. This repository provides a base Homelab Desktop environment, sandboxed on your local computer.
+---
+
+| This repository provides a base Homelab Desktop environment, sandboxed on your local computer. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/devkitspaces/vagrant-desktop-homelab) |
+| :-------- | -------: |
+
 
 # Vagrant Homelab Desktop
 

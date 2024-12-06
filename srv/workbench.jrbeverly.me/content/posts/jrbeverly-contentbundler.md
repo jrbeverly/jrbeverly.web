@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="contentbundler"
-date="2018-11-02T00:41:04Z"
-description="A proof of concept for generation of strongly typed paths using the Roslyn Framework."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "contentbundler"
+date: "2018-11-02T00:41:04Z"
+description: "A proof of concept for generation of strongly typed paths using the Roslyn Framework."
+tags: ["jrbeverly"]
+summary: |
+  
+---
+
+| A proof of concept for generation of strongly typed paths using the Roslyn Framework. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/contentbundler) |
+| :-------- | -------: |
+
 
 # ContentBundler
 

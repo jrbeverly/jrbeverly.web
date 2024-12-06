@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="readme"
-date="2020-05-07T01:08:13Z"
-description="README of the Blockycraft organization"
-tags=["org:blockycraft"]
-+++
+---
+author: "jrbeverly"
+title: "readme"
+date: "2020-05-07T01:08:13Z"
+description: "README of the Blockycraft organization"
+tags: ["blockycraft"]
+summary: |
+  Blockycraft is a Minecraft inspired Block Engine written in Unity3D and built using GitHub Actions. The intent of this project is to better learn Unity, and discover some new use cases with GitHub Actions. The project is available as binary releases for different operating systems, and includes a hosted WebGL version that can be played in supported browsers: [blockycraft.jrbeverly.dev/play](https://blockycraft.jrbeverly.dev/play) ![blockycraft world](./screenshots/hut-with-mine.png "Blockycraft") There is no formal feature list or any intentions to carry the project long-term into a fully featured block engine.
+---
+
+| README of the Blockycraft organization | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/blockycraft/readme) |
+| :-------- | -------: |
+
 
 # Blockycraft
 

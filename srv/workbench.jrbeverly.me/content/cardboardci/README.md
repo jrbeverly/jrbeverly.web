@@ -1,33 +1,11 @@
 +++
 author="jrbeverly"
 title="CardboardCI"
-tags=["docker", "continuous-integration"]
+tags=["cardboardci"]
 +++
-<h1 align="center">
-  <a href="https://github.com/cardboardci/" title="CardboardCI">
-    <img alt="CardboardCI" src="/img/cardboardci.png" width="200px" height="200px" />
-  </a>
-  <br />
-  CardboardCI
-</h1>
 
-<p align="center">
-  A collection of docker images that provide a common core for use in continuous integration.
-</p>
-
-<div align="center">
-  <a href="https://github.com/cardboardci/">
-    <img alt="GitHub" src="https://img.shields.io/badge/repository-github-blue.svg" />
-  </a>
-  <a href="https://github.com/orgs/cardboardci/packages">
-    <img alt="GitHub Container Registry" src="https://img.shields.io/badge/view-ghcr.io-yellow.svg" />
-  </a>
-  <a href="https://cardboardci.jrbeverly.me/">
-    <img alt="Docs" src="https://img.shields.io/badge/view-docs-blue.svg" />
-  </a>
-</div>
-
-<br />
+|  A collection of docker images for use in continuous integration. | [![GitHub](https://img.shields.io/badge/repository-github-blue.svg)](https://github.com/cardboardci/) |
+| :-------- | -------: |
 
 A collection of docker images that provide a common core for use in continuous integration.
 

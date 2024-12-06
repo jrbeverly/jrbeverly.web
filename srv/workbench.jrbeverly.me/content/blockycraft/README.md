@@ -5,34 +5,10 @@ date="2017-09-1"
 description="Blockycraft is a Minecraft inspired Block Engine."
 tags=["blockycraft"]
 +++
-<h1 align="center">
-  <a href="https://github.com/jrbeverly/blockycraft-manual" title="Blockycraft">
-    <img alt="Blockycraft" src="/img/blockycraft.png" width="200px" height="200px" />
-  </a>
-  <br />
-  Blockycraft
-</h1>
 
-<p align="center">
-  Blockycraft is a Minecraft inspired Block Engine.
-</p>
+|  Blockycraft is a Minecraft inspired Block Engine. | [![GitHub](https://img.shields.io/badge/repository-github-blue.svg)](https://github.com/jrbeverly/blockycraft) |
+| :-------- | -------: |
 
-<div align="center">
-  <a href="https://github.com/jrbeverly/blockycraft">
-    <img alt="GitHub" src="https://img.shields.io/badge/repository-github-blue.svg" />
-  </a>
-  <a href="https://github.com/jrbeverly/blockycraft-manual/releases/v1.0">
-    <img alt="Manual" src="https://img.shields.io/badge/download-manual-darkgreen.svg" />
-  </a>
-  <a href="https://github.com/jrbeverly/blockycraft-manual/releases/download/v1.0/manual.pdf">
-    <img alt="Manual" src="https://img.shields.io/badge/download-pdf-red.svg" />
-  </a>
-  <a href="https://youtu.be/M7InBKpsrac">
-    <img alt="Manual" src="https://img.shields.io/badge/video-youtube-red.svg" />
-  </a>
-</div>
-
-<br />
 
 # Summary 
 

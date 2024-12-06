@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-hugo"
-date="2019-03-02T17:59:45Z"
-description="Hugo is an open-source static site generator."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-hugo"
+date: "2019-03-02T17:59:45Z"
+description: "Hugo is an open-source static site generator."
+tags: ["cardboardci"]
+summary: |
+  Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again. You can see the cli reference [here](https://github.com/gohugoio/hugo/).
+---
+
+| Hugo is an open-source static site generator. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-hugo) |
+| :-------- | -------: |
+
 
 # Docker image for Hugo
 

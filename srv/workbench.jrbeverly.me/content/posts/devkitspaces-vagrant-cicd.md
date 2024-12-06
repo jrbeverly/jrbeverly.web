@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="vagrant-cicd"
-date="2019-10-05T20:31:43Z"
-description="Using Rubocop and Shellcheck to perform linting on a Vagrantfile."
-tags=["org:devkitspaces"]
-+++
+---
+author: "jrbeverly"
+title: "vagrant-cicd"
+date: "2019-10-05T20:31:43Z"
+description: "Using Rubocop and Shellcheck to perform linting on a Vagrantfile."
+tags: ["devkitspaces"]
+summary: |
+  **Pre-built Vagrant Box**: -[`vagrant init ubuntu/trusty64`](https://app.vagrantup.com/ubuntu/boxes/trusty64) This example vagrant configuration installs and configures Ubuntu Trusty using simple Ruby scripts. The objective is to move as much of the Vagrantfile configuration into external ruby scripts. These scripts could then be split into testable functions and modules. Currently the focus is on providing a consistent installation process using `shellcheck` and `rubocop`. Aiming to have a simple vagrant example in this repository, and then use GitLab CI to perform linting on the provisioning scripts (shell+ruby).
+---
+
+| Using Rubocop and Shellcheck to perform linting on a Vagrantfile. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/devkitspaces/vagrant-cicd) |
+| :-------- | -------: |
+
 
 # Vagrant Continuous Integration Prototype
 

@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="repository-template-file-invoke-prototype"
-date="2021-03-25T21:47:15Z"
-description="Repository templating & code automation experiments"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "repository-template-file-invoke-prototype"
+date: "2021-03-25T21:47:15Z"
+description: "Repository templating & code automation experiments"
+tags: ["jrbeverly"]
+summary: |
+  Experimenting with a model of building a lightweight cron+bash system for performing templating&file modification to multiple repositories.
+---
+
+| Repository templating & code automation experiments | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/repository-template-file-invoke-prototype) |
+| :-------- | -------: |
+
 
 # Repository Templating & File Automation
 

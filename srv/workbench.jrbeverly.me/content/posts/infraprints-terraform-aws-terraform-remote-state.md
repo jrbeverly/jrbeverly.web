@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="terraform-aws-terraform-remote-state"
-date="2019-11-04T00:20:48Z"
-description="Provision storage and locking mechanisms for Terraform."
-tags=["org:infraprints"]
-+++
+---
+author: "jrbeverly"
+title: "terraform-aws-terraform-remote-state"
+date: "2019-11-04T00:20:48Z"
+description: "Provision storage and locking mechanisms for Terraform."
+tags: ["infraprints"]
+summary: |
+  Terraform module which creates a terraform remote state storage in S3 with a DynamoDB lock table. These types of resources are supported: bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE [S3 Bucket](https://www.terraform.io/docs/providers/aws/r/s3_bucket.html) bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE [DynamoDB Table](https://www.terraform.io/docs/providers/aws/r/dynamodb_table.html)
+---
+
+| Provision storage and locking mechanisms for Terraform. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/infraprints/terraform-aws-terraform-remote-state) |
+| :-------- | -------: |
+
 
 # AWS Terraform Remote State with Lock Table
 

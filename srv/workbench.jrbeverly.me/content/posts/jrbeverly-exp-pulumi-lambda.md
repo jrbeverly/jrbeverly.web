@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="exp-pulumi-lambda"
-date="2022-05-18T00:40:54Z"
-description="Experimenting with Pulumi for Lambda, S3 Website & Fargate"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "exp-pulumi-lambda"
+date: "2022-05-18T00:40:54Z"
+description: "Experimenting with Pulumi for Lambda, S3 Website & Fargate"
+tags: ["jrbeverly"]
+summary: |
+  Experimenting with the pulumi examples from https://github.com/pulumi/examples, and the options to have
+---
+
+| Experimenting with Pulumi for Lambda, S3 Website & Fargate | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/exp-pulumi-lambda) |
+| :-------- | -------: |
+
 
 # Experimenting with Pulumi
 

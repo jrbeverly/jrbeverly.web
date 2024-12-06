@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="vuln-disclosure-policy"
-date="2022-05-13T03:25:29Z"
-description="Vulnerability disclosure, based on the dioterms"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "vuln-disclosure-policy"
+date: "2022-05-13T03:25:29Z"
+description: "Vulnerability disclosure, based on the dioterms"
+tags: ["jrbeverly"]
+summary: |
+  Exploring leveraging [dioterms](https://github.com/disclose/dioterms) and [policymaker](https://policymaker.disclose.io/policymaker) for creating vulnerability disclore policies for a website.
+---
+
+| Vulnerability disclosure, based on the dioterms | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/vuln-disclosure-policy) |
+| :-------- | -------: |
+
 
 # Vulnerability Disclosure Policy from Dioterms
 

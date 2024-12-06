@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="terraform-aws-iam-external-role"
-date="2019-11-04T00:11:46Z"
-description="Describes an IAM role for delegating cross-account access."
-tags=["org:infraprints"]
-+++
+---
+author: "jrbeverly"
+title: "terraform-aws-iam-external-role"
+date: "2019-11-04T00:11:46Z"
+description: "Describes an IAM role for delegating cross-account access."
+tags: ["infraprints"]
+summary: |
+  Terraform module for describing an IAM role responsible for delegating cross-account access. These types of resources are supported: - [IAM Role](https://www.terraform.io/docs/providers/aws/r/iam_role.html)
+---
+
+| Describes an IAM role for delegating cross-account access. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/infraprints/terraform-aws-iam-external-role) |
+| :-------- | -------: |
+
 
 # AWS IAM External Role
 

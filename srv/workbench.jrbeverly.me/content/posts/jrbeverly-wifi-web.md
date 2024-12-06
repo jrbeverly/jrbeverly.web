@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="wifi-web"
-date="2018-11-02T00:52:35Z"
-description="Wifi Web provides an autorun USB for connecting to wireless access points for devices that do not have access to a camera"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "wifi-web"
+date: "2018-11-02T00:52:35Z"
+description: "Wifi Web provides an autorun USB for connecting to wireless access points for devices that do not have access to a camera"
+tags: ["jrbeverly"]
+summary: |
+  Wifi Web provides an autorun USB for connecting to wireless access points for devices that do not have access to a camera. It opens an HTML page that provides easy access to the Wifi connection details. If you have a camera-enabled device, you can scan Wifi connection details using a QR Code (or any barcode type).
+---
+
+| Wifi Web provides an autorun USB for connecting to wireless access points for devices that do not have access to a camera | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/wifi-web) |
+| :-------- | -------: |
+
 
 # Wifi Web
 

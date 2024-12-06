@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="xplatformer-workspace"
-date="2018-11-02T00:52:36Z"
-description="A meta-repository for facilitating development of the many-repository XPlatformer project."
-tags=["org:xplatformer"]
-+++
+---
+author: "jrbeverly"
+title: "xplatformer-workspace"
+date: "2018-11-02T00:52:36Z"
+description: "A meta-repository for facilitating development of the many-repository XPlatformer project."
+tags: ["xplatformer"]
+summary: |
+  A meta-repository for facilitating development of the many-repository XPlatformer project.
+---
+
+| A meta-repository for facilitating development of the many-repository XPlatformer project. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/xplatformer/xplatformer-workspace) |
+| :-------- | -------: |
+
 
 # XPlatformer-Workspace
 

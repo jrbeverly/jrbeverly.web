@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="readme"
-date="2019-10-27T02:06:14Z"
-description="README for the CardboardCI Community"
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "readme"
+date: "2019-10-27T02:06:14Z"
+description: "README for the CardboardCI Community"
+tags: ["cardboardci"]
+summary: |
+  A collection of docker images that provide a common core for use in continuous integration. The idea of these images is to balance the following: - Frequency of updates - Standard set of tooling - Common Environment
+---
+
+| README for the CardboardCI Community | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/readme) |
+| :-------- | -------: |
+
 
 # CardboardCI
 

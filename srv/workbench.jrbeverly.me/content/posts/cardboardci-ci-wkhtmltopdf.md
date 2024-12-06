@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="ci-wkhtmltopdf"
-date="2018-11-02T00:52:06Z"
-description="[DEPRECATED] A super small image with wkhtmltopdf installed."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "ci-wkhtmltopdf"
+date: "2018-11-02T00:52:06Z"
+description: "[DEPRECATED] A super small image with wkhtmltopdf installed."
+tags: ["cardboardci"]
+summary: |
+  A super small image with [wkhtmltopdf](https://wkhtmltopdf.org/) installed. The project icon is from [cre.ativo mustard, HK from the Noun Project](docs/icon/icon.json) **NOTE: This image is marked EOL, and use is discouraged.**
+---
+
+| [DEPRECATED] A super small image with wkhtmltopdf installed. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/ci-wkhtmltopdf) |
+| :-------- | -------: |
+
 
 # Dockerized WKHtmlToPDF
 

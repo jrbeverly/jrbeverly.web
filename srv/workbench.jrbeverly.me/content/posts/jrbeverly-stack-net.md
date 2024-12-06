@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="stack-net"
-date="2018-11-02T00:52:29Z"
-description="A block blueprinter, built using a visual graph style approach to graphics."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "stack-net"
+date: "2018-11-02T00:52:29Z"
+description: "A block blueprinter, built using a visual graph style approach to graphics."
+tags: ["jrbeverly"]
+summary: |
+  
+---
+
+| A block blueprinter, built using a visual graph style approach to graphics. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/stack-net) |
+| :-------- | -------: |
+
 
 # Stack-NET
 

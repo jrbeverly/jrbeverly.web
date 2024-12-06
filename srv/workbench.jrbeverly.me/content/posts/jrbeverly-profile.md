@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="profile"
-date="2018-11-02T00:52:26Z"
-description="This is a one page user profile for Jonathan Beverly (jrbeverly - i.e. me)."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "profile"
+date: "2018-11-02T00:52:26Z"
+description: "This is a one page user profile for Jonathan Beverly (jrbeverly - i.e. me)."
+tags: ["jrbeverly"]
+summary: |
+  This is a one page user profile for Jonathan Beverly (jrbeverly - i.e. me), linking to multiple online identities, relevant external sites, and popular social networking websites. Not all of them are included, but most of the relevant ones are.
+---
+
+| This is a one page user profile for Jonathan Beverly (jrbeverly - i.e. me). | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/profile) |
+| :-------- | -------: |
+
 
 # jrbeverly.profile
 

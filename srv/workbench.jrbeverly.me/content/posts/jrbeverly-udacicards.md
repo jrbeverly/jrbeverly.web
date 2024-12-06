@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="udacicards"
-date="2018-04-07T20:55:53Z"
-description="Mobile Flashcards."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "udacicards"
+date: "2018-04-07T20:55:53Z"
+description: "Mobile Flashcards."
+tags: ["jrbeverly"]
+summary: |
+  For the UdaciCards project, you will build a mobile application (Android or iOS - or both) that allows users to study collections of flashcards. The app will allow users to create different categories of flashcards called "decks", add flashcards to those decks, then take quizzes on those decks.
+---
+
+| Mobile Flashcards. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/udacicards) |
+| :-------- | -------: |
+
 
 # UdaciCards
 

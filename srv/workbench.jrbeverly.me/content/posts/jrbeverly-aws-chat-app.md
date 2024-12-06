@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="aws-chat-app"
-date="2019-12-30T23:57:22Z"
-description="SAM Application for a simple chat application based on WebSockets in API Gateway"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "aws-chat-app"
+date: "2019-12-30T23:57:22Z"
+description: "SAM Application for a simple chat application based on WebSockets in API Gateway"
+tags: ["jrbeverly"]
+summary: |
+  SAM Application for a simple chat application based on API Gateways new WebSocket API feature. This was originally developed as an experiment to see how viable running a chat-bot in a fully serverless environment, as opposed to just running on a container in ECS. This repository is based on [Announcing WebSocket APIs in Amazon API Gateway](https://aws.amazon.com/blogs/compute/announcing-websocket-apis-in-amazon-api-gateway/), with the cloudformation and lambdas from [simple-websockets-chat-app](https://github.com/aws-samples/simple-websockets-chat-app).
+---
+
+| SAM Application for a simple chat application based on WebSockets in API Gateway | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/aws-chat-app) |
+| :-------- | -------: |
+
 
 # AWS Chat App
 

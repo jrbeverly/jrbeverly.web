@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="xgamelib"
-date="2017-05-31T22:46:03Z"
-description="A framework for a 2D Platformer built using the X Window System."
-tags=["org:xplatformer"]
-+++
+---
+author: "jrbeverly"
+title: "xgamelib"
+date: "2017-05-31T22:46:03Z"
+description: "A framework for a 2D Platformer built using the X Window System."
+tags: ["xplatformer"]
+summary: |
+  XGameLib is a simple video game library used in the development of a classic side-scrolling arcade game, using the XLib API. The point of the game is to control a character through a terrain to meet an objective. The project makes use of the XLib API (XOrg) and focus on code that was developed to accomplish tasks for the assignment task.
+---
+
+| A framework for a 2D Platformer built using the X Window System. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/xplatformer/xgamelib) |
+| :-------- | -------: |
+
 
 # XGameLib
 

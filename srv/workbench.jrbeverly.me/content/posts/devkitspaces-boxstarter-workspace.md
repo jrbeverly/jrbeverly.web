@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="boxstarter-workspace"
-date="2018-11-02T00:40:42Z"
-description="A set of chocolatey packages for setting up a Windows PC."
-tags=["org:devkitspaces"]
-+++
+---
+author: "jrbeverly"
+title: "boxstarter-workspace"
+date: "2018-11-02T00:40:42Z"
+description: "A set of chocolatey packages for setting up a Windows PC."
+tags: ["devkitspaces"]
+summary: |
+  
+---
+
+| A set of chocolatey packages for setting up a Windows PC. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/devkitspaces/boxstarter-workspace) |
+| :-------- | -------: |
+
 
 # Boxstarter.Workspace
 

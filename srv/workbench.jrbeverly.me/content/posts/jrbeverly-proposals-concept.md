@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="proposals-concept"
-date="2019-10-30T03:40:50Z"
-description="Index of all proposals and design documents"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "proposals-concept"
+date: "2019-10-30T03:40:50Z"
+description: "Index of all proposals and design documents"
+tags: ["jrbeverly"]
+summary: |
+  Experimenting with the underlying infrastructure for a GitHub based proposals mechanisms that deploys to a web resource (website/subpage/etc)
+---
+
+| Index of all proposals and design documents | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/proposals-concept) |
+| :-------- | -------: |
+
 
 # Proposals
 

@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="packer-on-github"
-date="2019-10-24T01:48:46Z"
-description="Experimenting with GitHub Actions for building machine images with Packer"
-tags=["org:devkitspaces"]
-+++
+---
+author: "jrbeverly"
+title: "packer-on-github"
+date: "2019-10-24T01:48:46Z"
+description: "Experimenting with GitHub Actions for building machine images with Packer"
+tags: ["devkitspaces"]
+summary: |
+  Experimenting with GitHub Actions for building machine images with Packer. Ideally trying to figure out what it takes for building the following on GitHub Actions: - VirtualBox ISO - Hyper-V ISO - Docker Image
+---
+
+| Experimenting with GitHub Actions for building machine images with Packer | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/devkitspaces/packer-on-github) |
+| :-------- | -------: |
+
 
 # Packer with GitHub Actions
 

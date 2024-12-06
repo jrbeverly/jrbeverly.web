@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="terraform-aws-s3-artifacts"
-date="2019-11-04T00:18:24Z"
-description="Provision a bucket for storing build artifacts in S3."
-tags=["org:infraprints"]
-+++
+---
+author: "jrbeverly"
+title: "terraform-aws-s3-artifacts"
+date: "2019-11-04T00:18:24Z"
+description: "Provision a bucket for storing build artifacts in S3."
+tags: ["infraprints"]
+summary: |
+  Terraform module for an tiered storage S3 bucket with eventual object expiration. Primary use key is for a build artifacts storage. These types of resources are supported: - [S3 Bucket](https://www.terraform.io/docs/providers/aws/r/s3_bucket.html)
+---
+
+| Provision a bucket for storing build artifacts in S3. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/infraprints/terraform-aws-s3-artifacts) |
+| :-------- | -------: |
+
 
 # AWS S3 Terraform State Output
 

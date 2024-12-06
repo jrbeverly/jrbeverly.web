@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="bazel-csharp-testcases"
-date="2019-10-26T21:27:51Z"
-description="A collection of example usages of rules_csharp for development purposes"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "bazel-csharp-testcases"
+date: "2019-10-26T21:27:51Z"
+description: "A collection of example usages of rules_csharp for development purposes"
+tags: ["jrbeverly"]
+summary: |
+  This repository provides a set of usages for the bazel csharp rules. The idea behind these examples is to cover edge cases that are encountered during development, and provide a comprehensive test (& prototype) suite. While working on the bazel csharp rules, I have encountered bugs or small quirks that I would like to encode records of. Some of these are very minor details, so I felt it would work best to have them as an external repository. I defined the idea behind each program [here](docs/criteria.md).
+---
+
+| A collection of example usages of rules_csharp for development purposes | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/bazel-csharp-testcases) |
+| :-------- | -------: |
+
 
 # Bazel CSharp Rules Examples
 

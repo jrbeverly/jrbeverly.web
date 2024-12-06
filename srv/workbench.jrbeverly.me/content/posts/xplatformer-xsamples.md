@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="xsamples"
-date="2017-05-31T22:46:13Z"
-description="XSamples provides a collection of XWindows starter code that works with the XGameLib library."
-tags=["org:xplatformer"]
-+++
+---
+author: "jrbeverly"
+title: "xsamples"
+date: "2017-05-31T22:46:13Z"
+description: "XSamples provides a collection of XWindows starter code that works with the XGameLib library."
+tags: ["xplatformer"]
+summary: |
+  
+---
+
+| XSamples provides a collection of XWindows starter code that works with the XGameLib library. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/xplatformer/xsamples) |
+| :-------- | -------: |
+
 
 # XSamples
 

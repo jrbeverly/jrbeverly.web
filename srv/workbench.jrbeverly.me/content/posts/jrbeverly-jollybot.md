@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="jollybot"
-date="2018-04-07T20:50:44Z"
-description="A Prisoners' Dilemma A.I. bot performing an 'Olive Branch' strategy focusing on attempting to cooperate whenever possible."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "jollybot"
+date: "2018-04-07T20:50:44Z"
+description: "A Prisoners' Dilemma A.I. bot performing an 'Olive Branch' strategy focusing on attempting to cooperate whenever possible."
+tags: ["jrbeverly"]
+summary: |
+  
+---
+
+| A Prisoners' Dilemma A.I. bot performing an 'Olive Branch' strategy focusing on attempting to cooperate whenever possible. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/jollybot) |
+| :-------- | -------: |
+
 
 # JollyBot
 

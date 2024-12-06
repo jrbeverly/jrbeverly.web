@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="githooks"
-date="2017-09-16T01:04:05Z"
-description="GitHooks provides a multi-hook framework for Git Hooks."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "githooks"
+date: "2017-09-16T01:04:05Z"
+description: "GitHooks provides a multi-hook framework for Git Hooks."
+tags: ["jrbeverly"]
+summary: |
+  GitHooks provides a multi-hook framework for Git Hooks, along with a collection of scripts for the purposes of encouraging a commit policy, altering the project environment depending on the state of the repository, and implementing continuous integration workflows. The framework allows multi-script execution, you can use GitHooks to automate or optimize virtually any aspect of your development workflow.
+---
+
+| GitHooks provides a multi-hook framework for Git Hooks. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/githooks) |
+| :-------- | -------: |
+
 
 # Githooks
 

@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="cobra-cmd-with-docs"
-date="2022-01-26T04:11:54Z"
-description="Experimenting with cobra docs generation"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "cobra-cmd-with-docs"
+date: "2022-01-26T04:11:54Z"
+description: "Experimenting with cobra docs generation"
+tags: ["jrbeverly"]
+summary: |
+  Experiment with the GenMarkdownTree method available with cobrago.
+---
+
+| Experimenting with cobra docs generation | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/cobra-cmd-with-docs) |
+| :-------- | -------: |
+
 
 # CobraCMD with GenMarkdownTree
 

@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="vagrant-desktop-x11"
-date="2017-05-31T22:52:11Z"
-description="This repository provides a X11 Linux Desktop environment for the development of the XPlatformer project."
-tags=["org:xplatformer"]
-+++
+---
+author: "jrbeverly"
+title: "vagrant-desktop-x11"
+date: "2017-05-31T22:52:11Z"
+description: "This repository provides a X11 Linux Desktop environment for the development of the XPlatformer project."
+tags: ["xplatformer"]
+summary: |
+  Provide a method of reproducible graphical development environments based on Linux. This repository provides a X11 Linux Desktop environment for the development of the XPlatformer project.
+---
+
+| This repository provides a X11 Linux Desktop environment for the development of the XPlatformer project. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/xplatformer/vagrant-desktop-x11) |
+| :-------- | -------: |
+
 
 # Vagrant X11 Desktop
 

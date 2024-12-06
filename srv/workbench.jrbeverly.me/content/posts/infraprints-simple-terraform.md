@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="simple-terraform"
-date="2019-01-18T00:04:09Z"
-description="A simple repository for testing terraform pipelines."
-tags=["org:infraprints"]
-+++
+---
+author: "jrbeverly"
+title: "simple-terraform"
+date: "2019-01-18T00:04:09Z"
+description: "A simple repository for testing terraform pipelines."
+tags: ["infraprints"]
+summary: |
+  A repository for terraform execution in a Codepipeline task. This repository is part of an original experiment I wanted to have an terraform executor that met the following requirements: - Use official terraform docker image (`hashicorp/terraform:light`) - No external dependencies or custom images (e.g. terragrunt, astro, etc) - Customizable execution process with minimal overhead - Support in-repository modules - No credential management (AWS Codepipeline execution) - Multiple AWS environments within a single repository - No single state file, state file per component (controlled by `terraform.tf` file) - State files map to location in repository - Potential for custom IAM role per component (as opposed to single access permission) This was a quick prototype to see if I would be able to get something rough running, with the shell executor being just the bare essentials that I need.
+---
+
+| A simple repository for testing terraform pipelines. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/infraprints/simple-terraform) |
+| :-------- | -------: |
+
 
 # Prototype CodePipeline Terraform Repository
 

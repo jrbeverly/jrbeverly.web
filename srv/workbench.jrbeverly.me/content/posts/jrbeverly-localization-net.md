@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="localization-net"
-date="2018-11-02T00:52:18Z"
-description="A simple experiment prototyping a concept for strongly typed language terms."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "localization-net"
+date: "2018-11-02T00:52:18Z"
+description: "A simple experiment prototyping a concept for strongly typed language terms."
+tags: ["jrbeverly"]
+summary: |
+  A simple experiment prototyping a concept for strongly typed language terms. **Note: The generated component is not built with this. This is a usage prototype only (no generator is included).**
+---
+
+| A simple experiment prototyping a concept for strongly typed language terms. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/localization-net) |
+| :-------- | -------: |
+
 
 # Localization.NET Concept
 

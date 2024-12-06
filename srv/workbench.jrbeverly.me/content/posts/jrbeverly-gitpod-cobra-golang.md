@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="gitpod-cobra-golang"
-date="2021-07-12T19:10:27Z"
-description="Experimenting with using GitPod for Golang CLI apps with Cobra"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "gitpod-cobra-golang"
+date: "2021-07-12T19:10:27Z"
+description: "Experimenting with using GitPod for Golang CLI apps with Cobra"
+tags: ["jrbeverly"]
+summary: |
+  Leveraging GitPod for prototyping out a golang cli that interfaces with AWS.
+---
+
+| Experimenting with using GitPod for Golang CLI apps with Cobra | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/gitpod-cobra-golang) |
+| :-------- | -------: |
+
 
 # GitPod Golang CLI
 

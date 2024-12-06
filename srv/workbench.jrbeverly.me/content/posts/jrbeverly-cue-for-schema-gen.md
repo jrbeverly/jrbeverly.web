@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="cue-for-schema-gen"
-date="2021-10-23T00:46:21Z"
-description="Experimenting with generating code from Cuelang definitions"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "cue-for-schema-gen"
+date: "2021-10-23T00:46:21Z"
+description: "Experimenting with generating code from Cuelang definitions"
+tags: ["jrbeverly"]
+summary: |
+  Experimenting with using Cuelang for the purposes of representing a schema, then generating associated files from the original source of truth
+---
+
+| Experimenting with generating code from Cuelang definitions | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/cue-for-schema-gen) |
+| :-------- | -------: |
+
 
 # Cuelang with SchemaGen
 

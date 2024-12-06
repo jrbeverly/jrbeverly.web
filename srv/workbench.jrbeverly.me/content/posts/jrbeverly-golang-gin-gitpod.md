@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="golang-gin-gitpod"
-date="2022-05-18T00:23:29Z"
-description="Fiddling with Golang & Bazel for a microservice gin app"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "golang-gin-gitpod"
+date: "2022-05-18T00:23:29Z"
+description: "Fiddling with Golang & Bazel for a microservice gin app"
+tags: ["jrbeverly"]
+summary: |
+  Fiddling with the Dev experience of Golang gin within Gitpod Based on [gitpod-io/go-gin-app](https://github.com/gitpod-io/go-gin-app)
+---
+
+| Fiddling with Golang & Bazel for a microservice gin app | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/golang-gin-gitpod) |
+| :-------- | -------: |
+
 
 # Golang Gin & Gitpod
 

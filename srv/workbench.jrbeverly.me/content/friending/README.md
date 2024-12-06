@@ -1,39 +1,11 @@
 +++
 author="jrbeverly"
 title="Friending"
-tags=["prototype", "mobile-social-network"]
+tags=["friending"]
 +++
-<h1 align="center">
-  <a href="https://github.com/thefriending/friending" title="Friending">
-    <img alt="Friending" src="/img/friending.svg" width="200px" height="200px" />
-  </a>
-  <br />
-  Friending
-</h1>
 
-<p align="center">
-  Friending is an imaginary online dating, friendship, and social networking mobile application that features user-created questionnaires.
-</p>
-
-<div align="center">
-  <a href="https://github.com/thefriending/">
-    <img alt="GitHub" src="https://img.shields.io/badge/repository-github-blue.svg" />
-  </a>
-  <a href="https://friending.jrbeverly.me">
-    <img alt="Manual" src="https://img.shields.io/badge/view-friending-yellow.svg" />
-  </a>
-  <a href="https://friending.jrbeverly.me/friending/">
-    <img alt="Manual" src="https://img.shields.io/badge/view-app-blue.svg" />
-  </a>
-  <a href="https://github.com/thefriending/manual/releases/latest">
-    <img alt="Manual" src="https://img.shields.io/badge/view-requirements-orange.svg" />
-  </a>
-  <a href="https://friending.jrbeverly.me/guide">
-    <img alt="Manual" src="https://img.shields.io/badge/view-guide-purple.svg" />
-  </a>
-</div>
-
-<br />
+|  Friending is an imaginary online dating, friendship, and social networking mobile application. | [![GitHub](https://img.shields.io/badge/repository-github-blue.svg)](https://github.com/thefriending/) |
+| :-------- | -------: |
 
 ## Summary
 

@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="customer-segments"
-date="2020-02-24T17:48:47Z"
-description="Applying unsupervised learning techniques on product spending data to identify customer segments hidden in the data."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "customer-segments"
+date: "2020-02-24T17:48:47Z"
+description: "Applying unsupervised learning techniques on product spending data to identify customer segments hidden in the data."
+tags: ["jrbeverly"]
+summary: |
+  Analyze a dataset containing data on various customers' annual spending amounts (reported in monetary units) of diverse product categories for internal structure. One goal of this project is to best describe the variation in the different types of customers that a wholesale distributor interacts with. Doing so would equip the distributor with insight into how to best structure their delivery service to meet the needs of each customer.
+---
+
+| Applying unsupervised learning techniques on product spending data to identify customer segments hidden in the data. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/customer-segments) |
+| :-------- | -------: |
+
 
 # Creating Customer Segments
 

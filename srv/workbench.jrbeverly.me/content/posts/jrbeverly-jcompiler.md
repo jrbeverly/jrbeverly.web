@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="jcompiler"
-date="2021-10-04T23:31:06Z"
-description="A Joos programming language compiler, written in Java."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "jcompiler"
+date: "2021-10-04T23:31:06Z"
+description: "A Joos programming language compiler, written in Java."
+tags: ["jrbeverly"]
+summary: |
+  
+---
+
+| A Joos programming language compiler, written in Java. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/jcompiler) |
+| :-------- | -------: |
+
 
 # JCompiler
 

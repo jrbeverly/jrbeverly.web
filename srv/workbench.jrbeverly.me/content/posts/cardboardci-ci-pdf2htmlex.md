@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="ci-pdf2htmlex"
-date="2017-05-31T23:02:17Z"
-description="[DEPRECATED] A super small image with pdf2htmlEX installed."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "ci-pdf2htmlex"
+date: "2017-05-31T23:02:17Z"
+description: "[DEPRECATED] A super small image with pdf2htmlEX installed."
+tags: ["cardboardci"]
+summary: |
+  A super small image with pdf2htmlEX installed. The project icon is from [cre.ativo mustard, HK from the Noun Project](docs/icon/icon.json) **NOTE: This image is marked EOL, and use is discouraged.**
+---
+
+| [DEPRECATED] A super small image with pdf2htmlEX installed. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/ci-pdf2htmlex) |
+| :-------- | -------: |
+
 
 # Dockerized pdf2htmlEX
 

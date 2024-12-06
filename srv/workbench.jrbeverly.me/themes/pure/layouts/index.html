@@ -16,7 +16,7 @@
       </div>
       {{- if .Summary }}
       <div class="article-entry text-muted" itemprop="description">
-        {{- .Summary -}}
+        {{- .Summary | markdownify -}}
       </div>
       {{- end }}
       <p class="article-meta">

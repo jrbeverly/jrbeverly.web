@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="raytracer"
-date="2018-11-02T00:52:27Z"
-description="A Raytracer that receives a scene defined in lua, and produces an image output."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "raytracer"
+date: "2018-11-02T00:52:27Z"
+description: "A Raytracer that receives a scene defined in lua, and produces an image output."
+tags: ["jrbeverly"]
+summary: |
+  
+---
+
+| A Raytracer that receives a scene defined in lua, and produces an image output. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/raytracer) |
+| :-------- | -------: |
+
 
 # RayTracer
 

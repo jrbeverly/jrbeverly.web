@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="jotto"
-date="2017-05-31T14:21:28Z"
-description="Jotto is a logic-oriented word game played with two players."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "jotto"
+date: "2017-05-31T14:21:28Z"
+description: "Jotto is a logic-oriented word game played with two players."
+tags: ["jrbeverly"]
+summary: |
+  Jotto is a logic-oriented word game played with two players. Each player picks a secret word of five letters (that is in the dictionary), and the object of the game is to correctly guess the other player's word first. Players take turns guessing and giving the number of Jots, or the number of letters that are in both the guessed word and the secret word. The Jotto application is built with a single player, playing against a computer. The objective of the game is to correctly guess the secret word before the maximum number of guesses. The user interface provides feedback about the success of each guess, and the progress being made by the player. Each guess must be validated that it is present in the dictionary, of the proper length and contains repeated characters. After each guess the player will be provided feedback about the guess, such as the number of exact character matches and the number of partial character matches.
+---
+
+| Jotto is a logic-oriented word game played with two players. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/jotto) |
+| :-------- | -------: |
+
 
 # Jotto
 

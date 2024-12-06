@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="bazel-external-toolchain-rules"
-date="2021-09-26T22:20:07Z"
-description="Exploring enabling bazel toolchains with an external 'toolchain' file"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "bazel-external-toolchain-rules"
+date: "2021-09-26T22:20:07Z"
+description: "Exploring enabling bazel toolchains with an external 'toolchain' file"
+tags: ["jrbeverly"]
+summary: |
+  Experimenting with setting up Bazel toolchains using an externally managed `.toolchain` file, that is responsible for defining properties such as: - System compatibility - Integrity Checks - Tool retrieval locations
+---
+
+| Exploring enabling bazel toolchains with an external 'toolchain' file | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/bazel-external-toolchain-rules) |
+| :-------- | -------: |
+
 
 # bazel-external-toolchain-rules
 

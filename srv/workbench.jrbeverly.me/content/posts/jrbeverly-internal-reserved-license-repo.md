@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="internal-reserved-license-repo"
-date="2021-09-11T19:18:11Z"
-description="Experimenting with laying out the licensing stamp for a closed/internal source repository"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "internal-reserved-license-repo"
+date: "2021-09-11T19:18:11Z"
+description: "Experimenting with laying out the licensing stamp for a closed/internal source repository"
+tags: ["jrbeverly"]
+summary: |
+  Experimenting with laying out the licensing stamp for a closed/internal source repository
+---
+
+| Experimenting with laying out the licensing stamp for a closed/internal source repository | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/internal-reserved-license-repo) |
+| :-------- | -------: |
+
 
 # internal-reserved-license-repo
 

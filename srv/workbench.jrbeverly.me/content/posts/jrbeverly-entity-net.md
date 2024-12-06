@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="entity-net"
-date="2018-11-02T00:52:07Z"
-description="A simple experiment prototyping a concept for strongly typed ORMs."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "entity-net"
+date: "2018-11-02T00:52:07Z"
+description: "A simple experiment prototyping a concept for strongly typed ORMs."
+tags: ["jrbeverly"]
+summary: |
+  A simple experiment prototyping a concept for strongly typed ORMs.
+---
+
+| A simple experiment prototyping a concept for strongly typed ORMs. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/entity-net) |
+| :-------- | -------: |
+
 
 # Entity.NET Concept
 

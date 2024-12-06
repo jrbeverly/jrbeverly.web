@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-hadolint"
-date="2019-03-02T17:51:37Z"
-description="Dockerfile linter, validate inline bash, written in Haskell."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-hadolint"
+date: "2019-03-02T17:51:37Z"
+description: "Dockerfile linter, validate inline bash, written in Haskell."
+tags: ["cardboardci"]
+summary: |
+  A smarter Dockerfile linter that helps you build best practice Docker images. The linter is parsing the Dockerfile into an AST and performs rules on top of the AST. It is standing on the shoulders of ShellCheck to lint the Bash code inside RUN instructions. You can see the source repository [here](https://github.com/hadolint/hadolint).
+---
+
+| Dockerfile linter, validate inline bash, written in Haskell. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-hadolint) |
+| :-------- | -------: |
+
 
 # Docker image for HadoLint
 

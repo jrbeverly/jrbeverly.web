@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="blockycraft"
-date="2020-05-23T17:31:06Z"
-description="Blockycraft is a Minecraft inspired Block Engine."
-tags=["org:blockycraft"]
-+++
+---
+author: "jrbeverly"
+title: "blockycraft"
+date: "2020-05-23T17:31:06Z"
+description: "Blockycraft is a Minecraft inspired Block Engine."
+tags: ["blockycraft"]
+summary: |
+  Blockycraft is a Minecraft inspired Block Engine written in Unity3D and built using GitHub Actions. The intent of this project is to better learn Unity, and discover some new use cases with GitHub Actions. The project is available as binary releases for different operating systems, and includes a hosted WebGL version that can be played in supported browsers: [blockycraft.jrbeverly.dev/play](https://blockycraft.jrbeverly.dev/play) ![blockycraft world](./docs/screenshots/world.png "Blockycraft") There is no formal feature list or any intentions to carry the project long-term into a fully featured block engine.
+---
+
+| Blockycraft is a Minecraft inspired Block Engine. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/blockycraft/blockycraft) |
+| :-------- | -------: |
+
 
 # blockycraft
 

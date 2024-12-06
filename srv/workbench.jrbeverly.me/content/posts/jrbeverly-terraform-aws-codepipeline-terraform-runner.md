@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="terraform-aws-codepipeline-terraform-runner"
-date="2021-08-28T14:39:46Z"
-description="Terraform runner in CodePipeline"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "terraform-aws-codepipeline-terraform-runner"
+date: "2021-08-28T14:39:46Z"
+description: "Terraform runner in CodePipeline"
+tags: ["jrbeverly"]
+summary: |
+  Terraform executor leveraging the CodePipeline functionality in AWS, for a fully serverless model of executing terraform in AWS.
+---
+
+| Terraform runner in CodePipeline | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/terraform-aws-codepipeline-terraform-runner) |
+| :-------- | -------: |
+
 
 # Terraform AWS CodePipline Terraform Executor
 

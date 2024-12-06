@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-stylelint"
-date="2019-10-27T02:24:42Z"
-description="A mighty, modern style linter."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-stylelint"
+date: "2019-10-27T02:24:42Z"
+description: "A mighty, modern style linter."
+tags: ["cardboardci"]
+summary: |
+  A mighty, modern linter that helps you avoid errors and enforce conventions in your styles. It's mighty because it: bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE understands the latest CSS syntax including custom properties and level 4 selectors bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE extracts embedded styles from HTML, markdown and CSS-in-JS object & template literals bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE parses CSS-like syntaxes like SCSS, Sass, Less and SugarSS bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE has over 170 built-in rules to catch errors, apply limits and enforce stylistic conventions bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE supports plugins so you can create your own rules or make use of plugins written by the community bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE automatically fixes some violations (experimental feature) bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE is well tested with over 10000 unit tests bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE supports shareable configs that you can extend or create your own of bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE is unopinionated so you can tailor the linter to your exact needs You can see the cli reference [here](https://github.com/stylelint/stylelint).
+---
+
+| A mighty, modern style linter. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-stylelint) |
+| :-------- | -------: |
+
 
 # Docker image for StyleLint
 

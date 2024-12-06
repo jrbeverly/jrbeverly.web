@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-rubocop"
-date="2019-10-27T02:24:56Z"
-description="A Ruby static code analyzer and formatter, based on the community Ruby style guide."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-rubocop"
+date: "2019-10-27T02:24:56Z"
+description: "A Ruby static code analyzer and formatter, based on the community Ruby style guide."
+tags: ["cardboardci"]
+summary: |
+  RuboCop is a Ruby static code analyzer and code formatter. Out of the box it will enforce many of the guidelines outlined in the community Ruby Style Guide. RuboCop is extremely flexible and most aspects of its behavior can be tweaked via various configuration options. You can see the cli reference [here](https://github.com/rubocop-hq/rubocop).
+---
+
+| A Ruby static code analyzer and formatter, based on the community Ruby style guide. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-rubocop) |
+| :-------- | -------: |
+
 
 # Docker image for Rubocop
 

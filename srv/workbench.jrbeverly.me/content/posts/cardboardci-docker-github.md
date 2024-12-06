@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-github"
-date="2019-03-02T17:58:39Z"
-description="A command-line tool that makes git easier to use with GitHub."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-github"
+date: "2019-03-02T17:58:39Z"
+description: "A command-line tool that makes git easier to use with GitHub."
+tags: ["cardboardci"]
+summary: |
+  `hub` is an extension to command-line git that helps you do everyday GitHub tasks without ever leaving the terminal. `hub` can be safely aliased as git so you can type `$ git <command>`in the shell and get all the usual hub features. You can see the source repository [here](https://github.com/dropbox/dbxcli).
+---
+
+| A command-line tool that makes git easier to use with GitHub. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-github) |
+| :-------- | -------: |
+
 
 # Docker image for GitHubCLI
 

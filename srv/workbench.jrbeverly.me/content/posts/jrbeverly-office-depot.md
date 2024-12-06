@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="office-depot"
-date="2018-11-02T00:52:22Z"
-description="office-depot is a container based software development stack."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "office-depot"
+date: "2018-11-02T00:52:22Z"
+description: "office-depot is a container based software development stack."
+tags: ["jrbeverly"]
+summary: |
+  
+---
+
+| office-depot is a container based software development stack. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/office-depot) |
+| :-------- | -------: |
+
 
 # office-depot
 

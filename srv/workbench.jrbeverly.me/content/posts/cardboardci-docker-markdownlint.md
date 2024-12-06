@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-markdownlint"
-date="2019-10-27T02:34:03Z"
-description="A Node.js style checker and lint tool for Markdown/CommonMark files."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-markdownlint"
+date: "2019-10-27T02:34:03Z"
+description: "A Node.js style checker and lint tool for Markdown/CommonMark files."
+tags: ["cardboardci"]
+summary: |
+  A tool to check markdown files and flag style issues. To have markdownlint check your markdown files, simply run mdl with the filenames as a parameter: ```bash mdl README.md ``` Markdownlint can also take a directory, and it will scan all markdown files within the directory (and nested directories): ```bash mdl docs/ ``` You can see the cli reference [here](https://github.com/markdownlint/markdownlint).
+---
+
+| A Node.js style checker and lint tool for Markdown/CommonMark files. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-markdownlint) |
+| :-------- | -------: |
+
 
 # Docker image for MarkdownLint
 

@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="github-config-in-code"
-date="2022-03-02T02:14:31Z"
-description="Fiddling with the github folder conventions"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "github-config-in-code"
+date: "2022-03-02T02:14:31Z"
+description: "Fiddling with the github folder conventions"
+tags: ["jrbeverly"]
+summary: |
+  Fiddling with the configuration options available for GitHub, while encoding the properties in the `.github` directory.
+---
+
+| Fiddling with the github folder conventions | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/github-config-in-code) |
+| :-------- | -------: |
+
 
 # GitHub Configuration in Code
 

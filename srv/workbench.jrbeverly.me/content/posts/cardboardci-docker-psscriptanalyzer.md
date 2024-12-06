@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-psscriptanalyzer"
-date="2019-03-02T17:59:53Z"
-description="PSScriptAnalyzer is a static code checker for Windows PowerShell modules and scripts."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-psscriptanalyzer"
+date: "2019-03-02T17:59:53Z"
+description: "PSScriptAnalyzer is a static code checker for Windows PowerShell modules and scripts."
+tags: ["cardboardci"]
+summary: |
+  PSScriptAnalyzer is a static code checker for Windows PowerShell modules and scripts. PSScriptAnalyzer checks the quality of Windows PowerShell code by running a set of rules. The rules are based on PowerShell best practices identified by PowerShell Team and the community. It generates DiagnosticResults (errors and warnings) to inform users about potential code defects and suggests possible solutions for improvements. You can see the cli reference [here](https://github.com/PowerShell/PSScriptAnalyzer).
+---
+
+| PSScriptAnalyzer is a static code checker for Windows PowerShell modules and scripts. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-psscriptanalyzer) |
+| :-------- | -------: |
+
 
 # Docker image for PSScriptAnalyzer
 

@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="bullseye-exp"
-date="2019-10-05T20:35:47Z"
-description="Experimenting with using the .NET library BullsEye"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "bullseye-exp"
+date: "2019-10-05T20:35:47Z"
+description: "Experimenting with using the .NET library BullsEye"
+tags: ["jrbeverly"]
+summary: |
+  Experiment with BullsEye for building command-driven tooling (build-systems).
+---
+
+| Experimenting with using the .NET library BullsEye | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/bullseye-exp) |
+| :-------- | -------: |
+
 
 # BullsEye Experimentation
 

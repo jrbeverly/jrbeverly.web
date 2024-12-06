@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="bmx"
-date="2020-01-08T18:15:28Z"
-description="IAM-less AWS API access for humans."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "bmx"
+date: "2020-01-08T18:15:28Z"
+description: "IAM-less AWS API access for humans."
+tags: ["jrbeverly"]
+summary: |
+  BMX grants you API access to your AWS accounts, based on Okta credentials that you already own. It uses your Okta identity to create short-term AWS STS tokens, as an alternative to long-term IAM access keys. BMX manages your STS tokens with the following commands: 1. `bmx print` writes your short-term tokens to `stdout` as AWS environment variables. You can execute `bmx print`'s output to make the environment variables available to your shell. 1. `bmx write` writes your short-term tokens to `~/.aws/credentials`. BMX prints detailed usage information when you run `bmx -h` or `bmx <cmd> -h`. BMX was developed by D2L ([Brightspace/bmx](https://github.com/Brightspace/bmx/)), and modifications have been made to the project by Arctic Wolf.
+---
+
+| IAM-less AWS API access for humans. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/bmx) |
+| :-------- | -------: |
+
 
 # BMX
 

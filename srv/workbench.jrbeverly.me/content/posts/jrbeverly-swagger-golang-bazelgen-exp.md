@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="swagger-golang-bazelgen-exp"
-date="2022-05-19T00:58:15Z"
-description="json with schema"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "swagger-golang-bazelgen-exp"
+date: "2022-05-19T00:58:15Z"
+description: "json with schema"
+tags: ["jrbeverly"]
+summary: |
+  Fiddling with an idea of generating models from the OpenAPI spec for YAML.
+---
+
+| json with schema | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/swagger-golang-bazelgen-exp) |
+| :-------- | -------: |
+
 
 # Golang & OpenAPI Spec
 

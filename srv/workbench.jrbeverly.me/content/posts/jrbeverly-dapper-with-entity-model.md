@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="dapper-with-entity-model"
-date="2021-10-23T14:43:17Z"
-description="Experimenting with the EntityModel for interface boundaries"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "dapper-with-entity-model"
+date: "2021-10-23T14:43:17Z"
+description: "Experimenting with the EntityModel for interface boundaries"
+tags: ["jrbeverly"]
+summary: |
+  Exported case of experimenting with using Postgres Functions, Dapper & Entity.Model.
+---
+
+| Experimenting with the EntityModel for interface boundaries | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/dapper-with-entity-model) |
+| :-------- | -------: |
+
 
 # EntityModel Dapper Experiment Case
 

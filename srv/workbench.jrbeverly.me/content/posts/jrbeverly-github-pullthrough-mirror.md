@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="github-pullthrough-mirror"
-date="2022-03-04T04:32:17Z"
-description="GitHub Actions cronjob responsible for mirroring github releases"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "github-pullthrough-mirror"
+date: "2022-03-04T04:32:17Z"
+description: "GitHub Actions cronjob responsible for mirroring github releases"
+tags: ["jrbeverly"]
+summary: |
+  Lightweight experiment for mirroring GitHub releases into a file store system like Minio or AWS S3.
+---
+
+| GitHub Actions cronjob responsible for mirroring github releases | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/github-pullthrough-mirror) |
+| :-------- | -------: |
+
 
 # Release Mirror for GitHub Releases
 

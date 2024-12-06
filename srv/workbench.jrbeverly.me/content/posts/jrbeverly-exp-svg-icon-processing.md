@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="exp-svg-icon-processing"
-date="2019-10-05T20:37:56Z"
-description="An experiment for performing SVG icon processing"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "exp-svg-icon-processing"
+date: "2019-10-05T20:37:56Z"
+description: "An experiment for performing SVG icon processing"
+tags: ["jrbeverly"]
+summary: |
+  Experiment with programmatically generating color variants for SVG files using a JSON definition file with the source SVG.
+---
+
+| An experiment for performing SVG icon processing | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/exp-svg-icon-processing) |
+| :-------- | -------: |
+
 
 # SVG Icon Processing
 

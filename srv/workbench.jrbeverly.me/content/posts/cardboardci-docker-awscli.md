@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-awscli"
-date="2019-03-02T17:59:37Z"
-description="The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-awscli"
+date: "2019-03-02T17:59:37Z"
+description: "The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services."
+tags: ["cardboardci"]
+summary: |
+  The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts. You can see the cli reference [here](https://docs.aws.amazon.com/cli/latest/reference/).
+---
+
+| The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-awscli) |
+| :-------- | -------: |
+
 
 # Docker image for AWS CLI
 

@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="ci-glibc"
-date="2017-05-31T23:02:05Z"
-description="[DEPRECATED] A super small image with glibc installed, to allow binaries compiled against glibc to work."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "ci-glibc"
+date: "2017-05-31T23:02:05Z"
+description: "[DEPRECATED] A super small image with glibc installed, to allow binaries compiled against glibc to work."
+tags: ["cardboardci"]
+summary: |
+  A super small image with glibc installed, to allow binaries compiled against glibc to work. The project icon is from [cre.ativo mustard, HK from the Noun Project](docs/icon/icon.json) **NOTE: This image is marked EOL, and use is discouraged.**
+---
+
+| [DEPRECATED] A super small image with glibc installed, to allow binaries compiled against glibc to work. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/ci-glibc) |
+| :-------- | -------: |
+
 
 # Dockerized GLibC
 

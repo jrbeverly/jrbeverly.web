@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="react-wasm-babel"
-date="2022-05-17T02:05:18Z"
-description="Minimal react webassembly case with Webpack, React"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "react-wasm-babel"
+date: "2022-05-17T02:05:18Z"
+description: "Minimal react webassembly case with Webpack, React"
+tags: ["jrbeverly"]
+summary: |
+  Fiddling around with an opinionated example for Webpack builds with WebAssembly. Source code for fractal is based on https://dev.to/brightdevs/using-webassembly-with-react-1led, and the repository templated by https://github.com/Fallenstedt/wasm-react-webpack-template.
+---
+
+| Minimal react webassembly case with Webpack, React | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/react-wasm-babel) |
+| :-------- | -------: |
+
 
 # React Webpack with Rust WebAssembly
 

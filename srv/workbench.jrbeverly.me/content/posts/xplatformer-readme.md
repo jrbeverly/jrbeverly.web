@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="readme"
-date="2020-04-10T19:26:56Z"
-description="README for the XPlatformer Community"
-tags=["org:xplatformer"]
-+++
+---
+author: "jrbeverly"
+title: "readme"
+date: "2020-04-10T19:26:56Z"
+description: "README for the XPlatformer Community"
+tags: ["xplatformer"]
+summary: |
+  
+---
+
+| README for the XPlatformer Community | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/xplatformer/readme) |
+| :-------- | -------: |
+
 
 # XPlatformer
 

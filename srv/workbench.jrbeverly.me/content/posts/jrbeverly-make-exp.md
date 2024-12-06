@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="make-exp"
-date="2018-12-12T22:46:15Z"
-description="Experimenting with a build-harness style of makefiles"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "make-exp"
+date: "2018-12-12T22:46:15Z"
+description: "Experimenting with a build-harness style of makefiles"
+tags: ["jrbeverly"]
+summary: |
+  Experimenting with using makefiles as a build harness type structure. The idea is to package `makefile` using GitHub, that can then be downloaded when running.
+---
+
+| Experimenting with a build-harness style of makefiles | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/make-exp) |
+| :-------- | -------: |
+
 
 # Makefile Experiments
 

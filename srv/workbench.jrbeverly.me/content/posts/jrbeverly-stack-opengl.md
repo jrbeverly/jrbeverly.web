@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="stack-opengl"
-date="2018-11-02T00:52:30Z"
-description="stack-opengl is a variant of stack-net written in OpenGL. "
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "stack-opengl"
+date: "2018-11-02T00:52:30Z"
+description: "stack-opengl is a variant of stack-net written in OpenGL. "
+tags: ["jrbeverly"]
+summary: |
+  stack-opengl is a variant of `stack-net` written in OpenGL. It uses extremely simple shaders and OpenGL programming to create a block stacking application.
+---
+
+| stack-opengl is a variant of stack-net written in OpenGL.  | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/stack-opengl) |
+| :-------- | -------: |
+
 
 # stack-opengl
 

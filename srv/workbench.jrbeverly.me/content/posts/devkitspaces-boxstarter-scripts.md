@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="boxstarter-scripts"
-date="2017-05-31T22:54:37Z"
-description="A script for setting up a Windows PC using BoxStarter and Chocolatey."
-tags=["org:devkitspaces"]
-+++
+---
+author: "jrbeverly"
+title: "boxstarter-scripts"
+date: "2017-05-31T22:54:37Z"
+description: "A script for setting up a Windows PC using BoxStarter and Chocolatey."
+tags: ["devkitspaces"]
+summary: |
+  A script for setting up a Windows PC using BoxStarter and Chocolatey.
+---
+
+| A script for setting up a Windows PC using BoxStarter and Chocolatey. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/devkitspaces/boxstarter-scripts) |
+| :-------- | -------: |
+
 
 # Automated Windows Setup
 

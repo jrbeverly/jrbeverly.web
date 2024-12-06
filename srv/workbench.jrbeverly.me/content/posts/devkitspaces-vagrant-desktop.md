@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="vagrant-desktop"
-date="2017-05-31T22:52:01Z"
-description="This repository provides a base Linux Desktop environment, sandboxed on your local computer."
-tags=["org:devkitspaces"]
-+++
+---
+author: "jrbeverly"
+title: "vagrant-desktop"
+date: "2017-05-31T22:52:01Z"
+description: "This repository provides a base Linux Desktop environment, sandboxed on your local computer."
+tags: ["devkitspaces"]
+summary: |
+  Provide a method of reproducible graphical development environments based on Linux. This repository provides a base Linux Desktop environment, sandboxed on your local computer.
+---
+
+| This repository provides a base Linux Desktop environment, sandboxed on your local computer. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/devkitspaces/vagrant-desktop) |
+| :-------- | -------: |
+
 
 # Vagrant Linux Desktop
 

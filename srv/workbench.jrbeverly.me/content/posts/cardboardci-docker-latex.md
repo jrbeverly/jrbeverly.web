@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-latex"
-date="2019-03-02T17:59:46Z"
-description="LaTeX is a sys­tem for com­puter type­set­ting of doc­u­ments."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-latex"
+date: "2019-03-02T17:59:46Z"
+description: "LaTeX is a sys­tem for com­puter type­set­ting of doc­u­ments."
+tags: ["cardboardci"]
+summary: |
+  LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents. LaTeX is available as free software. You can see the LaTeX reference [here](https://www.tug.org/begin.html).
+---
+
+| LaTeX is a sys­tem for com­puter type­set­ting of doc­u­ments. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-latex) |
+| :-------- | -------: |
+
 
 # Docker image for LaTeX
 

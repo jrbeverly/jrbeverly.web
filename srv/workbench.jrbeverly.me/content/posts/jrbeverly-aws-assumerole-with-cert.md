@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="aws-assumerole-with-cert"
-date="2022-01-26T03:27:23Z"
-description="Explore using aws iam assume role with cert"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "aws-assumerole-with-cert"
+date: "2022-01-26T03:27:23Z"
+description: "Explore using aws iam assume role with cert"
+tags: ["jrbeverly"]
+summary: |
+  Exploring the concept of using AWS IoT Certificates for authenticating with AWS. This came up while working with minio, which supports authentication with certificates: > MinIO provides a custom STS API that allows authentication with client X.509 / TLS certificates.
+---
+
+| Explore using aws iam assume role with cert | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/aws-assumerole-with-cert) |
+| :-------- | -------: |
+
 
 # AWS AssumeRole with Certificate for CI
 

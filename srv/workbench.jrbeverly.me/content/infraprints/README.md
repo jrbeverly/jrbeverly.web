@@ -1,10 +1,13 @@
 +++
 author="jrbeverly"
 title="Infraprints"
-tags=["terraform", "infrastructure-as-code", "cloud-services"]
+tags=["infraprints"]
 +++
+
+|  Terraform modules that defined very opinionated architecture. | [![GitHub](https://img.shields.io/badge/repository-github-blue.svg)](https://github.com/infraprints) |
+| :-------- | -------: |
+
 # Infraprints
-[![Repo on GitHub](/img/github.svg)](https://github.com/infraprints)
 
 Opinionated Cloud Architecture.
 

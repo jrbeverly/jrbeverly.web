@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="manim-exp-video-generation"
-date="2022-05-17T02:10:19Z"
-description="Fiddling with video generation by code"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "manim-exp-video-generation"
+date: "2022-05-17T02:10:19Z"
+description: "Fiddling with video generation by code"
+tags: ["jrbeverly"]
+summary: |
+  Experimenting with the MAnim library for generating video animations.
+---
+
+| Fiddling with video generation by code | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/manim-exp-video-generation) |
+| :-------- | -------: |
+
 
 # MAnim Experimentation with Video Generation
 

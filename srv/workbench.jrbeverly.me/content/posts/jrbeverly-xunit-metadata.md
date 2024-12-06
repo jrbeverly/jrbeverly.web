@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="xunit-metadata"
-date="2018-11-02T00:52:39Z"
-description="Strongly-typed attributes for the management and organization of tests."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "xunit-metadata"
+date: "2018-11-02T00:52:39Z"
+description: "Strongly-typed attributes for the management and organization of tests."
+tags: ["jrbeverly"]
+summary: |
+  Strongly-typed attributes for the management and organization of tests. As opposed to using strings throughout the code, `[Trait("Category", "Unit")]`, you can use strongly-typed attributes for organizing tests.
+---
+
+| Strongly-typed attributes for the management and organization of tests. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/xunit-metadata) |
+| :-------- | -------: |
+
 
 # XUnit.Metadata
 

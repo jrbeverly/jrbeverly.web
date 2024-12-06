@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="cloudfront-cognito-private-auth"
-date="2022-01-26T02:50:02Z"
-description="Website in AWS S3 with authenticated access"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "cloudfront-cognito-private-auth"
+date: "2022-01-26T02:50:02Z"
+description: "Website in AWS S3 with authenticated access"
+tags: ["jrbeverly"]
+summary: |
+  Fiddling with AWS S3 Websites leveraging AWS Cognito for authentication Terraform is based on the tutorial https://transcend.io/blog/restrict-access-to-internal-websites-with-beyondcorp/ and the public repository: https://github.com/transcend-io/beyondcorp-cloudfront
+---
+
+| Website in AWS S3 with authenticated access | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/cloudfront-cognito-private-auth) |
+| :-------- | -------: |
+
 
 # AWSS3 & AWS Cognito
 

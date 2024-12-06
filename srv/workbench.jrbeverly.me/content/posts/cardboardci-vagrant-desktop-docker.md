@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="vagrant-desktop-docker"
-date="2017-09-23T17:15:34Z"
-description="This repository provides a base Docker Desktop environment, sandboxed on your local computer."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "vagrant-desktop-docker"
+date: "2017-09-23T17:15:34Z"
+description: "This repository provides a base Docker Desktop environment, sandboxed on your local computer."
+tags: ["cardboardci"]
+summary: |
+  Provide a method of reproducible graphical development environments based on Linux. This repository provides a base Docker Desktop environment, sandboxed on your local computer.
+---
+
+| This repository provides a base Docker Desktop environment, sandboxed on your local computer. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/vagrant-desktop-docker) |
+| :-------- | -------: |
+
 
 # Vagrant Docker Desktop
 

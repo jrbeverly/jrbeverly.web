@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="aws-exp-organizations-policy"
-date="2022-03-06T21:32:19Z"
-description="Experimenting with AWS SCPs & Organization Units"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "aws-exp-organizations-policy"
+date: "2022-03-06T21:32:19Z"
+description: "Experimenting with AWS SCPs & Organization Units"
+tags: ["jrbeverly"]
+summary: |
+  Experiments with AWS Organization structure and potential SCP policies.
+---
+
+| Experimenting with AWS SCPs & Organization Units | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/aws-exp-organizations-policy) |
+| :-------- | -------: |
+
 
 # AWS Organization Structure Experiments - Mirrored Organizations
 

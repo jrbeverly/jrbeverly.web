@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="bevy-rustlang-example-window"
-date="2022-01-27T02:02:45Z"
-description="Fiddling with one of the Bevy examples for provisioning a window with Bevy."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "bevy-rustlang-example-window"
+date: "2022-01-27T02:02:45Z"
+description: "Fiddling with one of the Bevy examples for provisioning a window with Bevy."
+tags: ["jrbeverly"]
+summary: |
+  Fiddling with one of the Bevy examples for provisioning a window with Bevy.
+---
+
+| Fiddling with one of the Bevy examples for provisioning a window with Bevy. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/bevy-rustlang-example-window) |
+| :-------- | -------: |
+
 
 # Rusy Bevy Baseline
 

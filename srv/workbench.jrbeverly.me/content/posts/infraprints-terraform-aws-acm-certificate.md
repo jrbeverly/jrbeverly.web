@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="terraform-aws-acm-certificate"
-date="2019-11-04T00:14:04Z"
-description="Provision a certificate for a domain, verified through DNS."
-tags=["org:infraprints"]
-+++
+---
+author: "jrbeverly"
+title: "terraform-aws-acm-certificate"
+date: "2019-11-04T00:14:04Z"
+description: "Provision a certificate for a domain, verified through DNS."
+tags: ["infraprints"]
+summary: |
+  Terraform module for provisioning a DNS validated certificate, along with the required validation records. The module will wait for validation to complete. These types of resources are supported: - [ACM Certificate](https://www.terraform.io/docs/providers/aws/r/acm_certificate.html) - [ACM Certificate Validation](https://www.terraform.io/docs/providers/aws/r/acm_certificate_validation.html)
+---
+
+| Provision a certificate for a domain, verified through DNS. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/infraprints/terraform-aws-acm-certificate) |
+| :-------- | -------: |
+
 
 # AWS ACM DNS Validated Certificate
 

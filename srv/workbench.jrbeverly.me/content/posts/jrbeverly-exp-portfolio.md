@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="exp-portfolio"
-date="2018-11-02T00:52:25Z"
-description="Collections data from a specified list of gitlab projects, then converts them into static HTML briefs."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "exp-portfolio"
+date: "2018-11-02T00:52:25Z"
+description: "Collections data from a specified list of gitlab projects, then converts them into static HTML briefs."
+tags: ["jrbeverly"]
+summary: |
+  
+---
+
+| Collections data from a specified list of gitlab projects, then converts them into static HTML briefs. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/exp-portfolio) |
+| :-------- | -------: |
+
 
 # jrbeverly portfolio
 

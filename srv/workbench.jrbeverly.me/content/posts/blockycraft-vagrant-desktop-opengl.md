@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="vagrant-desktop-opengl"
-date="2017-05-31T22:52:23Z"
-description="[DEPRECATED] A base OpenGL Desktop environment, sandboxed on your local computer."
-tags=["org:blockycraft"]
-+++
+---
+author: "jrbeverly"
+title: "vagrant-desktop-opengl"
+date: "2017-05-31T22:52:23Z"
+description: "[DEPRECATED] A base OpenGL Desktop environment, sandboxed on your local computer."
+tags: ["blockycraft"]
+summary: |
+  Provide a method of reproducible graphical development environments based on Linux. This repository provides a base OpenGL Desktop environment, sandboxed on your local computer. The repository is meant for experimenting with OpenGL related programming in a virtual machine.
+---
+
+| [DEPRECATED] A base OpenGL Desktop environment, sandboxed on your local computer. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/blockycraft/vagrant-desktop-opengl) |
+| :-------- | -------: |
+
 
 # Vagrant OpenGL Desktop
 

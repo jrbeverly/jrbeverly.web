@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="ml-learning-lab"
-date="2021-03-16T02:03:08Z"
-description="Machine Learning Lab"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "ml-learning-lab"
+date: "2021-03-16T02:03:08Z"
+description: "Machine Learning Lab"
+tags: ["jrbeverly"]
+summary: |
+  A repository for aggregating my machine learning exercises, practices and learning labs. The projects included in this repository are based on the coursework for Udacity's Deep Learning Nanodegree Foundations. These are primarily from working on the Machine Learning Nanodegree offered by Udacity. The project files are built using Jupyter Book into a web-accessible form.
+---
+
+| Machine Learning Lab | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/ml-learning-lab) |
+| :-------- | -------: |
+
 
 # Machine Learning Lab
 

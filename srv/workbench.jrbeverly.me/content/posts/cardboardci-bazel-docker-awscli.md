@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="bazel-docker-awscli"
-date="2019-11-26T22:15:52Z"
-description="Building the AWSCLI Docker image in Bazel"
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "bazel-docker-awscli"
+date: "2019-11-26T22:15:52Z"
+description: "Building the AWSCLI Docker image in Bazel"
+tags: ["cardboardci"]
+summary: |
+  > The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts. CardboardCI aims to create a collection of docker images that can be used in continuous integration. These images will have all dependencies pinned, to ensure that any commit will produce the exact same image (or as close to as possible). The aim of this repository is to build [docker-awscli](https://github.com/cardboardci/docker-awscli) in Bazel, to evaluate whether it would help fit those goals. Additionally it helps to test whether Bazel could work under GitHub Actions, or would require another service to build.
+---
+
+| Building the AWSCLI Docker image in Bazel | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/bazel-docker-awscli) |
+| :-------- | -------: |
+
 
 # Docker AWSCLI Built with Bazel
 

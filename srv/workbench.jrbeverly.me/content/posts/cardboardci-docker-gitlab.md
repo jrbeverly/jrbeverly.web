@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-gitlab"
-date="2019-03-02T17:59:42Z"
-description="Lab wraps Git or Hub, making it simple to clone, fork, and interact with repositories on GitLab."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-gitlab"
+date: "2019-03-02T17:59:42Z"
+description: "Lab wraps Git or Hub, making it simple to clone, fork, and interact with repositories on GitLab."
+tags: ["cardboardci"]
+summary: |
+  What is GitLabCLI ? bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE It's a cross platform GitLab command line tool to quickly & naturally perform frequent tasks on GitLab project. bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE It does not force you to hand craft json or use other unnatural ways (for example ids, concatenating of strings) like other CLI's to interact with GitLab. bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE It does not have any dependencies. bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE It's self contained .NET core application - you don't need to have .NET installed for it to work. You can see the source repository [here](https://github.com/nmklotas/GitLabCLI).
+---
+
+| Lab wraps Git or Hub, making it simple to clone, fork, and interact with repositories on GitLab. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-gitlab) |
+| :-------- | -------: |
+
 
 # Docker image for GitLabCLI
 

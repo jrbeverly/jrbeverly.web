@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="readme"
-date="2020-04-10T19:38:05Z"
-description="README for the Friending Community"
-tags=["org:thefriending"]
-+++
+---
+author: "jrbeverly"
+title: "readme"
+date: "2020-04-10T19:38:05Z"
+description: "README for the Friending Community"
+tags: ["thefriending"]
+summary: |
+  
+---
+
+| README for the Friending Community | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/thefriending/readme) |
+| :-------- | -------: |
+
 
 # Friending
 

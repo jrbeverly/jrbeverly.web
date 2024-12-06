@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="reminders-miragejs"
-date="2022-05-18T00:07:08Z"
-description="Playing around with MirageJS"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "reminders-miragejs"
+date: "2022-05-18T00:07:08Z"
+description: "Playing around with MirageJS"
+tags: ["jrbeverly"]
+summary: |
+  Running through the (MirageJS Tutorial)[https://github.com/miragejs/tutorial] case
+---
+
+| Playing around with MirageJS | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/reminders-miragejs) |
+| :-------- | -------: |
+
 
 # MirageJS Tutorial
 

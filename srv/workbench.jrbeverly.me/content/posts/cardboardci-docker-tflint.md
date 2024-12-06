@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-tflint"
-date="2018-12-26T00:11:06Z"
-description="TFLint is a Terraform linter for detecting errors that can not be detected by terraform plan."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-tflint"
+date: "2018-12-26T00:11:06Z"
+description: "TFLint is a Terraform linter for detecting errors that can not be detected by terraform plan."
+tags: ["cardboardci"]
+summary: |
+  TFLint is a Terraform linter focused on possible errors, best practices, etc. You can see the cli reference [here](https://github.com/terraform-linters/tflint).
+---
+
+| TFLint is a Terraform linter for detecting errors that can not be detected by terraform plan. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-tflint) |
+| :-------- | -------: |
+
 
 # Docker image for TfLint
 

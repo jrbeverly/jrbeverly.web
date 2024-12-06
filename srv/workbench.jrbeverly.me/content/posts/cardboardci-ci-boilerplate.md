@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="ci-boilerplate"
-date="2017-05-31T23:01:35Z"
-description="[DEPRECATED] A boilerplate template for specifying a docker image using the makefile build approach."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "ci-boilerplate"
+date: "2017-05-31T23:01:35Z"
+description: "[DEPRECATED] A boilerplate template for specifying a docker image using the makefile build approach."
+tags: ["cardboardci"]
+summary: |
+  
+---
+
+| [DEPRECATED] A boilerplate template for specifying a docker image using the makefile build approach. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/ci-boilerplate) |
+| :-------- | -------: |
+
 
 # Boilerplate for Docker Repository
 

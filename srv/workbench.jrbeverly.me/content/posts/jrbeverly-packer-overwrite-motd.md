@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="packer-overwrite-motd"
-date="2022-01-27T00:27:16Z"
-description="Fiddling with overwritten MOTD"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "packer-overwrite-motd"
+date: "2022-01-27T00:27:16Z"
+description: "Fiddling with overwritten MOTD"
+tags: ["jrbeverly"]
+summary: |
+  Overwriting the MOTD of pre-baked AMIs using Packer
+---
+
+| Fiddling with overwritten MOTD | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/packer-overwrite-motd) |
+| :-------- | -------: |
+
 
 # Packer Overwrite MOTD
 

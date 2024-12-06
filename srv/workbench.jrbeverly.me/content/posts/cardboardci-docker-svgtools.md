@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-svgtools"
-date="2019-03-02T17:59:57Z"
-description="Tools for working with Scalable Vector Graphics (SVG) files"
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-svgtools"
+date: "2019-03-02T17:59:57Z"
+description: "Tools for working with Scalable Vector Graphics (SVG) files"
+tags: ["cardboardci"]
+summary: |
+  SVG Tools are a collection of tools for working with vector graphics. You can see the cli reference [here](https://github.com/inkscape/inkscape).
+---
+
+| Tools for working with Scalable Vector Graphics (SVG) files | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-svgtools) |
+| :-------- | -------: |
+
 
 # Docker image for SVG Tools
 

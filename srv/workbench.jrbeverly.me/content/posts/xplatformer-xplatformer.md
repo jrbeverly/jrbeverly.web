@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="xplatformer"
-date="2017-05-31T22:44:28Z"
-description="XPlatformer is a simple video game reminiscent of the classic side-scrolling arcade game."
-tags=["org:xplatformer"]
-+++
+---
+author: "jrbeverly"
+title: "xplatformer"
+date: "2017-05-31T22:44:28Z"
+description: "XPlatformer is a simple video game reminiscent of the classic side-scrolling arcade game."
+tags: ["xplatformer"]
+summary: |
+  XPlatformer is a simple video game reminiscent of the classic side-scrolling arcade game, using the XLib API. The point of the game is to control a character through a terrain to meet an objective. The project makes use of the XLib API (XOrg) and focus on code that was developed to accomplish tasks for the assignment task. ![xplatformer](./docs/screenshots/xplatformer.png "XPlatformer")
+---
+
+| XPlatformer is a simple video game reminiscent of the classic side-scrolling arcade game. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/xplatformer/xplatformer) |
+| :-------- | -------: |
+
 
 # XPlatformer
 

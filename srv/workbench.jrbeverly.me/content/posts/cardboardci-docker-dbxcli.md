@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-dbxcli"
-date="2019-10-27T02:26:48Z"
-description="A command line client for Dropbox built using the Go SDK."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-dbxcli"
+date: "2019-10-27T02:26:48Z"
+description: "A command line client for Dropbox built using the Go SDK."
+tags: ["cardboardci"]
+summary: |
+  A command line client for Dropbox built using the Go SDK bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE Supports basic file operations like ls, cp, mkdir, mv (via the Files API) bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE Supports search bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE Supports file revisions and file restore bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE Chunked uploads for large files, paginated listing for large directories bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE Supports a growing set of Team operations You can see the source repository [here](https://github.com/dropbox/dbxcli).
+---
+
+| A command line client for Dropbox built using the Go SDK. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-dbxcli) |
+| :-------- | -------: |
+
 
 # Docker image for AWS CLI
 

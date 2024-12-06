@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="graphql-golang-note-check"
-date="2022-05-18T23:21:25Z"
-description="Quick runthrough of gqlgen"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "graphql-golang-note-check"
+date: "2022-05-18T23:21:25Z"
+description: "Quick runthrough of gqlgen"
+tags: ["jrbeverly"]
+summary: |
+  Experimenting a bit with gqlgen for generating GraphQL code from spec.
+---
+
+| Quick runthrough of gqlgen | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/graphql-golang-note-check) |
+| :-------- | -------: |
+
 
 # Fiddling with gqlgen
 

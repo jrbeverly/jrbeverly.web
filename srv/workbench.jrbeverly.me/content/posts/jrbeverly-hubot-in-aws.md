@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="hubot-in-aws"
-date="2019-12-28T15:56:31Z"
-description="Hubot in AWS on ECS Fargate"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "hubot-in-aws"
+date: "2019-12-28T15:56:31Z"
+description: "Hubot in AWS on ECS Fargate"
+tags: ["jrbeverly"]
+summary: |
+  Hubot deployment in AWS using AWS ECS Fargate. This was prototyped out while I was evaluating ChatOps strategies that could be used to wrap existing web interfaces or require minimal overhead.
+---
+
+| Hubot in AWS on ECS Fargate | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/hubot-in-aws) |
+| :-------- | -------: |
+
 
 # Hubot in AWS ECS
 

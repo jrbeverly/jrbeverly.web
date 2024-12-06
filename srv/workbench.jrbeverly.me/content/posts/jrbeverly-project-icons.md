@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="project-icons"
-date="2018-11-02T00:52:12Z"
-description="A collection of scalable vector graphics (SVG) that define project and group icons."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "project-icons"
+date: "2018-11-02T00:52:12Z"
+description: "A collection of scalable vector graphics (SVG) that define project and group icons."
+tags: ["jrbeverly"]
+summary: |
+  A collection of scalable vector graphics (SVG) that define project and group icons.
+---
+
+| A collection of scalable vector graphics (SVG) that define project and group icons. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/project-icons) |
+| :-------- | -------: |
+
 
 # jrbeverly.icons
 

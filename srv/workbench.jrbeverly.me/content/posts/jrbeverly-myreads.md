@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="myreads"
-date="2017-11-18T22:49:02Z"
-description="A digital bookshelf app that allows you to select and categorize books you have read, are currently reading, or want to read."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "myreads"
+date: "2017-11-18T22:49:02Z"
+description: "A digital bookshelf app that allows you to select and categorize books you have read, are currently reading, or want to read."
+tags: ["jrbeverly"]
+summary: |
+  A digital bookshelf app that allows you to select and categorize books you have read, are currently reading, or want to read.
+---
+
+| A digital bookshelf app that allows you to select and categorize books you have read, are currently reading, or want to read. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/myreads) |
+| :-------- | -------: |
+
 
 # MyReads Project
 

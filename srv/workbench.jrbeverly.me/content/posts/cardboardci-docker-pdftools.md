@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-pdftools"
-date="2019-03-02T17:59:51Z"
-description="Command lines tools for manipulating pdfs."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-pdftools"
+date: "2019-03-02T17:59:51Z"
+description: "Command lines tools for manipulating pdfs."
+tags: ["cardboardci"]
+summary: |
+  Scientific articles are typically locked away in PDF format, a format designed primarily for printing but not so great for searching or indexing. The new pdftools package allows for extracting text and metadata from pdf files in R. From the extracted plain-text one could find articles discussing a particular drug or species name, without having to rely on publishers providing metadata, or pay-walled search engines. You can see the cli reference [here](https://github.com/ropensci/pdftools).
+---
+
+| Command lines tools for manipulating pdfs. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-pdftools) |
+| :-------- | -------: |
+
 
 # Docker image for PdfTools
 

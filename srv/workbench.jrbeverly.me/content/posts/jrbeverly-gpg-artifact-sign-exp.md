@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="gpg-artifact-sign-exp"
-date="2022-01-27T02:07:13Z"
-description="Minor experiment with a shell script for signing artifacts that would be generated from a build process."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "gpg-artifact-sign-exp"
+date: "2022-01-27T02:07:13Z"
+description: "Minor experiment with a shell script for signing artifacts that would be generated from a build process."
+tags: ["jrbeverly"]
+summary: |
+  Minor experiment with a shell script for signing artifacts that would be generated from a build process.
+---
+
+| Minor experiment with a shell script for signing artifacts that would be generated from a build process. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/gpg-artifact-sign-exp) |
+| :-------- | -------: |
+
 
 # GPG Artifact Sign Experiment
 

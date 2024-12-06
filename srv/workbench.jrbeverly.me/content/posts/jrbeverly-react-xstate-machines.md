@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="react-xstate-machines"
-date="2022-05-18T23:14:27Z"
-description="Using robot state machine for modal in React"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "react-xstate-machines"
+date: "2022-05-18T23:14:27Z"
+description: "Using robot state machine for modal in React"
+tags: ["jrbeverly"]
+summary: |
+  Running through the workshop example of [Build A Confirmation Modal in React with State Machines](https://daveceddia.com/react-confirmation-modal-state-machine/)
+---
+
+| Using robot state machine for modal in React | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/react-xstate-machines) |
+| :-------- | -------: |
+
 
 # State Machine for Confirmation Dialog
 

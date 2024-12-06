@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="issues-style"
-date="2018-11-02T00:52:13Z"
-description="A style guide for issue management, release versioning, Git Flow and repository documentation."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "issues-style"
+date: "2018-11-02T00:52:13Z"
+description: "A style guide for issue management, release versioning, Git Flow and repository documentation."
+tags: ["jrbeverly"]
+summary: |
+  A style guide for issue management, release versioning, Git Flow and repository documentation.
+---
+
+| A style guide for issue management, release versioning, Git Flow and repository documentation. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/issues-style) |
+| :-------- | -------: |
+
 
 # Issues.Style
 

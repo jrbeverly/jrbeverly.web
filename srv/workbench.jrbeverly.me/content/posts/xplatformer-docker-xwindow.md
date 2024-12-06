@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-xwindow"
-date="2017-05-31T23:01:57Z"
-description="A super small image with X Window System development libraries installed."
-tags=["org:xplatformer"]
-+++
+---
+author: "jrbeverly"
+title: "docker-xwindow"
+date: "2017-05-31T23:01:57Z"
+description: "A super small image with X Window System development libraries installed."
+tags: ["xplatformer"]
+summary: |
+  A super small image with [X Window System](https://www.x.org/wiki/) development libraries installed. The project icon is from [cre.ativo mustard, HK from the Noun Project](docs/icon/icon.json) **NOTE: This image is marked EOL, and use is discouraged.**
+---
+
+| A super small image with X Window System development libraries installed. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/xplatformer/docker-xwindow) |
+| :-------- | -------: |
+
 
 # Dockerized X Window System
 

@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="ci-latex"
-date="2017-05-31T23:01:43Z"
-description="[DEPRECATED] Comprehensive TeX document production system for use as a continuous integration image."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "ci-latex"
+date: "2017-05-31T23:01:43Z"
+description: "[DEPRECATED] Comprehensive TeX document production system for use as a continuous integration image."
+tags: ["cardboardci"]
+summary: |
+  Comprehensive TeX document production system for use as a continuous integration image. The project icon is from [cre.ativo mustard, HK from the Noun Project](docs/icon/icon.json) **NOTE: This image is marked EOL, and use is discouraged.**
+---
+
+| [DEPRECATED] Comprehensive TeX document production system for use as a continuous integration image. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/ci-latex) |
+| :-------- | -------: |
+
 
 # Dockerized LaTeX
 

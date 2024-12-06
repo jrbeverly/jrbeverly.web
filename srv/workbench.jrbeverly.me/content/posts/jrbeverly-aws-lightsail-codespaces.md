@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="aws-lightsail-codespaces"
-date="2020-08-20T22:21:48Z"
-description="code-server running on AWS Lightsail"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "aws-lightsail-codespaces"
+date: "2020-08-20T22:21:48Z"
+description: "code-server running on AWS Lightsail"
+tags: ["jrbeverly"]
+summary: |
+  Run VS Code on an AWS Lightsail instance with auto-generated password and static IP. Early experiments with cloud-driven development environments configured on-demand using terraform. Initial exploratory work for seeing what changes exist in the workflows, and any issues that may arise as a result of working in Lightsail.
+---
+
+| code-server running on AWS Lightsail | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/aws-lightsail-codespaces) |
+| :-------- | -------: |
+
 
 # Running code-server on AWS Lightsail
 

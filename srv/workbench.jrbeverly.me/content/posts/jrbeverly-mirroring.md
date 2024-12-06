@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="mirroring"
-date="2018-11-02T00:52:21Z"
-description="A lightweight bash script that allows easy mirroring of projects to external git hosts."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "mirroring"
+date: "2018-11-02T00:52:21Z"
+description: "A lightweight bash script that allows easy mirroring of projects to external git hosts."
+tags: ["jrbeverly"]
+summary: |
+  
+---
+
+| A lightweight bash script that allows easy mirroring of projects to external git hosts. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/mirroring) |
+| :-------- | -------: |
+
 
 # Mirroring
 

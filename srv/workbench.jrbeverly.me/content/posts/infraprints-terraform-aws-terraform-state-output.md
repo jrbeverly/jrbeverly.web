@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="terraform-aws-terraform-state-output"
-date="2019-11-04T00:23:12Z"
-description="Describes an S3 Object representing a terraform outputs file."
-tags=["org:infraprints"]
-+++
+---
+author: "jrbeverly"
+title: "terraform-aws-terraform-state-output"
+date: "2019-11-04T00:23:12Z"
+description: "Describes an S3 Object representing a terraform outputs file."
+tags: ["infraprints"]
+summary: |
+  Terraform module which creates an S3 Object containing terraform outputs. These types of resources are supported: bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE [S3 Bucket Object](https://www.terraform.io/docs/providers/aws/r/s3_bucket_object.html) bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE [Template](https://www.terraform.io/docs/providers/template/d/file.html)
+---
+
+| Describes an S3 Object representing a terraform outputs file. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/infraprints/terraform-aws-terraform-state-output) |
+| :-------- | -------: |
+
 
 # AWS S3 Terraform State Output
 

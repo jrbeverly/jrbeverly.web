@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="readable"
-date="2018-01-17T23:40:48Z"
-description="Udacity Nanodegree React Project."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "readable"
+date: "2018-01-17T23:40:48Z"
+description: "Udacity Nanodegree React Project."
+tags: ["jrbeverly"]
+summary: |
+  Udacity Nanodegree React Project
+---
+
+| Udacity Nanodegree React Project. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/readable) |
+| :-------- | -------: |
+
 
 ## Readable
 

@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="blockycraft-classic"
-date="2020-01-13T00:26:20Z"
-description="Blockycraft is a Minecraft inspired Block Engine."
-tags=["org:blockycraft"]
-+++
+---
+author: "jrbeverly"
+title: "blockycraft-classic"
+date: "2020-01-13T00:26:20Z"
+description: "Blockycraft is a Minecraft inspired Block Engine."
+tags: ["blockycraft"]
+summary: |
+  Blockycraft is a interactive graphics demo to create a Minecraft inspired demo which revolves around breaking and placing blocks. The game world is composed of rough cubes arranged in a fixed grid pattern and representing different materials, such as dirt, stone, and snow. The techniques used in the demo can be toggled using keyboard commands. The Blockycraft project is written using C++ and OpenGL. ![blockycraft world](./docs/screenshots/world.png "Blockycraft")
+---
+
+| Blockycraft is a Minecraft inspired Block Engine. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/blockycraft/blockycraft-classic) |
+| :-------- | -------: |
+
 
 <h1 align="center">
   <a href="https://github.com/jrbeverly/Blockycraft" title="Blockycraft">

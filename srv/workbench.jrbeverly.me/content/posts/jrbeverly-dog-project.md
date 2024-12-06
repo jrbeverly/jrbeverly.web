@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="dog-project"
-date="2020-01-11T18:05:28Z"
-description="Identify a canine breed from an image."
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "dog-project"
+date: "2020-01-11T18:05:28Z"
+description: "Identify a canine breed from an image."
+tags: ["jrbeverly"]
+summary: |
+  My implementation of the Convolutional Neural Networks (CNN) algorithm for identifying a canine’s breed from an image. Additionally, it supply the resembled dog breed if provided an image of a human.
+---
+
+| Identify a canine breed from an image. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/dog-project) |
+| :-------- | -------: |
+
 
 # Classification of Dogs
 

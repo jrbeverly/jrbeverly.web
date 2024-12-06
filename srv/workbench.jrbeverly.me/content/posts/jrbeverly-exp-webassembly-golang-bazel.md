@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="exp-webassembly-golang-bazel"
-date="2022-01-27T00:52:56Z"
-description="Checking exception case with syscall/js"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "exp-webassembly-golang-bazel"
+date: "2022-01-27T00:52:56Z"
+description: "Checking exception case with syscall/js"
+tags: ["jrbeverly"]
+summary: |
+  Experimenting with some issues encountering with WebAssembly, Golang & Bazel
+---
+
+| Checking exception case with syscall/js | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/exp-webassembly-golang-bazel) |
+| :-------- | -------: |
+
 
 # Experiment - WebAssembly Golang + Bazel
 

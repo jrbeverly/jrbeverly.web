@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-rsvg"
-date="2019-10-27T02:25:06Z"
-description="Turn SVG files into raster images."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-rsvg"
+date: "2019-10-27T02:25:06Z"
+description: "Turn SVG files into raster images."
+tags: ["cardboardci"]
+summary: |
+  A utility to render Scalable Vector Graphics (SVG), associated with the GNOME Project. It renders SVG files to Cairo surfaces. Cairo is the 2D, antialiased drawing library that GNOME uses to draw things to the screen or to generate output for printing. You can see the cli reference [here](https://github.com/GNOME/librsvg).
+---
+
+| Turn SVG files into raster images. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-rsvg) |
+| :-------- | -------: |
+
 
 # Docker image for Render SVGs
 

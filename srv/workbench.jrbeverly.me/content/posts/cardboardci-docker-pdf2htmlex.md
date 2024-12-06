@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="docker-pdf2htmlex"
-date="2019-03-02T17:59:49Z"
-description="Convert PDF to HTML without losing text or format."
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "docker-pdf2htmlex"
+date: "2019-03-02T17:59:49Z"
+description: "Convert PDF to HTML without losing text or format."
+tags: ["cardboardci"]
+summary: |
+  pdf2htmlEX renders PDF files in HTML, utilizing modern Web technologies. Academic papers with lots of formulas and figures? Magazines with complicated layouts? No problem! Features: bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE Native HTML text with precise font and location. bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE Flexible output: all-in-one HTML or on demand page loading (needs JavaScript). bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE Moderate file size, sometimes even smaller than PDF. bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE Supporting links, outlines (bookmarks), printing, SVG background, Type 3 fonts and more. You can see the cli reference [here](https://github.com/coolwanglu/pdf2htmlEX).
+---
+
+| Convert PDF to HTML without losing text or format. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/docker-pdf2htmlex) |
+| :-------- | -------: |
+
 
 # Docker image for Pdf2HtmlEX
 

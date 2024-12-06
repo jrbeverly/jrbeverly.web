@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="ci-minify"
-date="2018-11-02T00:52:02Z"
-description="[DEPRECATED] A super small image with Minify. "
-tags=["org:cardboardci"]
-+++
+---
+author: "jrbeverly"
+title: "ci-minify"
+date: "2018-11-02T00:52:02Z"
+description: "[DEPRECATED] A super small image with Minify. "
+tags: ["cardboardci"]
+summary: |
+  A super small image with Minify. The project icon is from [cre.ativo mustard, HK from the Noun Project](docs/icon/icon.json) **NOTE: This image is marked EOL, and use is discouraged.**
+---
+
+| [DEPRECATED] A super small image with Minify.  | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/cardboardci/ci-minify) |
+| :-------- | -------: |
+
 
 # Dockerized Minify
 

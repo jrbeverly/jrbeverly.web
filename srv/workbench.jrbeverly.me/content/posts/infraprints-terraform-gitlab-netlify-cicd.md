@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="terraform-gitlab-netlify-cicd"
-date="2019-11-04T00:00:28Z"
-description="Configures the Gitlab CI environment variables for a Netlify deploy."
-tags=["org:infraprints"]
-+++
+---
+author: "jrbeverly"
+title: "terraform-gitlab-netlify-cicd"
+date: "2019-11-04T00:00:28Z"
+description: "Configures the Gitlab CI environment variables for a Netlify deploy."
+tags: ["infraprints"]
+summary: |
+  Terraform module which creates a site on Netlify with the necessary variables for GitLab CI deployments. These types of resources are supported: bazel BUILD.bazel docs icon outputs README.md scripts srv WORKSPACE [Netlify Site](https://www.terraform.io/docs/providers/netlify/r/netlify_site.html)
+---
+
+| Configures the Gitlab CI environment variables for a Netlify deploy. | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/infraprints/terraform-gitlab-netlify-cicd) |
+| :-------- | -------: |
+
 
 # Terraform Netlify Gitlab CI/CD
 

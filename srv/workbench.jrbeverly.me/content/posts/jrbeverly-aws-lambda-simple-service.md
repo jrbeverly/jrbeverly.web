@@ -1,10 +1,16 @@
-+++
-author="jrbeverly"
-title="aws-lambda-simple-service"
-date="2020-08-19T23:16:36Z"
-description="Experimenting with lambda as on-demand app"
-tags=["org:jrbeverly"]
-+++
+---
+author: "jrbeverly"
+title: "aws-lambda-simple-service"
+date: "2020-08-19T23:16:36Z"
+description: "Experimenting with lambda as on-demand app"
+tags: ["jrbeverly"]
+summary: |
+  A simple Express application built with the intent to test an Express server running in different environments (local, docker, lambda).
+---
+
+| Experimenting with lambda as on-demand app | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jrbeverly/aws-lambda-simple-service) |
+| :-------- | -------: |
+
 
 # Express in Deployments
 
